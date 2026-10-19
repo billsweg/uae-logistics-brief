@@ -1,39 +1,39 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-10-16",
- "date": "Friday 16 October 2026",
+ "isoDate": "2026-10-19",
+ "date": "Monday 19 October 2026",
  "title": "UAE Logistics Brief",
- "lede": "The war has now reached the UAE's own bypass feeders: an AD Ports-owned container ship on the Khor Fakkan–Fujairah–Karachi service was sunk this week and a second was damaged. Missile attacks have also shut Riyadh airport, so both the sea gateway on the east coast and the air link into Saudi Arabia are under pressure.",
+ "lede": "Attacks have now reached the approach to Khor Fakkan: a tug was hit by two projectiles northeast of the port on Sunday, in the worst week for shipping attacks since the war began. Riyadh airport reopened the same day, but UAE airlines are still cancelling Saudi flights, and Iran says its offer to reopen Hormuz within a week is still on the table.",
  "gauges": [
   {
-   "value": "2",
-   "label": "Ships through Hormuz, 11 Oct",
-   "note": "85 a day before the crisis (IMF PortWatch)",
+   "value": "10",
+   "label": "Vessels attacked in or near Hormuz in a week",
+   "note": "Highest weekly count of the war. 23 attacks so far in October (UKMTO)",
    "tone": "bad"
   },
   {
-   "value": "6–10%",
-   "label": "Tanker war-risk cover, % of hull value",
-   "note": "About 0.25% before the war; 3–8% in late Aug",
+   "value": "$108.43",
+   "label": "Brent crude, early Monday 19 Oct",
+   "note": "Down 1.3% after settling at $109.86",
    "tone": "bad"
   },
   {
-   "value": "$3,000",
-   "label": "Maersk emergency surcharge per 40ft, Gulf",
-   "note": "Plus $1,000 a box for a Hormuz transit",
+   "value": "+111%",
+   "label": "Jet fuel price, year on year",
+   "note": "IATA monitor to 9 Oct; +3.1% on the week",
    "tone": "bad"
   },
   {
-   "value": "$104.76",
-   "label": "Brent crude, 15 Oct",
-   "note": "Down 1.1% on the day",
-   "tone": "bad"
+   "value": "−2.1%",
+   "label": "Global air freight rates, week to 12 Oct",
+   "note": "TAC Index. Routes to the UAE eased slightly",
+   "tone": "neutral"
   },
   {
    "value": "Dh4.80",
    "label": "UAE diesel per litre, Oct",
-   "note": "Still the latest price. +11.6% vs Sep",
+   "note": "Still the latest price. November prices due at month end",
    "tone": "bad"
   }
  ],
@@ -43,31 +43,42 @@
    "stories": [
     {
      "hot": true,
-     "headline": "AD Ports-owned feeder sunk on a UAE east-coast service",
+     "headline": "Tug hit by two projectiles off Khor Fakkan",
      "body": [
-      "The 2,824 TEU GFS Pride was hit by a missile off Oman on Tuesday, caught fire and sank. It ran the Khor Fakkan–Fujairah–Karachi service. Its sister ship GFS Giselle (Fujairah–Khor Fakkan–Nhava Sheva) was damaged but reached anchorage. All crew are safe. Both were due in Khor Fakkan today.",
-      "Abu Dhabi's AD Ports owns 81% of operator Global Feeder Shipping. It is the second ship sunk since the war began in February. The IMO counts 113 incidents and 24 seafarers killed."
+      "A tug sailing south was struck by two projectiles of unknown origin northeast of Khor Fakkan on Sunday, UKMTO said. It was damaged but kept going. One person had a minor injury. No impact on the port was reported.",
+      "It caps the worst week of the war for shipping: UKMTO counts at least 10 vessels attacked in or near the strait since last Sunday, and 23 attacks so far in October, almost double the average."
      ],
-     "soWhat": "The east-coast bypass is no longer out of range. Expect gaps on UAE–Pakistan and UAE–India feeder sailings and higher cover costs on these lanes.",
-     "source": "The Loadstar",
-     "date": "14 Oct",
-     "url": "https://theloadstar.com/gfs-ship-sinks-after-missile-attack-second-ship-sustains-damage/",
-     "image": "https://theloadstar.com/wp-content/uploads/4829c09a8dd5f2354edb64500f5c15f9-680x0-c-default.jpg",
-     "imageCredit": "The Loadstar"
+     "soWhat": "After last week's feeder sinking, the waters right off our main bypass port are now in range. Expect higher cover costs and more caution from carriers on east-coast calls.",
+     "source": "Arab News (Reuters)",
+     "date": "18 Oct",
+     "url": "https://www.arabnews.com/middle-east/authority-marine-tug-targeted-by-two-projectiles-off-khor-fakkan-in-uae-3006965",
+     "image": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1791986095257-5bec5b8b9128e9ff.jpg",
+     "imageCredit": "Arab News"
     },
     {
-     "hot": true,
-     "headline": "Maersk and Hapag-Lloyd move Far East service to Khor Fakkan as congestion builds",
+     "hot": false,
+     "headline": "Iran says its seven-day Hormuz reopening offer still stands",
      "body": [
-      "The Gemini partners relaunch their Far East–Middle East loop (FM1/AGX) on 17 October, with Khor Fakkan replacing Jebel Ali. Kuehne+Nagel expects significant pressure at Khor Fakkan and Fujairah in the coming weeks. Maersk reports berth shortages, full yards and long truck waits, and is moving some boxes to an inland depot at Sajja.",
-      "Forwarders say the best-funded players have taken most of the trucking capacity. A DP World official puts overland moves at four to five times the cost of sailing through Hormuz."
+      "Foreign Minister Araghchi said on Sunday the strait would reopen on day six of a seven-day ceasefire plan, with talks on day seven. The conditions include lifting the US naval blockade and oil sanctions. Tehran says it is still reviewing US comments.",
+      "Oil eased on the news and on a US sanctions waiver for Russian fuel. Brent settled at $109.86 and was at $108.43 early Monday."
      ],
-     "soWhat": "Trucks from the east coast are now the bottleneck. Whoever holds road capacity into Dubai can charge for it.",
-     "source": "The Loadstar",
-     "date": "14 Oct",
-     "url": "https://theloadstar.com/gemini-relaunch-likely-to-add-to-congestion-pressure-at-khor-fakkan/",
-     "image": "https://theloadstar.com/wp-content/uploads/7ad46b0db8d330a68679852b8d56aaeb-680x0-c-default.jpg",
-     "imageCredit": "The Loadstar"
+     "soWhat": "Nothing is agreed, but a reopening would send volume back to Jebel Ali fast. Bridge and surcharge deals should be short enough to unwind.",
+     "source": "Straits.live / CBS News",
+     "date": "18 Oct",
+     "url": "https://straits.live/briefs/2026-10-18",
+     "image": "https://straits.live/briefs/2026-10-18/opengraph-image?53ffd409f7f0d7bc",
+     "imageCredit": "Straits.live"
+    },
+    {
+     "hot": false,
+     "headline": "Gemini's new Asia loop reaches Khor Fakkan on 16 November",
+     "body": [
+      "New detail on last week's story: Maersk's FM1 service (Qingdao, Ningbo, Tanjung Pelepas, Khor Fakkan, Singapore) left Qingdao on 17 October, but its first Khor Fakkan call is 16 November. Maersk says its existing landside solutions will cover the Upper Gulf, and booking restrictions still apply."
+     ],
+     "soWhat": "The extra pressure at Khor Fakkan lands in mid-November, not this week. That gives us about four weeks to lock in road capacity.",
+     "source": "Maersk",
+     "date": "13 Oct",
+     "url": "https://www.maersk.com/news/articles/2026/10/13/fm1-service-relaunch-gemini-network-asia-middle-east"
     }
    ]
   },
@@ -76,29 +87,30 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Riyadh airport suspended after missile strikes; Dammam also hit",
+     "headline": "Riyadh airport reopens, but UAE airlines are still cancelling Saudi flights",
      "body": [
-      "King Khalid International Airport stopped operations after missile attacks on its infrastructure, and extended the suspension after another strike on Sunday. Hundreds of flights were cancelled. Saudi aviation authorities said Dammam airport was also targeted on 11 October. Europe's safety regulator told airlines to avoid airspace around Riyadh and Dammam."
+      "King Khalid International reopened on Sunday 18 October after the Houthi attacks. Etihad has cancelled Abu Dhabi–Riyadh flights until today. flydubai has cancelled Riyadh, Dammam and Abha flights up to today. Air Arabia has given no restart date. Emirates' Riyadh flights show on listings for 20 October, but the airline has not confirmed them.",
+      "Others are staying out longer: Oman Air until 22 October, Air India until 24 October, KLM until 31 October and Lufthansa until 18 November."
      ],
-     "soWhat": "Air express into Saudi Arabia's two main cities is unreliable. Road from the UAE becomes the main way to serve KSA customers.",
-     "source": "Air Cargo News",
-     "date": "12 Oct",
-     "url": "https://www.aircargonews.net/cargo-airport/2026/10/saudi-arabian-airport-operations-disrupted/",
-     "image": "https://www.aircargonews.net/wp-content/uploads/2026/10/Roman-Yanushevsky-Shutterstock.com-King-Khalid-International-Airport-shutterstock_2714894787.jpg",
-     "imageCredit": "Shutterstock via Air Cargo News"
+     "soWhat": "Belly space from the UAE into Riyadh will come back slowly and unevenly. Keep road as the default for KSA this week.",
+     "source": "The National",
+     "date": "18 Oct",
+     "url": "https://www.thenationalnews.com/travel/2026/10/18/riyadh-airport-reopens-which-airlines-are-still-cancelling-flights-to-saudi-arabia/",
+     "image": "https://www.thenationalnews.com/resizer/v2/LTZS2ABTMFD4VCMRMLCBOS7BX4.jpg?auth=23ef588b76ba4160aaaf7fd7a640f66bcaabfb5e9f784e66561b912c5ac38e0b&smart=true&width=1200&height=630",
+     "imageCredit": "The National"
     },
     {
      "hot": false,
-     "headline": "dnata spends Dh175m on new ramp equipment at Dubai's airports",
+     "headline": "Air rates dip ahead of peak season while jet fuel doubles",
      "body": [
-      "dnata has committed Dh175 million this year to more than 340 new ground-handling assets in the UAE. It runs about 2,800 motorised units at DXB and DWC, and handled 3.2 million tonnes of cargo last financial year."
+      "The TAC Index fell 2.1% in the week to 12 October, and rates on routes to the UAE eased slightly. London Heathrow outbound rose 12.1%, helped by routes to North America and the Middle East. Jet fuel rose 3.1% on the week and is up 111.2% on a year ago."
      ],
-     "soWhat": "Dubai's airports are adding handling capacity while Saudi hubs are disrupted, which supports DXB/DWC as the region's air gateway.",
-     "source": "Gulf News",
-     "date": "12 Oct",
-     "url": "https://gulfnews.com/business/aviation/dnata-invests-dh175-million-this-year-to-boost-dubai-ground-handling-capacity-1.500707551",
-     "image": "https://media.assettype.com/gulfnews%2F2026-10-12%2F37tqoaah%2F1copy.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-     "imageCredit": "Gulf News"
+     "soWhat": "Buy rates are soft but fuel is not. Our air margins depend on fuel surcharges keeping pace.",
+     "source": "The STAT Trade Times",
+     "date": "13 Oct",
+     "url": "https://www.stattimes.com/latest-news/global-air-freight-rates-dip-21-as-peak-season-approaches-1360915",
+     "image": "https://www.stattimes.com/h-upload/2026/10/13/102159-loading-cargo-at-the-airport-panorama-6b5f24ddcf80a8bcc0869ef746ecaf77-3dfkmxlcpo5g-1-270kb.jpg",
+     "imageCredit": "The STAT Trade Times"
     }
    ]
   },
@@ -107,222 +119,238 @@
    "stories": [
     {
      "hot": false,
-     "headline": "Al Sharqi opens AED 70m cold-chain hub with its own rail terminal",
+     "headline": "India's Aegis to buy Dubai fuel logistics firm Tristar for $809m",
      "body": [
-      "Al Sharqi Shipping opened a multi-temperature hub at Dubai Industrial City: 280,000 sq ft of storage, 22,000 pallet tonnes from ambient to −18°C, 38 loading lanes and up to 178 trucks a day. An Etihad Rail freight terminal sits on site. It targets food, FMCG, retail, HoReCa and quick commerce."
+      "Aegis Logistics will buy about 89.8% of Dubai-based Tristar for $809 million, including Agility's full 65.12% stake. Tristar is valued at $1.5 billion including debt. It runs more than 1,000 trucks, 26 vessels and 14 fuel farms across over 30 countries, with revenue of about $1.4 billion. Completion is expected by end of March 2027."
      ],
-     "soWhat": "A local rival now offers cold storage linked to rail from the east-coast ports, exactly where demand is moving.",
-     "source": "Mid-East.info",
-     "date": "15 Oct",
-     "url": "https://mid-east.info/al-sharqi-shipping-inaugurates-aed-70-million-multi-temperature-integrated-logistics-and-distribution-hub-at-dubai-industrial-city",
-     "image": "https://i0.wp.com/mid-east.info/wp-content/uploads/2026/10/unnamed-2026-10-15T210104.941.jpg?fit=1200%2C800&ssl=1",
-     "imageCredit": "Mid-East.info"
+     "soWhat": "Energy and fuel logistics in the Gulf is drawing big money even in wartime. A new owner may also review Tristar's supplier and partner contracts.",
+     "source": "The Arabian Post",
+     "date": "14 Oct",
+     "url": "https://thearabianpost.com/agility-agrees-581-million-tristar-stake-disposal-to-aegis/"
     }
    ]
   }
  ],
  "competitors": [
   {
-   "name": "JD.com",
-   "headline": "JD's property arm plans a 2.5m sq ft fulfilment hub in Dubai",
+   "name": "Emirates Courier Express",
+   "headline": "Emirates signs up Dubai brands for global door-to-door delivery",
    "body": [
-    "Gargash Prime and JINGDONG Property, JD.com's infrastructure arm, signed an MoU on 13 October for a joint venture to build a regional distribution and fulfilment hub of about 2.5 million sq ft in Dubai. JD.com Middle East's CEO said the aim is more efficient regional supply chains. No cost or opening date was given."
+    "Emirates SkyCargo's courier arm is being used by Dubai firms to sell abroad. Activewear brand Squatwolf ships across the GCC, Europe and Australia. Magrabi Optical moves goods across the GCC. Mayple Global plugs into Shopify and ships worldwide from one Dubai fulfilment hub. No prices or volumes were given."
    ],
-   "soWhat": "JD is building scale for Chinese sellers into the Gulf. Its fulfilment could pull last-mile and cross-border volume away from us unless we partner early.",
-   "source": "Gulf Business",
-   "date": "15 Oct",
-   "url": "https://gulfbusiness.com/en/2026/logistics/gargash-prime-jingdong-property-plan-2-5-million-sq-ft-dubai-logistics-hub/",
-   "image": "https://media.gulfbusiness.com/2026/10/Gargash-Prime-JINGDONG-Property.webp",
-   "imageCredit": "Gulf Business"
+   "soWhat": "An airline-backed rival is going after our core cross-border e-commerce customers in Dubai. We should defend these accounts on price and service now.",
+   "source": "Khaleej Times",
+   "date": "14 Oct",
+   "url": "https://www.khaleejtimes.com/business/dubai-firms-use-emirates-courier-express-to-speed-up-global-expansion",
+   "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-10-14/4zixt8co/Emirates-skycargo.png?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=1025,0,1677,1118",
+   "imageCredit": "Khaleej Times"
   },
   {
    "name": "DHL",
-   "headline": "DHL launches six air cold-chain corridors, with the Middle East next",
+   "headline": "DHL gets preferred-carrier role in Dubai's export programme for manufacturers",
    "body": [
-    "DHL Global Forwarding opened six temperature-controlled air corridors linking Europe and the US with Shanghai, Singapore, Tokyo and Seoul, using 777 freighters with three separate temperature zones. It says Middle East routes will follow."
+    "Dubai's Department of Economy and Tourism (DET) and DHL ran a workshop for more than 50 manufacturers under DET's Export Assistance Programme. Eligible members get preferential DHL shipping rates and end-to-end supply chain support. It backs the D33 goal of more than doubling Dubai's manufacturing output by 2033."
    ],
-   "soWhat": "Coming after FedEx's Dubai pharma certification last week, healthcare is the segment rivals are racing for. We have a short window before DHL's Gulf corridors land.",
-   "source": "Air Cargo News",
+   "soWhat": "DHL now has a government-backed route into Dubai's exporting factories. We need our own offer for these firms before they default to DHL.",
+   "source": "Gulf Business",
    "date": "13 Oct",
-   "url": "https://www.aircargonews.net/pharma-logistics/2026/10/dhl-global-forwarding-establishes-six-air-cold-chain-corridors/",
-   "image": "https://www.aircargonews.net/wp-content/uploads/2026/10/DHL-cold-chain-network-Photo-DHL.jpg",
-   "imageCredit": "DHL"
+   "url": "https://gulfbusiness.com/en/2026/logistics/dubai-det-dhl-partner-to-boost-manufacturers-global-exports/",
+   "image": "https://media.gulfbusiness.com/2026/10/det.webp",
+   "imageCredit": "Gulf Business"
   },
   {
-   "name": "Rhenus",
-   "headline": "Rhenus opens aid logistics office in Dubai Humanitarian",
+   "name": "Aramex (baseline)",
+   "headline": "Aramex signs MoU with GMR Airports on India express terminals",
    "body": [
-    "Rhenus opened an emergency aid and relief office in the Dubai Humanitarian free zone on 14 October. It will move medical products, pharmaceuticals, food aid and shelter materials by air, sea and road. The zone has about 80 members, including UN bodies and NGOs."
+    "Aramex signed an MoU with GMR Airports to explore better express cargo terminals at GMR's Indian airports: dedicated truck docks, screening, cargo space and integrated customs. A warehouse with direct airside access is targeted for March 2027, subject to a final agreement.",
+    "Our latest result: Q2 2026 revenue was a record Dh1.83 billion, up 22%, with net profit of Dh47 million. Freight forwarding had its best quarter ever."
    ],
-   "soWhat": "Aid flows across a region at war are a growing, time-critical business, and a European forwarder has just set up next to the buyers.",
-   "source": "Air Cargo News",
-   "date": "14 Oct",
-   "url": "https://www.aircargonews.net/supply-chains/2026/10/rhenus-opens-dubai-humanitarian-hub-office/",
-   "image": "https://www.aircargonews.net/wp-content/uploads/2026/10/Rhenus-Logistics-office-at-Dubai-humanitarian-hub-Photo-Rhenus.jpg",
-   "imageCredit": "Rhenus"
+   "soWhat": "India is a lane where sea feeders are being hit. Faster clearance there strengthens our sea-air and express pitch to UAE–India shippers.",
+   "source": "The STAT Trade Times / Gulf News",
+   "date": "17 Oct",
+   "url": "https://www.stattimes.com/amp/business-of-cargo/aramex-partners-with-gmr-airports-to-boost-express-cargo-in-india-1360966",
+   "image": "https://www.stattimes.com/h-upload/videothumb/yt_sj9YceezATo.jpg",
+   "imageCredit": "The STAT Trade Times"
   }
  ],
  "opportunities": [
   {
-   "title": "Road express into Saudi Arabia",
-   "text": "With Riyadh airport shut and Dammam targeted, KSA customers need a dependable road option from the UAE."
+   "title": "KSA demand while air comes back slowly",
+   "text": "Riyadh is open again, but UAE airlines are restarting one by one and some foreign carriers are out until November. Reliable road plus air as it returns is a sellable product."
   },
   {
-   "title": "East-coast trucking capacity",
-   "text": "Khor Fakkan and Fujairah are congested and trucks are scarce. Guaranteed road legs into Dubai have real value."
+   "title": "Four-week window on the east coast",
+   "text": "The Gemini loop's first Khor Fakkan call is 16 November. Road capacity booked now can be sold as a bridge before that volume arrives."
   },
   {
-   "title": "India and Pakistan shippers losing feeder sailings",
-   "text": "The sunk and damaged ships served Karachi and Nhava Sheva. Some of that cargo will need air or sea-air options."
+   "title": "Dubai manufacturers going global",
+   "text": "DET's export programme is pushing more than 50 factories to export. DHL is in first, but these firms will still compare quotes."
   },
   {
-   "title": "Cold chain before DHL arrives",
-   "text": "DHL says Middle East cold-chain corridors are next and Al Sharqi has just opened a −18°C hub. Healthcare and food shippers are choosing partners now."
+   "title": "UAE–India express and sea-air",
+   "text": "Our GMR MoU targets faster clearance in India, while sea feeders on UAE–India lanes are under attack."
   },
   {
-   "title": "Humanitarian logistics",
-   "text": "Dubai Humanitarian has about 80 members, including UN bodies and NGOs, shipping medical and relief goods across the region."
+   "title": "Ready for a Hormuz reopening",
+   "text": "Iran's seven-day offer is still open. If it happens, shippers will want a quick switch back to Jebel Ali routings."
   }
  ],
  "watchouts": [
   {
-   "title": "Attacks on east-coast feeders",
-   "text": "Ships serving Khor Fakkan and Fujairah are now being hit, not only ships inside the Gulf."
+   "title": "Khor Fakkan approach now targeted",
+   "text": "A tug was hit northeast of the port on Sunday, a week after an east-coast feeder was sunk."
   },
   {
-   "title": "Khor Fakkan congestion from 17 October",
-   "text": "The Gemini loop adds volume to a port that already has full yards and long truck queues."
+   "title": "Jet fuel up 111% on a year ago",
+   "text": "Air buy rates are softening, but fuel costs are not. Under-recovered fuel will hit air express margins."
   },
   {
-   "title": "Saudi air network",
-   "text": "Riyadh is suspended and Dammam was targeted. Air-reliant KSA service promises are at risk."
+   "title": "Riyadh is open but fragile",
+   "text": "The airport was attacked again and again in October. Service promises into Riyadh can break overnight."
   },
   {
-   "title": "Fuel costs into November",
-   "text": "Brent is near $105 and war-risk cover on tankers is 6–10% of hull value. Plan for diesel staying high."
+   "title": "Rivals targeting Dubai shippers",
+   "text": "Emirates Courier Express is signing Dubai e-commerce brands, and DHL has the government export programme."
   },
   {
-   "title": "Rivals building in Dubai",
-   "text": "JD is planning a 2.5m sq ft hub and Al Sharqi has opened a rail-linked cold store."
+   "title": "Fast reversal if Hormuz reopens",
+   "text": "Long bridge contracts or high surcharges could leave us stuck if flows swing back to Jebel Ali."
   }
  ],
  "moves": [
   {
-   "title": "Switch KSA express to road while Riyadh is shut",
-   "text": "Re-plan UAE–Riyadh and UAE–Dammam shipments by road, tell key accounts the new transit times, and price it as a service option.",
+   "title": "Restart Riyadh air step by step, keep road as default",
+   "text": "Put KSA air back on sale only as UAE carriers confirm flights (Etihad and flydubai from today, Emirates from 20 October is not yet confirmed). Tell key accounts the plan.",
    "team": "Express · Air"
   },
   {
-   "title": "Book east-coast trucks before 17 October",
-   "text": "Secure road capacity from Khor Fakkan and Fujairah before the Gemini loop adds volume, and quote it as a bundled bridge price.",
-   "team": "Freight · Key accounts"
-  },
-  {
-   "title": "Call India and Pakistan sea shippers today",
-   "text": "List customers on Karachi and Nhava Sheva feeder lanes and offer air or sea-air alternatives with a firm price.",
-   "team": "Freight · Key accounts"
-  },
-  {
-   "title": "Prepare a November fuel surcharge scenario",
-   "text": "Model domestic and road surcharges with Brent around $105 so tables can move as soon as November pump prices are out.",
+   "title": "Check air fuel surcharges against jet fuel",
+   "text": "Jet fuel is up 111% on a year ago. Check our air express and airfreight fuel recovery is keeping pace and adjust if it lags.",
    "team": "Pricing"
   },
   {
-   "title": "Pitch cold chain to healthcare and food shippers",
-   "text": "Target pharma and F&B accounts before DHL's Middle East corridors and Al Sharqi's new hub win them.",
-   "team": "Product · Healthcare"
+   "title": "Book east-coast trucks for mid-November",
+   "text": "Plan road capacity from Khor Fakkan for the Gemini volume arriving 16 November, and add a security clause to bridge quotes.",
+   "team": "Freight · Key accounts"
   },
   {
-   "title": "Approach Gargash Prime and JD about last mile",
-   "text": "Offer delivery and cross-border services to the new Dubai fulfilment hub before JD builds its own network.",
+   "title": "Keep bridge deals short and prepare a reopening plan",
+   "text": "Quote bridge pricing on short terms and draft a fast switch-back routing and price list in case Hormuz reopens.",
+   "team": "Pricing"
+  },
+  {
+   "title": "Defend Dubai e-commerce brands",
+   "text": "Review our top Dubai cross-border shippers, especially Shopify sellers, and offer a renewal deal before Emirates Courier Express wins them.",
    "team": "Express · E-commerce"
+  },
+  {
+   "title": "Pitch Dubai exporters in the DET programme",
+   "text": "Build an export offer for Dubai manufacturers and ask DET about joining its Export Assistance Programme alongside DHL.",
+   "team": "Sales · Domestic"
+  },
+  {
+   "title": "Sell UAE–India sea-air using the GMR deal",
+   "text": "Contact shippers on UAE–India sea lanes with a sea-air or express option, and use the GMR MoU as proof of faster clearance.",
+   "team": "Freight · Key accounts"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
   {
-   "title": "GFS ship sinks after missile attack, second ship sustains damage",
-   "publication": "The Loadstar",
-   "date": "14 Oct 2026",
-   "url": "https://theloadstar.com/gfs-ship-sinks-after-missile-attack-second-ship-sustains-damage/"
+   "title": "Authority: Marine tug targeted by two projectiles off Khor Fakkan in UAE",
+   "publication": "Arab News",
+   "date": "18 Oct 2026",
+   "url": "https://www.arabnews.com/middle-east/authority-marine-tug-targeted-by-two-projectiles-off-khor-fakkan-in-uae-3006965"
   },
   {
-   "title": "Hormuz claims two more ships in fresh wave of strikes",
-   "publication": "Splash247",
-   "date": "15 Oct 2026",
-   "url": "https://splash247.com/hormuz-claims-two-more-ships-in-fresh-wave-of-strikes/"
+   "title": "Live updates: Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
+   "publication": "CBS News",
+   "date": "18 Oct 2026",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
   },
   {
-   "title": "Fire, sinking and reported scramble for cargo: what we know about ship lost in Strait of Hormuz",
-   "publication": "The National",
-   "date": "15 Oct 2026",
-   "url": "https://www.thenationalnews.com/news/gulf/2026/10/15/fire-sinking-and-reported-scramble-for-cargo-what-we-know-about-ship-lost-in-strait-of-hormuz/"
-  },
-  {
-   "title": "Strait of Hormuz Status: October 15, 2026",
+   "title": "Strait of Hormuz Status: October 18, 2026",
    "publication": "Straits.live",
-   "date": "15 Oct 2026",
-   "url": "https://straits.live/briefs/2026-10-15"
+   "date": "18 Oct 2026",
+   "url": "https://straits.live/briefs/2026-10-18"
   },
   {
-   "title": "Hormuz sinking hands marine war underwriters another total loss as attacks surge",
-   "publication": "Insurance Business",
-   "date": "14 Oct 2026",
-   "url": "https://www.insurancebusinessmag.com/us/news/marine/hormuz-sinking-hands-marine-war-underwriters-another-total-loss-as-attacks-surge-593549.aspx"
+   "title": "Brent drops 1.3% on October 19 after Russia sanctions waiver",
+   "publication": "The Nation Thailand",
+   "date": "19 Oct 2026",
+   "url": "https://www.nationthailand.com/news/world/40072461"
   },
   {
-   "title": "Gemini relaunch likely to add to congestion pressure at Khor Fakkan",
-   "publication": "The Loadstar",
-   "date": "14 Oct 2026",
-   "url": "https://theloadstar.com/gemini-relaunch-likely-to-add-to-congestion-pressure-at-khor-fakkan/"
-  },
-  {
-   "title": "Sogese report deliveries are still being delayed as container freight rates fluctuate",
-   "publication": "Cyprus Shipping News",
-   "date": "16 Oct 2026",
-   "url": "https://cyprusshippingnews.com/2026/10/16/sogese-report-deliveries-are-still-being-delayed-as-container-freight-rates-fluctuate/"
-  },
-  {
-   "title": "Saudi Arabian airport operations disrupted",
-   "publication": "Air Cargo News",
-   "date": "12 Oct 2026",
-   "url": "https://www.aircargonews.net/cargo-airport/2026/10/saudi-arabian-airport-operations-disrupted/"
-  },
-  {
-   "title": "dnata invests Dh175 million this year to boost Dubai ground handling capacity",
-   "publication": "Gulf News",
-   "date": "12 Oct 2026",
-   "url": "https://gulfnews.com/business/aviation/dnata-invests-dh175-million-this-year-to-boost-dubai-ground-handling-capacity-1.500707551"
-  },
-  {
-   "title": "Al Sharqi Shipping inaugurates AED 70 million multi-temperature logistics hub at Dubai Industrial City",
-   "publication": "Mid-East.info",
-   "date": "15 Oct 2026",
-   "url": "https://mid-east.info/al-sharqi-shipping-inaugurates-aed-70-million-multi-temperature-integrated-logistics-and-distribution-hub-at-dubai-industrial-city"
-  },
-  {
-   "title": "Gargash Prime, JINGDONG Property plan 2.5 million sq ft Dubai logistics hub",
-   "publication": "Gulf Business",
-   "date": "15 Oct 2026",
-   "url": "https://gulfbusiness.com/en/2026/logistics/gargash-prime-jingdong-property-plan-2-5-million-sq-ft-dubai-logistics-hub/"
-  },
-  {
-   "title": "DHL Global Forwarding establishes six air cold chain corridors",
-   "publication": "Air Cargo News",
+   "title": "FM1 service to re-launch on Gemini Network: Asia–Middle East",
+   "publication": "Maersk",
    "date": "13 Oct 2026",
-   "url": "https://www.aircargonews.net/pharma-logistics/2026/10/dhl-global-forwarding-establishes-six-air-cold-chain-corridors/"
+   "url": "https://www.maersk.com/news/articles/2026/10/13/fm1-service-relaunch-gemini-network-asia-middle-east"
   },
   {
-   "title": "Rhenus opens Dubai Humanitarian hub office",
-   "publication": "Air Cargo News",
+   "title": "Port operational updates from around the world (7 Oct – 13 Oct 2026)",
+   "publication": "Kuehne+Nagel",
+   "date": "13 Oct 2026",
+   "url": "https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-13-10-2026"
+  },
+  {
+   "title": "Riyadh airport reopens: which airlines are still cancelling flights to Saudi Arabia?",
+   "publication": "The National",
+   "date": "18 Oct 2026",
+   "url": "https://www.thenationalnews.com/travel/2026/10/18/riyadh-airport-reopens-which-airlines-are-still-cancelling-flights-to-saudi-arabia/"
+  },
+  {
+   "title": "Middle East operational update: Saudi Arabia transportation disruptions",
+   "publication": "Expeditors",
+   "date": "13 Oct 2026",
+   "url": "https://info.expeditors.com/operational-impact/middle-east-operational-update-saudi-arabia-transportation-disruptions-october-13-2026"
+  },
+  {
+   "title": "Iran live blog (Houthi attacks on Riyadh airport)",
+   "publication": "RFE/RL",
+   "date": "Oct 2026",
+   "url": "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html"
+  },
+  {
+   "title": "Global air freight rates dip 2.1% as peak season approaches",
+   "publication": "The STAT Trade Times",
+   "date": "13 Oct 2026",
+   "url": "https://www.stattimes.com/latest-news/global-air-freight-rates-dip-21-as-peak-season-approaches-1360915"
+  },
+  {
+   "title": "Agility agrees $581 million Tristar stake disposal to Aegis",
+   "publication": "The Arabian Post",
    "date": "14 Oct 2026",
-   "url": "https://www.aircargonews.net/supply-chains/2026/10/rhenus-opens-dubai-humanitarian-hub-office/"
+   "url": "https://thearabianpost.com/agility-agrees-581-million-tristar-stake-disposal-to-aegis/"
   },
   {
-   "title": "UAE fuel prices rise: could free delivery become a thing of the past?",
+   "title": "Dubai firms use Emirates Courier Express to speed up global expansion",
+   "publication": "Khaleej Times",
+   "date": "14 Oct 2026",
+   "url": "https://www.khaleejtimes.com/business/dubai-firms-use-emirates-courier-express-to-speed-up-global-expansion"
+  },
+  {
+   "title": "Dubai DET, DHL partner to boost manufacturers' global exports",
+   "publication": "Gulf Business",
+   "date": "13 Oct 2026",
+   "url": "https://gulfbusiness.com/en/2026/logistics/dubai-det-dhl-partner-to-boost-manufacturers-global-exports/"
+  },
+  {
+   "title": "Aramex partners with GMR Airports to boost express cargo in India",
+   "publication": "The STAT Trade Times",
+   "date": "17 Oct 2026",
+   "url": "https://www.stattimes.com/amp/business-of-cargo/aramex-partners-with-gmr-airports-to-boost-express-cargo-in-india-1360966"
+  },
+  {
+   "title": "Aramex Q2 2026 revenue rises 22% to record Dh1.83 billion",
    "publication": "Gulf News",
-   "date": "3 Oct 2026",
-   "url": "https://gulfnews.com/business/uae-fuel-prices-rise-will-rising-costs-make-deliveries-more-expensive-1.500696370"
+   "date": "6 Aug 2026",
+   "url": "https://gulfnews.com/amp/story/business/markets/aramex-revenue-hits-record-dh183-billion-profit-rises-sevenfold-in-q2-1.500632177"
+  },
+  {
+   "title": "UAE petrol and diesel prices for October 2026 announced",
+   "publication": "Gulf News",
+   "date": "Sep 2026",
+   "url": "https://www.gulfnews.com/business/energy/uae-petrol-diesel-prices-for-october-2026-announced-1.500692323"
   }
  ]
 }
