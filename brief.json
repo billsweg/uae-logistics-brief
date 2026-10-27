@@ -1,45 +1,45 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-10-26",
- "date": "Monday 26 October 2026",
+ "isoDate": "2026-10-27",
+ "date": "Tuesday 27 October 2026",
  "title": "UAE Logistics Brief",
- "lede": "About 492 ships are now waiting outside Hormuz, and only 101 escorted transits got through in three days last week. Riyadh airport reopened on Sunday, and UAE airlines have set Saudi return dates between 30 October and 8 November, so road into KSA stays the main route for another one to two weeks.",
+ "lede": "Iran now says the Strait of Hormuz is completely closed to ships that do not follow its rules, after the worst month on record for attacks on shipping. Saudi air links are still mostly down while European airlines return to Dubai, so road into KSA stays our main lane and Europe belly space into the UAE is opening up.",
  "gauges": [
   {
-   "value": "~492",
-   "label": "Ships waiting outside the Strait of Hormuz",
-   "note": "As of 25 Oct; about 194 off Fujairah and Khor Fakkan (JMIC via Gulf News)",
+   "value": "28",
+   "label": "Attacks on ships in and near Hormuz in October",
+   "note": "Worst month on record; 113 since 28 Feb (Washington Institute via Times of India)",
    "tone": "bad"
   },
   {
-   "value": "101",
-   "label": "US-escorted Hormuz transits, 22–24 Oct",
-   "note": "Baseline is about 138 ships a day (JMIC via Gulf News)",
+   "value": "45.1%",
+   "label": "Saudi departures cancelled or not flown, 8–25 Oct",
+   "note": "7,802 of 17,299; Riyadh 86% (Cirium via Gulf News)",
    "tone": "bad"
   },
   {
-   "value": "$4,585",
-   "label": "Drewry World Container Index, per 40ft",
-   "note": "22 Oct, highest in 15 weeks; still the latest reading",
+   "value": "$115.15",
+   "label": "Brent crude, per barrel",
+   "note": "27 Oct, down 0.6% on Tehran talks; above $117 last week (Business Standard)",
    "tone": "bad"
   },
   {
-   "value": "+26.4%",
-   "label": "Global air freight rates, year on year",
-   "note": "Up 4.7% in the week to 19 Oct (Baltic Air Freight Index via Air Cargo News)",
+   "value": "65k TEU",
+   "label": "Weekly volume at Khor Fakkan",
+   "note": "Up from about 8k pre-war; $2bn plan to reach 10m TEU a year (Enterprise AM)",
+   "tone": "good"
+  },
+  {
+   "value": "+12.3%",
+   "label": "Dubai industrial rent growth",
+   "note": "CBRE; Northern Emirates rents down 18.5% y-o-y (Enterprise AM, 20 Oct)",
    "tone": "bad"
   },
   {
-   "value": "+113.7%",
-   "label": "Jet fuel price, year on year",
-   "note": "To 16 Oct (IATA via Air Cargo News)",
-   "tone": "bad"
-  },
-  {
-   "value": "8 Nov",
-   "label": "Emirates restarts Riyadh and Dammam",
-   "note": "Jeddah returns 30 Oct; Etihad stays out of KSA to 5 Nov (The National)",
+   "value": "5 Nov",
+   "label": "Etihad stays off Riyadh and Dammam until",
+   "note": "flydubai Saudi suspension runs to 29 Oct; Air Arabia has no date (Gulf News)",
    "tone": "neutral"
   }
  ],
@@ -49,17 +49,45 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Nearly 500 ships are queuing outside Hormuz",
+     "headline": "Iran declares Hormuz \"completely closed\" as talks open in Tehran",
      "body": [
-      "About 492 vessels were waiting outside the strait on 25 October, says the Joint Maritime Information Center. Roughly 194 are near Fujairah and Khor Fakkan and 178 off Dubai. Only 101 US-facilitated transits went through between 22 and 24 October, against a normal 138 or so a day. UAE officials have not confirmed the figures.",
-      "What is new since Friday: an LPG tanker was hit by a projectile near Limah, Oman, on 22 October, and oil from a tanker damaged earlier reached the Umm Al Quwain coast on 23 October. Iran's IRGC says two supertankers hit mines on 23 October; this has not been independently confirmed. JMIC rates the threat in the strait as severe."
+      "On the evening of 26 October, Iran's armed forces chief of staff said Tehran has full control of the strait and that it is completely closed. Ships may pass only if they follow Iranian rules. Foreign Minister Araghchi said the strait's routes and management \"will not be the same as they once were\".",
+      "On the same day, Saudi Arabia, Turkey and Pakistan held talks with Iran in Tehran to open negotiating channels. Brent eased to $115.15 on 27 October. Britain and France are planning a mine-clearing mission for Hormuz, but only once fighting stops. CNN reports US forces could act against Iran within 96 hours of an order; no decision has been made."
      ],
-     "soWhat": "The east-coast queue is now the bottleneck. Quote Khor Fakkan and Fujairah inbound with longer, buffered transit times, not prewar ones.",
+     "soWhat": "New since yesterday: a formal closure claim and the first diplomatic channel. Keep pricing Gulf inbound sea on war terms and do not promise customers a reopening date.",
      "source": "Gulf News",
-     "date": "25 Oct",
-     "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273",
-     "image": "https://media.assettype.com/gulfnews/2026-10-25/42cbmkkc/ukmto.JPG?w=1200&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-     "imageCredit": "Gulf News"
+     "date": "26 Oct",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-trump-leaves-iran-attack-on-the-table-tehran-vows-changes-to-hormuz-strait-houthis-claim-saudi-strikes-1.500723497",
+     "image": "https://media.assettype.com/gulfnews%2F2026-10-26%2Fkyull0bw%2Fnewsml_afp_com_20261026T143003Z_doc_d4g96rf.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+     "imageCredit": "AFP via Gulf News"
+    },
+    {
+     "hot": false,
+     "headline": "October is the worst month on record for attacks on Gulf shipping",
+     "body": [
+      "The Washington Institute counts 28 confirmed or reported attacks in and near the Strait of Hormuz in October, and 113 since 28 February. A Reuters review says more than 30 supertankers have been damaged, 11 of them this month.",
+      "Marisks recorded 12 ships attacked between 5 and 11 October, the highest weekly total of the war."
+     ],
+     "soWhat": "War-risk cover and carrier surcharges will not fall soon. Keep sea surcharges indexed, not fixed.",
+     "source": "Times of India via inkl",
+     "date": "Oct",
+     "url": "https://www.inkl.com/news/october-strait-of-hormuz-attacks-28-incidents-hit-over-30-supertankers-data-shows-record-spike",
+     "image": "https://images.inkl.com/s3/article/lead_image/23984758/135204669.jpg",
+     "imageCredit": "Times of India via inkl"
+    },
+    {
+     "hot": false,
+     "headline": "Khor Fakkan volumes up about 700% as Gulftainer doubles capacity",
+     "body": [
+      "Weekly volume at Khor Fakkan has jumped from about 8,000 to 65,000 TEU as trade moves to ports outside Hormuz. Gulftainer is spending $2 billion to double capacity to 10 million TEU a year; phase one takes it to 5 million.",
+      "Inland, the Sajaa bonded dry port and a 150-hectare hub at Al Dhaid back up the port. A cited study puts overland rerouting at 2.4 to 4.2 times the cost per ton-km of sea."
+     ],
+     "soWhat": "East-coast inbound is now a volume lane, not a stopgap. Price drayage from Khor Fakkan to Dubai and Sajaa as a standing product.",
+     "source": "Enterprise AM",
+     "date": "19 Oct",
+     "url": "https://enterpriseam.com/logistics/2026/10/19/the-war-is-pushing-gulf-container-trade-to-ports-outside-hormuz-and-khorfakkan-is-doubling-capacity-to-catch-it/",
+     "image": "https://i0.wp.com/ent.news/2026/10/885.jpg?fit=%2C&ssl=1",
+     "imageCredit": "Enterprise AM"
     }
    ]
   },
@@ -68,31 +96,29 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Riyadh airport reopens; UAE airlines set Saudi return dates",
+     "headline": "Saudi skies still mostly shut despite Riyadh reopening",
      "body": [
-      "King Khalid International Airport in Riyadh resumed operations on 25 October after a two-week closure. Terminal 1 handles domestic flights and Terminal 2 international flights by Saudi carriers.",
-      "UAE airlines are coming back slowly. Emirates resumes Jeddah on 30 October and Riyadh and Dammam on 8 November. flydubai returns to Riyadh, Dammam and Abha from 30 October. Etihad stays off Riyadh and Dammam, and some Jeddah flights, until 5 November. Air Arabia has no return date. The risk has not gone: Saudi forces intercepted a Houthi missile aimed at Riyadh on 24 October."
+      "Cirium data show 45.1% of scheduled Saudi departures were cancelled or not flown between 8 and 25 October: 7,802 of 17,299. At Riyadh the figure was 86%. King Khalid airport reopened on 25 October, but most departures were still cancelled.",
+      "On 26 October the coalition intercepted a Houthi missile aimed at Riyadh; the Houthis say they targeted the airport. flydubai's Riyadh, Dammam and Abha suspension runs to 29 October, Etihad's to 5 November, and Air Arabia has no date."
      ],
-     "soWhat": "New today: firm restart dates. Belly space into KSA stays thin for one to two more weeks, so keep selling road and plan for air volumes to swing back from 8 November.",
-     "source": "The National",
-     "date": "25 Oct",
-     "url": "https://www.thenationalnews.com/travel/2026/10/25/saudi-arabia-flight-cancellations-which-airlines-are-suspending-services-and-until-when/",
-     "image": "https://www.thenationalnews.com/resizer/v2/LTZS2ABTMFD4VCMRMLCBOS7BX4.jpg?auth=23ef588b76ba4160aaaf7fd7a640f66bcaabfb5e9f784e66561b912c5ac38e0b&smart=true&width=1200&height=630",
-     "imageCredit": "Etihad Airways via The National"
+     "soWhat": "New: hard numbers and a fresh attack on Riyadh. Restart dates may slip again, so keep road into KSA as the default and do not promise air transit times.",
+     "source": "Gulf News",
+     "date": "26 Oct",
+     "url": "https://gulfnews.com/business/aviation/saudi-flight-disruption-over-7800-flights-cancelled-no-fly-since-october-8-1.500723390",
+     "image": "https://media.assettype.com/gulfnews%2F2026-10-14%2Ft8su0moq%2FKing-Khalid-International-Airport-in-Saudi-Arabia?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+     "imageCredit": "Gulf News"
     },
     {
      "hot": false,
-     "headline": "Air rates jump again as jet fuel doubles",
+     "headline": "European airlines return to Dubai",
      "body": [
-      "The Baltic Air Freight Index rose 4.7% in the week to 19 October and is 26.4% higher than a year ago. Rates from Europe to the UAE rose further.",
-      "Jet fuel was 113.7% higher year on year to 16 October, per IATA's monitor."
+      "Lufthansa restarted Dubai–Munich on 25 October and Dubai–Frankfurt on 26 October. SWISS returns to Zurich on 27 October, Eurowings on 1 November, British Airways on 4 November and Austrian on 12 December.",
+      "Gulf News says up to 36 weekly Dubai–Europe flights are due back between late October and December."
      ],
-     "soWhat": "Our air costs are rising with the market. Check that fuel surcharges pass through in full and do not discount air going into peak.",
-     "source": "Air Cargo News",
-     "date": "22 Oct",
-     "url": "https://www.aircargonews.net/data/2026/10/tac-reports-another-surge-in-airfreight-rates/",
-     "image": "https://www.aircargonews.net/wp-content/uploads/2026/02/Data-NicoElNinoshutterstock_2435055163.jpg",
-     "imageCredit": "NicoElNino via Air Cargo News"
+     "soWhat": "More belly space from Europe into Dubai. Expect Europe–UAE air rates to soften first; check our buy rates before peak contracts are fixed.",
+     "source": "Gulf News",
+     "date": "26 Oct",
+     "url": "https://gulfnews.com/uae/us-israel-iran-war-what-uae-residents-need-to-know-today-oct-26-2026-1.500723631"
     }
    ]
   },
@@ -101,202 +127,262 @@
    "stories": [
     {
      "hot": false,
-     "headline": "UAE and Greece sign €12.75 billion of deals, including ports and logistics",
+     "headline": "UAE warehouse tenants stay put as demand moves north and east",
      "body": [
-      "The UAE–Greece Strategic Forum in Athens announced 18 MoUs, agreements and partnerships worth €12.75 billion in total. Sectors include logistics, transport and ports, along with energy, AI, healthcare and food security.",
-      "No separate figure or project was given for logistics."
+      "Warehouse lease renewals rose 21.6% to a record of about 8,200 in the first half, while new contracts fell 51.8% year on year (Cavendish Maxwell). CBRE puts Dubai industrial rent growth at about 12.3%.",
+      "The Northern Emirates opened more than 10 million sq ft of space in the first half, 5.2 million of it in Umm Al Quwain, and rents there fell 18.5% year on year."
      ],
-     "soWhat": "A possible new Europe gateway for UAE trade. Watch for named port or corridor projects before we build a product around it.",
-     "source": "Sharjah 24 (WAM)",
-     "date": "22 Oct",
-     "url": "https://sharjah24.ae/en/Articles/2026/10/22/AL021"
+     "soWhat": "Cheaper space is opening north and east. Price contract logistics bids from UAQ and Sharjah sites where the lane allows.",
+     "source": "Enterprise AM",
+     "date": "20 Oct",
+     "url": "https://enterpriseam.com/logistics/issues/uae-warehouse-tenants-are-staying-put-as-rerouted-cargo-pulls-demand-toward-the-northern-emirates-and-the-east-coast/",
+     "image": "https://i0.wp.com/ent.news/2026/10/1245.jpg?fit=%2C&ssl=1",
+     "imageCredit": "Enterprise AM"
+    },
+    {
+     "hot": false,
+     "headline": "Dubai Mall readies a one-hour delivery app",
+     "body": [
+      "A Dubai Mall Online app is coming that will deliver orders from the mall's stores within an hour, according to billboards in the mall and Downtown Dubai. No launch date has been given, and it is not yet known who will run delivery."
+     ],
+     "soWhat": "A same-hour retail delivery contract may go out soon. Sales should ask Emaar who is bidding.",
+     "source": "What's On",
+     "date": "26 Oct",
+     "url": "https://whatson.ae/2026/10/dubai-malls-newest-app-will-deliver-your-favourite-brands-to-you-within-an-hour",
+     "image": "https://whatson.ae/wp-content/uploads/2023/12/DUBAI-MALL-FEATURED.jpg",
+     "imageCredit": "What's On"
+    },
+    {
+     "hot": false,
+     "headline": "Saudi Arabia seeks developers for Jeddah's 2.4m sqm Al Khumrah logistics zone",
+     "body": [
+      "Mawani has opened expressions of interest for private firms to develop and run the Al Khumrah logistics zone. Submissions close on 20 November. A SAR 689 million, 17 km freight corridor linking it to Jeddah Islamic Port is due by end-2028.",
+      "Jeddah industrial and logistics occupancy stayed above 90% in the second quarter, with rents up 4.8% (JLL)."
+     ],
+     "soWhat": "Jeddah is the Red Sea gateway our road lanes feed. Worth a look by contract logistics before 20 November.",
+     "source": "Enterprise AM",
+     "date": "26 Oct",
+     "url": "https://enterpriseam.com/infrastructure/2026/10/26/100930/",
+     "image": "https://i0.wp.com/ent.news/2026/10/1660.jpg?fit=%2C&ssl=1",
+     "imageCredit": "Enterprise AM"
     }
    ]
   }
  ],
  "competitors": [
   {
-   "name": "DHL Express",
-   "headline": "Adds a Saudi domestic demand surcharge from 1 November",
+   "name": "DP World",
+   "headline": "Plans Fujairah terminals to sit beside Jebel Ali; 500,000 TEU moved overland",
    "body": [
-    "DHL will charge SAR 0.40 per kg on Time Definite Domestic shipments in Saudi Arabia from 1 November to 31 December. Its international demand surcharge, running 1 October to 5 February, is SAR 0.50 per kg within MENA and SAR 6.40 per kg from China and Hong Kong into MENA.",
-    "DHL says amounts and dates may change with prior notice."
+    "DP World has an in-principle 50-year concession for two Fujairah sites. Al Rugaylat is planned for 2.5 million TEU, 1.7 million tonnes of general cargo and 190,000 car units a year; Dibba for 3.6 million tonnes. Construction has not started. It says the terminals could cut three to five days off some Indian Ocean services.",
+    "It has moved more than 500,000 TEU overland through its GCC network since March, and ran about 3,000 truck movements a day in August after adding 700 trucks."
    ],
-   "soWhat": "The market leader is pricing peak into KSA domestic. That gives us cover for our own peak surcharge in Saudi, and a price point to stay under.",
-   "source": "DHL",
-   "date": "Updated 28 Aug",
-   "url": "https://www.dhl.com/sa-en/home/express/products-and-solutions/products-and-services-overview/surcharges/demand-surcharge.html"
+   "soWhat": "DP World is building an end-to-end east-coast-to-Jafza offer with its own trucks. Our freight team needs a drayage and clearance bundle that competes on price and speed.",
+   "source": "Logistics Middle East",
+   "date": "19 Oct",
+   "url": "https://www.logisticsmiddleeast.com/news/dp-worlds-fujairah-terminals-target-five-day-shipping-time-savings",
+   "image": "https://www.logisticsmiddleeast.com/cloud/2026/10/19/1200x900-2026-10-19T091437.312.png",
+   "imageCredit": "Logistics Middle East"
   },
   {
    "name": "FedEx",
-   "headline": "Launches dangerous-goods road service across five GCC markets",
+   "headline": "Dubai hub wins IATA CEIV Pharma certification",
    "body": [
-    "FedEx now carries eligible dangerous goods by road between the UAE, Saudi Arabia, Bahrain, Kuwait and Oman. The Regional Economy and Regional Economy Freight services take parcels and pallets: lab reagents, diagnostic samples, dry ice, chemicals and lithium batteries.",
-    "Trucks run from its Dubai World Central hub on a TIR-registered, GPS-tracked fleet, with ADR-aligned handling."
+    "FedEx's Dubai World Central hub, 57,000 sq m with 170 sq m of temperature-controlled storage, has IATA CEIV Pharma certification. FedEx now holds 30 such certifications worldwide.",
+    "New since our 26 October item: together with its GCC dangerous-goods road launch, FedEx now has a certified healthcare offer by air and road out of DWC."
    ],
-   "soWhat": "FedEx is going after healthcare and battery freight on the same roads we sell into KSA. Check our DG road offer and price it before FedEx signs our healthcare accounts.",
-   "source": "Gulf Business",
-   "date": "19 Oct",
-   "url": "https://gulfbusiness.com/en/2026/logistics/fedex-expands-dangerous-goods-transport-across-five-gcc-countries/"
+   "soWhat": "FedEx is building a full healthcare pitch in the UAE. Check our pharma certifications and cold-chain capacity before our healthcare renewals.",
+   "source": "Air Cargo News",
+   "date": "9 Oct",
+   "url": "https://www.aircargonews.net/ground-handler/2026/10/fedex-dubai-facility-gains-iata-ceiv-pharma-certification/",
+   "image": "https://www.aircargonews.net/wp-content/uploads/2026/09/FedEx-aircraft-Photo-FedEx.jpg",
+   "imageCredit": "FedEx via Air Cargo News"
   },
   {
-   "name": "Emirates SkyCargo",
-   "headline": "Saudi belly space returns from 30 October; freighter fleet keeps growing",
+   "name": "Aramex (baseline)",
+   "headline": "Latest result: record Q2 revenue of Dh1.83 billion",
    "body": [
-    "Emirates resumes Jeddah on 30 October and Riyadh and Dammam on 8 November, ending the suspensions that had SkyCargo trucking its Saudi backlog.",
-    "SkyCargo expects 23 dedicated freighters by end-March 2027 and has added seven 777 freighters since March. Its freighter network grew from about 40 to over 60 destinations between March and July."
+    "Revenue rose 22% to Dh1.83 billion in Q2 2026, the highest in our history. Net profit was Dh47 million, about seven times a year earlier, and the EBITDA margin rose to 9.9% from 7%.",
+    "Freight forwarding had its best quarter, domestic express kept growing and international express volumes stabilised. Q3 results are not yet out."
    ],
-   "soWhat": "Our road edge into KSA has a clock on it. Lock shippers into road contracts now, before Emirates belly space comes back.",
-   "source": "The National / Air Cargo News",
-   "date": "25 Oct",
-   "url": "https://www.aircargonews.net/freighter-operator/2026/10/fleet-expansion-fuels-emirates-skycargos-south-american-demand-growth/",
-   "image": "https://www.aircargonews.net/wp-content/uploads/2026/06/Emirates-SkyCargo-converted-Boeing-777F-Source-Emirates.jpg",
-   "imageCredit": "Emirates SkyCargo via Air Cargo News"
+   "soWhat": "Freight and domestic carried the quarter. Protect those margins as KSA air returns and east-coast costs rise.",
+   "source": "Khaleej Times",
+   "date": "6 Aug",
+   "url": "https://www.khaleejtimes.com/business/aramex-q2-net-profit-jumps-seven-fold-to-dh47-million-on-record-revenue?amp=1",
+   "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-08-06/vyqjupb3/Aramex-Logistics-Center.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=fill&fill=blur",
+   "imageCredit": "Khaleej Times"
   }
  ],
  "opportunities": [
   {
-   "title": "Road into KSA for two more weeks",
-   "text": "Emirates is out of Riyadh and Dammam until 8 November and Etihad until 5 November. Air shippers still need road express and FTL."
+   "title": "Road into KSA, longer than planned",
+   "text": "45% of Saudi flights were cancelled in the past three weeks, and Riyadh was targeted again on 26 October. Road express and FTL demand into KSA should hold into November."
   },
   {
-   "title": "Dangerous goods by road",
-   "text": "FedEx's launch shows demand for DG road freight in the GCC. Healthcare and battery shippers will compare offers now."
+   "title": "East-coast drayage as a product",
+   "text": "Khor Fakkan handles about 65,000 TEU a week. Shippers need regular trucking and clearance from there to Dubai and Sajaa."
   },
   {
-   "title": "Saudi peak pricing",
-   "text": "DHL adds SAR 0.40/kg on Saudi domestic from 1 November. There is room for our own peak surcharge below that."
+   "title": "Cheaper Europe air buy",
+   "text": "Lufthansa, SWISS, Eurowings and BA are returning to Dubai. More belly space should lower our Europe–UAE buy rates."
   },
   {
-   "title": "East-coast handling",
-   "text": "About 194 ships wait off Fujairah and Khor Fakkan. Shippers will pay for drayage, storage and clearance help there."
+   "title": "Northern Emirates warehousing",
+   "text": "Rents there are down 18.5% while Dubai's rise 12.3%. Room to bid contract logistics at lower cost."
   },
   {
-   "title": "Firm air yields",
-   "text": "Global air rates are up 26.4% on last year and jet fuel has doubled. No reason to cut air prices."
+   "title": "Same-hour retail delivery",
+   "text": "Dubai Mall's one-hour app will need a delivery partner."
   }
  ],
  "watchouts": [
   {
-   "title": "Possible US strike on Iran",
-   "text": "A US envoy said a strike was possible last weekend; Trump said not on 25 October but did not rule one out. Escalation would hit Gulf air and sea again."
+   "title": "Hormuz closure claim",
+   "text": "Iran says only ships following its rules may pass. Expect more delays and higher war-risk costs on Gulf inbound sea."
   },
   {
-   "title": "Houthi missiles at Saudi",
-   "text": "A missile aimed at Riyadh was intercepted on 24 October, and debris injured two people in the south on 25 October. Saudi restart dates could slip."
+   "title": "US strike window",
+   "text": "CNN says US forces could act within 96 hours of an order. Escalation would hit UAE air and sea again."
   },
   {
-   "title": "East-coast queues",
-   "text": "Nearly 500 ships wait outside Hormuz. Khor Fakkan and Fujairah delays will keep growing."
+   "title": "Saudi restart dates may slip",
+   "text": "Houthi missiles keep targeting Riyadh. flydubai's 30 October return and Etihad's suspension to 5 November could both be extended."
   },
   {
-   "title": "Air volume swings back in November",
-   "text": "When Emirates returns on 8 November, some road volume to KSA will move back to air. Do not over-commit truck capacity past that date."
+   "title": "DP World land bridge",
+   "text": "Its own trucks and Fujairah plans compete directly with our freight and road products."
   },
   {
-   "title": "UPS results on 27 October",
-   "text": "Watch for comments on Middle East surcharges and peak pricing."
+   "title": "UPS results today",
+   "text": "UPS reports Q3 on 27 October. Watch for Middle East surcharge and peak pricing comments."
+  },
+  {
+   "title": "Fuel prices for November",
+   "text": "UAE announces November petrol and diesel prices around 31 October, with Brent near $115."
   }
  ],
  "moves": [
   {
-   "title": "Sign road shippers into KSA contracts before 8 November",
-   "text": "Offer 4–8 week road rates to accounts that moved from air, so they stay with us when Emirates belly space returns.",
+   "title": "Extend KSA road contracts to end-November",
+   "text": "Offer road shippers rates to 30 November, since Saudi air restarts keep slipping.",
    "team": "Sales · Domestic"
   },
   {
-   "title": "Set a KSA domestic peak surcharge",
-   "text": "Benchmark against DHL's SAR 0.40/kg from 1 November and price just under it.",
-   "team": "Pricing"
-  },
-  {
-   "title": "Price a DG road product for healthcare accounts",
-   "text": "Check our ADR coverage on UAE–KSA–Oman lanes and quote healthcare and battery shippers before FedEx does.",
-   "team": "Product · Healthcare"
-  },
-  {
-   "title": "Re-set east-coast inbound transit times",
-   "text": "Add buffers on Khor Fakkan and Fujairah quotes and offer storage and drayage as paid add-ons.",
+   "title": "Launch a Khor Fakkan drayage and clearance bundle",
+   "text": "One price for port pickup, customs and delivery to Dubai, Jafza or Sajaa, to answer DP World's trucking offer.",
    "team": "Freight · Key accounts"
   },
   {
-   "title": "Audit air fuel surcharge pass-through",
-   "text": "Jet fuel is up 113.7% year on year. Make sure every air contract passes it on.",
+   "title": "Re-tender Europe–UAE air buy rates",
+   "text": "Ask carriers for new rates as European belly space returns from 25 October to 4 November.",
+   "team": "Express · Air"
+  },
+  {
+   "title": "Prepare a November diesel surcharge update",
+   "text": "Be ready to move road surcharges the day UAE fuel prices come out, around 31 October.",
    "team": "Pricing"
   },
   {
-   "title": "Plan the air restart into KSA",
-   "text": "Book capacity with Emirates and flydubai for 30 October to 8 November restarts and tell customers the dates.",
-   "team": "Express · Air"
+   "title": "Check our pharma certification gap against FedEx",
+   "text": "List our CEIV Pharma and cold-chain sites and brief healthcare accounts before FedEx does.",
+   "team": "Product · Healthcare"
+  },
+  {
+   "title": "Bid from Northern Emirates warehouse space",
+   "text": "Cost new contract logistics bids on UAQ or Sharjah sites where the customer's lanes allow.",
+   "team": "Contract logistics"
+  },
+  {
+   "title": "Approach Emaar on Dubai Mall one-hour delivery",
+   "text": "Find out who runs delivery for the new app and pitch our same-day network.",
+   "team": "Express · E-commerce"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
   {
-   "title": "Strait of Hormuz crisis: nearly 500 vessels face disruption amid new tanker attack",
-   "publication": "Gulf News",
-   "date": "25 Oct 2026",
-   "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
-  },
-  {
-   "title": "Middle East war live: Houthi missile targets Riyadh, tankers hit mines near Hormuz",
-   "publication": "Gulf News",
-   "date": "25 Oct 2026",
-   "url": "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-targets-riyadh-tankers-hit-mines-near-hormuz-1.500721804"
-  },
-  {
-   "title": "Middle East live: King Khalid airport resumes operations; Trump rules out strike today",
+   "title": "Middle East war live: Trump leaves Iran attack on the table, Tehran vows changes to Hormuz, Houthis claim Saudi strikes",
    "publication": "Gulf News",
    "date": "26 Oct 2026",
-   "url": "https://gulfnews.com/world/mena/middle-east-war-drone-missile-intercepted-over-riyadh-as-king-khalid-airport-resumes-operations-1.500722685"
+   "url": "https://gulfnews.com/world/mena/middle-east-war-trump-leaves-iran-attack-on-the-table-tehran-vows-changes-to-hormuz-strait-houthis-claim-saudi-strikes-1.500723497"
   },
   {
-   "title": "Saudi Arabia flight cancellations: which airlines are suspending services and until when?",
-   "publication": "The National",
-   "date": "25 Oct 2026",
-   "url": "https://www.thenationalnews.com/travel/2026/10/25/saudi-arabia-flight-cancellations-which-airlines-are-suspending-services-and-until-when/"
+   "title": "Oil eases on Gulf diplomacy hopes, Saudi attacks keep supply worries alive",
+   "publication": "Business Standard",
+   "date": "27 Oct 2026",
+   "url": "https://www.business-standard.com/markets/commodities/oil-eases-on-gulf-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-126102700075_1.html"
   },
   {
-   "title": "UAE flight status Oct 25: cancellations, delays and Riyadh airport reopening",
+   "title": "Europe's navy eyes Hormuz: Britain and France ready mine-hunting drones",
    "publication": "Gulf News",
-   "date": "25 Oct 2026",
-   "url": "https://gulfnews.com/business/aviation/uae-flight-status-oct-25-list-of-cancellations-delays-and-riyadh-airport-reopening-updates-1.500722785"
+   "date": "26 Oct 2026",
+   "url": "https://gulfnews.com/world/mena/europes-navy-eyes-hormuz-britain-and-france-ready-mine-hunting-drones-to-reopen-the-worlds-oil-chokepoint-but-only-if-the-guns-fall-silent-1.500724159"
   },
   {
-   "title": "World Container Index",
-   "publication": "Drewry",
-   "date": "22 Oct 2026",
-   "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+   "title": "October Strait of Hormuz attacks: 28 incidents hit over 30 supertankers",
+   "publication": "Times of India via inkl",
+   "date": "Oct 2026",
+   "url": "https://www.inkl.com/news/october-strait-of-hormuz-attacks-28-incidents-hit-over-30-supertankers-data-shows-record-spike"
   },
   {
-   "title": "TAC reports another surge in airfreight rates",
-   "publication": "Air Cargo News",
-   "date": "22 Oct 2026",
-   "url": "https://www.aircargonews.net/data/2026/10/tac-reports-another-surge-in-airfreight-rates/"
-  },
-  {
-   "title": "UAE and Greece announce €12.75 billion in strategic partnerships",
-   "publication": "Sharjah 24 (WAM)",
-   "date": "22 Oct 2026",
-   "url": "https://sharjah24.ae/en/Articles/2026/10/22/AL021"
-  },
-  {
-   "title": "Demand Surcharge Saudi Arabia",
-   "publication": "DHL Express",
-   "date": "28 Aug 2026",
-   "url": "https://www.dhl.com/sa-en/home/express/products-and-solutions/products-and-services-overview/surcharges/demand-surcharge.html"
-  },
-  {
-   "title": "FedEx expands dangerous goods transport across five GCC countries",
-   "publication": "Gulf Business",
+   "title": "The war is pushing Gulf container trade to ports outside Hormuz, and Khorfakkan is doubling capacity",
+   "publication": "Enterprise AM",
    "date": "19 Oct 2026",
-   "url": "https://gulfbusiness.com/en/2026/logistics/fedex-expands-dangerous-goods-transport-across-five-gcc-countries/"
+   "url": "https://enterpriseam.com/logistics/2026/10/19/the-war-is-pushing-gulf-container-trade-to-ports-outside-hormuz-and-khorfakkan-is-doubling-capacity-to-catch-it/"
   },
   {
-   "title": "Fleet expansion fuels Emirates SkyCargo's South American demand growth",
+   "title": "Saudi flight disruption: 7,800 cancellations and no-fly records",
+   "publication": "Gulf News",
+   "date": "26 Oct 2026",
+   "url": "https://gulfnews.com/business/aviation/saudi-flight-disruption-over-7800-flights-cancelled-no-fly-since-october-8-1.500723390"
+  },
+  {
+   "title": "UAE flights today: are cancellations easing?",
+   "publication": "Gulf News",
+   "date": "26 Oct 2026",
+   "url": "https://gulfnews.com/business/aviation/uae-flights-today-are-cancellations-easing-check-the-list-of-delays-and-saudi-travel-updates-1.500723745"
+  },
+  {
+   "title": "US-Israel-Iran war: what UAE residents need to know today, 26 Oct 2026",
+   "publication": "Gulf News",
+   "date": "26 Oct 2026",
+   "url": "https://gulfnews.com/uae/us-israel-iran-war-what-uae-residents-need-to-know-today-oct-26-2026-1.500723631"
+  },
+  {
+   "title": "UAE warehouse tenants are staying put as rerouted cargo pulls demand toward the Northern Emirates and the east coast",
+   "publication": "Enterprise AM",
+   "date": "20 Oct 2026",
+   "url": "https://enterpriseam.com/logistics/issues/uae-warehouse-tenants-are-staying-put-as-rerouted-cargo-pulls-demand-toward-the-northern-emirates-and-the-east-coast/"
+  },
+  {
+   "title": "Dubai Mall's newest app will deliver your favourite brands to you within an hour",
+   "publication": "What's On",
+   "date": "26 Oct 2026",
+   "url": "https://whatson.ae/2026/10/dubai-malls-newest-app-will-deliver-your-favourite-brands-to-you-within-an-hour"
+  },
+  {
+   "title": "EnterpriseAM Logistics is now EnterpriseAM Infrastructure",
+   "publication": "Enterprise AM",
+   "date": "26 Oct 2026",
+   "url": "https://enterpriseam.com/infrastructure/2026/10/26/100930/"
+  },
+  {
+   "title": "DP World's Fujairah terminals target five-day shipping time savings",
+   "publication": "Logistics Middle East",
+   "date": "19 Oct 2026",
+   "url": "https://www.logisticsmiddleeast.com/news/dp-worlds-fujairah-terminals-target-five-day-shipping-time-savings"
+  },
+  {
+   "title": "FedEx Dubai facility gains IATA CEIV Pharma certification",
    "publication": "Air Cargo News",
-   "date": "8 Oct 2026",
-   "url": "https://www.aircargonews.net/freighter-operator/2026/10/fleet-expansion-fuels-emirates-skycargos-south-american-demand-growth/"
+   "date": "9 Oct 2026",
+   "url": "https://www.aircargonews.net/ground-handler/2026/10/fedex-dubai-facility-gains-iata-ceiv-pharma-certification/"
+  },
+  {
+   "title": "Aramex Q2 net profit jumps seven-fold to Dh47 million on record revenue",
+   "publication": "Khaleej Times",
+   "date": "6 Aug 2026",
+   "url": "https://www.khaleejtimes.com/business/aramex-q2-net-profit-jumps-seven-fold-to-dh47-million-on-record-revenue?amp=1"
   },
   {
    "title": "UPS to release third-quarter 2026 results on Tuesday, October 27, 2026",
