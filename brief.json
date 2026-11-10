@@ -1,34 +1,34 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-11-09",
- "date": "Monday 9 November 2026",
+ "isoDate": "2026-11-10",
+ "date": "Tuesday 10 November 2026",
  "title": "UAE Logistics Brief",
- "lede": "Hormuz got worse over the weekend: a UAE-owned products tanker burned off Khasab, UKMTO logged 11 attacks in a week, and traffic is about a fifth of pre-war. The long-term answer moved a step closer on Sunday, when all six GCC states signed the Gulf Railway agreement.",
+ "lede": "Oil fell almost 6% on Monday to its lowest since August after Trump said he would hold off new strikes on Iran, but the US blockade of Hormuz stays and ship attacks go on. DHL is moving freight capacity to the UAE east coast, and Saudi air links are still patchy.",
  "gauges": [
   {
-   "value": "$97.67",
-   "label": "Brent crude, per barrel, Monday",
-   "note": "Down 64 cents early on 9 Nov as Trump calls new strikes \"highly unlikely\" if talks progress (The Nation, 9 Nov)",
-   "tone": "bad"
+   "value": "$92.57",
+   "label": "Brent crude settle, Monday",
+   "note": "Down 5.85% to the lowest since 31 August; $92.33 early Tuesday (Reuters via Business Recorder, 10 Nov)",
+   "tone": "neutral"
   },
   {
    "value": "~20%",
    "label": "Hormuz traffic vs pre-war",
-   "note": "Lloyd's List Intelligence via The National, 8 Nov; Iran says strait stays closed until its demands are met",
-   "tone": "bad"
-  },
-  {
-   "value": "11",
-   "label": "Attacks UKMTO confirmed in the past week",
-   "note": "8 in the Strait of Hormuz, 3 in the Arabian Gulf; three vessels sank (The National, 8 Nov)",
+   "note": "Still the latest figure (Lloyd's List Intelligence via The National, 8 Nov); US blockade stays for now",
    "tone": "bad"
   },
   {
    "value": "$3.80/kg",
    "label": "Global air cargo spot rate, week 43",
-   "note": "Up 5% on the week and 38% on the year; Arabian Gulf capacity still 19% below pre-war (WorldACD via STAT Times, 2 Nov)",
+   "note": "Still the latest; up 38% on the year, Arabian Gulf capacity 19% below pre-war (WorldACD via STAT Times, 2 Nov)",
    "tone": "bad"
+  },
+  {
+   "value": "€500m",
+   "label": "DHL Global Forwarding Gulf investment",
+   "note": "Unchanged despite the war, says MEA CEO Tobias Maier (The National, 8 Nov)",
+   "tone": "neutral"
   },
   {
    "value": "54.8",
@@ -49,31 +49,17 @@
    "stories": [
     {
      "hot": true,
-     "headline": "A UAE-owned tanker burns off Khasab as Iran steps up attacks on Hormuz shipping",
+     "headline": "Trump holds off new Iran strikes but keeps the Hormuz blockade",
      "body": [
-      "A products tanker, tentatively identified as the Navig8 Messi and indirectly owned by ADNOC L&S, caught fire about eight nautical miles off Khasab on Saturday evening. The crew was evacuated with no injuries. The IRGC said three tankers caught fire on Sunday after using \"unauthorised routes\", and it claims at least 12 ships have burned this month, mostly from mines.",
-      "UKMTO confirmed eight attacks in the strait and three in the Arabian Gulf over the past week; three vessels sank. The UAE National Guard rescued 22 crew from a burning cargo ship in the Gulf of Oman. Traffic is about 20% of pre-war, and the US disabled the Iran-linked bulker Huda in the Gulf of Oman on 7 November."
+      "Trump said on Monday he will hold off new military strikes on Iran for now, after appeals from regional countries including Qatar's prime minister. He said the US naval blockade in the Strait of Hormuz stays in place for now.",
+      "Attacks on ships near Hormuz are still happening but \"have not escalated\", said KCM Trade's Tim Waterer. Senior US and Gulf officials doubt a peace deal is close, and Iran's Mohsen Rezaei told the US to stop talking about \"imaginary talks\"."
      ],
-     "soWhat": "New since Friday: a UAE-linked ship hit right at the strait, and three sinkings in a week. Keep sea war-risk surcharges Gulf-wide and push east-coast and overland routings.",
-     "source": "The National; Maritime Executive; Gulf News",
-     "date": "8 Nov",
-     "url": "https://www.thenationalnews.com/news/mena/2026/11/08/smoke-blanketing-the-strait-iran-steps-up-campaign-of-threats-to-shipping/",
-     "image": "https://www.thenationalnews.com/resizer/v2/F7UKS3OJRZH5BDK3WOH7VQUENQ.jpg?auth=bc126f6ca025148f016bbeacd47a5cded52e612d66e4ce0a51963aec1a10f238&smart=true&width=1200&height=630",
-     "imageCredit": "The National"
-    },
-    {
-     "hot": true,
-     "headline": "GCC states sign the Gulf Railway agreement: 1,700 km from Kuwait to Oman",
-     "body": [
-      "The six GCC transport ministers signed the General Agreement for the GCC Railway Project in Bahrain on 8 November. The network targets 200 million tonnes of freight by 2030 and full operations in December 2030. Core infrastructure is put at $15.4–16 billion.",
-      "The GCC Railways Authority says overall completion has passed 50%. Hafeet Rail, the 238 km UAE–Oman link, is about 40% complete with trials targeted for Q4 2027. The full text of the agreement has not been published."
-     ],
-     "soWhat": "Rail will not help this quarter, but Hormuz makes overland Gulf corridors a lasting product. Start planning rail-linked GCC freight offers with Etihad Rail.",
-     "source": "House of Saud",
-     "date": "8 Nov",
-     "url": "https://houseofsaud.com/gcc-gulf-railway-agreement-nov8/",
-     "image": "https://houseofsaud.com/wp-content/uploads/2026/11/persian-gulf-iss40-nasa-gcc-railway-route.jpg",
-     "imageCredit": "NASA via House of Saud"
+     "soWhat": "New since Monday: the strike threat is lower, but the blockade and the attacks are not over. Sea war-risk pricing stays; do not promise customers relief yet.",
+     "source": "Business Recorder (Reuters)",
+     "date": "10 Nov",
+     "url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran",
+     "image": "https://i.brecorder.com/large/2026/09/23074917357c51e.webp",
+     "imageCredit": "Reuters via Business Recorder"
     }
    ]
   },
@@ -81,30 +67,18 @@
    "name": "Air & express",
    "stories": [
     {
-     "hot": true,
-     "headline": "Saudi air links: flydubai returns to Dammam from 10 November; Riyadh and Abha from 17 November",
-     "body": [
-      "flydubai's Riyadh and Abha flights stay suspended through 16 November, with Dammam available again from 10 November. Etihad has cancelled all passenger and cargo flights between Abu Dhabi and Riyadh and Dammam until 19 November; its Jeddah flights resumed on 6 November. Dubai International also reported six flynas cancellations to Riyadh and Gassim."
-     ],
-     "soWhat": "New: Dubai–Dammam belly space returns tomorrow. Riyadh stays road-only from the UAE for at least another week.",
-     "source": "Travels Dubai; Gulf News",
-     "date": "7–8 Nov",
-     "url": "https://www.travelsdubai.com/07-Nov-2026/flying-uae-check-latest-flight-suspensions-european-returns-travel-warnings",
-     "image": "https://www.travelsdubai.com/digital_images/large/2026-11-07/uae-flights-face-continuing-disruption-today-saudi-cancellations-airline-suspensions-fresh-changes-i-1794035274-7293.jpg",
-     "imageCredit": "Travels Dubai"
-    },
-    {
      "hot": false,
-     "headline": "Air cargo spot rates keep climbing; Gulf capacity still 19% short",
+     "headline": "Saudi air links: Dammam reopens for flydubai, Riyadh still largely cut",
      "body": [
-      "WorldACD says global spot rates rose 5% in the week of 19–25 October to $3.80 per kilo, 38% above last year, even as tonnage fell 2%. Middle East and South Asia capacity is 13% below late February, and Arabian Gulf capacity 19% below. Riyadh was almost completely closed to international flights that week."
+      "flydubai's schedule shows Dubai–Dammam from today, 10 November, with Riyadh and Abha from 17 November. Etihad has cancelled all Abu Dhabi–Riyadh and Dammam passenger and cargo flights through 19 November. SalamAir is off both cities until 30 November.",
+      "Emirates is unclear: The National reported Riyadh and Dammam restarting on 8 November, but AeroCorner found Emirates' own system still showing those flights cancelled through 13 November. Saudi air defences intercepted two Houthi missiles aimed at Riyadh on 8 November."
      ],
-     "soWhat": "Buy rates are still rising into peak. Price air sell rates weekly, not monthly.",
-     "source": "STAT Times (WorldACD)",
-     "date": "2 Nov",
-     "url": "https://www.stattimes.com/amp/air-cargo/air-cargo-spot-rates-soar-in-october-despite-global-tonnage-dip-1361163",
-     "image": "https://www.stattimes.com/h-upload/2026/11/02/102908-worldwide-air-cargo.jpg",
-     "imageCredit": "STAT Times"
+     "soWhat": "New: Dammam belly space is back today, but Riyadh air stays unreliable. Keep Riyadh on road and confirm uplift before every promise.",
+     "source": "Khaleej Times; The National; AeroCorner; Gulf News",
+     "date": "6–8 Nov",
+     "url": "https://www.khaleejtimes.com/business/aviation/etihad-flydubai-saudi-arabia-flight-status-cancellations",
+     "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/13c3c331-6df8-414d-b4ad-5c1aaa1e3fe6-org.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,0,1200,800",
+     "imageCredit": "Khaleej Times"
     }
    ]
   },
@@ -112,140 +86,181 @@
    "name": "Domestic, e-commerce & costs",
    "stories": [
     {
-     "hot": false,
-     "headline": "Oil eases to $97.67 as Trump plays down new strikes",
+     "hot": true,
+     "headline": "Oil drops almost 6% to a two-month low",
      "body": [
-      "Brent was at $97.67 a barrel on Monday morning, down 64 cents, and briefly fell more than $1 at the open. WTI was at $90.51. Trump told CNN new strikes on Iran were \"highly unlikely\" to be necessary if talks progress, but Iran's foreign minister said no negotiations have taken place since the US midterms."
+      "Brent settled at $92.57 on Monday, down $5.75 or 5.85%, its lowest since 31 August. It was at $92.33 early on Tuesday. WTI was at $86.50. On Friday Brent had closed at $98.29.",
+      "Reuters says Middle East producers are cutting prices to attract buyers as Hormuz oil flows recover, raising oversupply worries. OPEC output rose in October, led by Saudi Arabia, Kuwait and Iraq."
      ],
-     "soWhat": "Oil is stuck near $98 with no deal in sight. Keep December fuel surcharges where they are.",
-     "source": "The Nation (Thailand)",
-     "date": "9 Nov",
-     "url": "https://www.nationthailand.com/news/world/40073266",
-     "image": "https://media.nationthailand.com/uploads/images/md/2026/11/ylAmWA2dHuLnyhqQ53ax.webp",
-     "imageCredit": "The Nation"
+     "soWhat": "Fuel costs are easing for the first time in weeks. If it holds, customers will ask for December surcharge cuts; decide our rule now.",
+     "source": "Gulf News; Business Recorder (Reuters)",
+     "date": "10 Nov",
+     "url": "https://gulfnews.com/business/energy/oil-slides-as-iran-strike-fears-ease-brent-falls-1.500741822",
+     "image": "https://media.assettype.com/gulfnews%2F2026-09-22%2Fsgytwliu%2Fnewsml_afp_com_20260922T075947Z_doc_c8yc6cq.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+     "imageCredit": "AFP via Gulf News"
     }
    ]
   }
  ],
  "competitors": [
   {
-   "name": "Emirates SkyCargo",
-   "headline": "Launches 'AI Tech', a dedicated product for AI server racks and chips",
+   "name": "DHL",
+   "headline": "Builds up in the eastern UAE near Khor Fakkan and Dibba; keeps €500m Gulf spend",
    "body": [
-    "Emirates SkyCargo launched AI Tech on 3 November for AI server racks, semiconductors, GPUs and capital equipment, with priority loading and proactive monitoring. It says it moved more than 700 tonnes of AI infrastructure in July alone, and will run 23 freighters by March 2027."
+    "DHL Global Forwarding will strengthen its position in the eastern UAE, near Khor Fakkan and Dibba in Fujairah. MEA CEO Tobias Maier told The National its €500 million Gulf commitment is unchanged, after earlier facilities worth €120 million in the UAE and €130 million in Saudi Arabia, plus a 20-year joint venture with Etihad Rail.",
+    "Maier said the industry will need three to six months to normalise after the conflict ends, and that higher freight rates are \"normal\" for this market."
    ],
-   "soWhat": "Same week, same target as our Data Center Logistics launch. SkyCargo owns the lift; we must win on end-to-end handling and site delivery.",
-   "source": "Emirates Media Centre",
-   "date": "3 Nov",
-   "url": "https://www.emirates.com/media-centre/emirates-skycargo-launches-ai-tech-to-move-infrastructure-powering-artificial-intelligence/",
-   "image": "https://content.presspage.com/uploads/2431/ad5b4455-7547-4e2b-b4aa-f1a2f7a6e094/1920_4292_eksc_aitech_keyvisual_v816-9image..jpg?10000",
-   "imageCredit": "Emirates SkyCargo"
+   "soWhat": "DHL is locking in the Hormuz bypass and rail. It is also telling shippers rates normalise in 3–6 months, faster than our CEO's 6–12; expect it to price for that.",
+   "source": "The National",
+   "date": "8 Nov",
+   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/",
+   "image": "https://www.thenationalnews.com/resizer/v2/JPLG37MRRJCV7NA2KGJ72J5YFU.webp?auth=48d47187074ba81f3d0b12aab78eaf2839913756ce8cad33926b078b8650e04f&smart=true&width=1200&height=630",
+   "imageCredit": "DHL via The National"
   },
   {
-   "name": "noon & Amazon",
-   "headline": "11.11 enters its final days with bank and BNPL offers stacked on top",
+   "name": "Emirates SkyCargo",
+   "headline": "Still holding Riyadh and Dammam back while rivals return",
    "body": [
-    "Amazon's sale ends on 12 November and noon's on 13 November. noon has added Emirates Islamic card discounts from 9 to 12 November and Tabby offers from 8 to 12 November, on top of 15-minute noon Minutes and 90-minute Supermall delivery."
+    "Emirates' own flight-status system showed Dubai–Riyadh and Dubai–Dammam flights cancelled every day from 8 to 13 November, when AeroCorner checked on 6 November, despite reports of an 8 November restart. Etihad has cancelled its Riyadh and Dammam cargo and passenger flights through 19 November."
    ],
-   "soWhat": "New: a last-week volume spike on 11–13 November. Expect returns to peak the week after; offer reverse logistics to sellers now.",
-   "source": "Gulf News",
-   "date": "4 Nov",
-   "url": "https://gulfnews.com/gn-focus/company-news/the-years-biggest-online-cart-drops-noons-1111-sale-goes-live-across-the-uae-with-up-to-90-off-1.500736223",
-   "image": "https://media.assettype.com/gulfnews%2F2026-11-05%2F4ilyquw6%2Fnoon1.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "imageCredit": "noon via Gulf News"
+   "soWhat": "The two big UAE carriers are still off the main Saudi lanes. Our road network to Riyadh is the product to sell this week.",
+   "source": "AeroCorner",
+   "date": "6 Nov",
+   "url": "https://aerocorner.com/news/emirates-riyadh-dammam-flights-cancelled-november-13-etihad-salamair-cathay/",
+   "image": "https://aerocorner.com/wp-content/uploads/2026/11/emirates-riyadh-dammam-flights-cancelled-november-13-etihad-salamair-cathay-emirates-boein-1536x1025.jpg",
+   "imageCredit": "Aero Icarus via AeroCorner"
   },
   {
    "name": "Aramex (baseline)",
-   "headline": "Launched Data Center Logistics on 1 November",
+   "headline": "CEO targets double-digit growth; sees rates easing 6–12 months after peace",
    "body": [
-    "Aramex Data Center Logistics went live on 1 November in the GCC, Southeast Asia, Taiwan and the US South. It covers construction cargo such as transformers and chillers, AI racks by charter or secure road, white-glove handling in the data hall, and spare parts. A crated AI rack weighs about 1.75 tonnes. Q2 revenue was a record AED 1.83 billion; Q3 results are not yet out."
+    "Group CEO Amadou Diallo told Khaleej Times Aramex aims for double-digit revenue growth in 2026 and 2027, and that freight rates should normalise six to 12 months after peace returns. Q2 revenue was a record Dh1.83 billion, up 22%, and net profit rose seven-fold to Dh47 million. Aramex is piloting drones for middle-mile deliveries."
    ],
-   "soWhat": "A clear growth product. Pricing should set charter and white-glove rate cards before the first tenders.",
-   "source": "Dubai PR Network (Aramex release)",
-   "date": "3 Nov",
-   "url": "https://www.dubaiprnetwork.com/local-news/194848-aramex-launches-data-center-logistics-from-the-first-transformer-to-the-last-ai-",
-   "image": "https://www.dubaiprnetwork.com/press_images/194848-1.jpg",
-   "imageCredit": "Aramex via Dubai PR Network"
+   "soWhat": "Our public view of the rate cycle is slower than DHL's. Sales need one clear message on when customers will see rates fall.",
+   "source": "Khaleej Times",
+   "date": "2 Nov",
+   "url": "https://khaleejtimes.com/business/freight-rates-could-take-up-to-a-year-to-ease-after-peace-returns-says-aramex-ceo",
+   "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-01/l60qm1sg/2026newsmlRC2PEOAW6AVA1446714535.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,0,3500,2333",
+   "imageCredit": "Khaleej Times"
   }
  ],
  "opportunities": [
   {
-   "title": "Dubai–Dammam air reopens",
-   "text": "flydubai is back on Dammam from 10 November. Re-open air offers to shippers who moved to road."
+   "title": "Dubai–Dammam air is back",
+   "text": "flydubai flies Dammam from today. Call shippers who moved to road and offer air again."
   },
   {
    "title": "UAE–Riyadh road freight",
-   "text": "Riyadh air stays cut to at least 16–19 November. Keep selling trucking on the lane."
+   "text": "Etihad is off Riyadh to 19 November and Emirates is unclear. Keep selling trucking on the lane."
   },
   {
-   "title": "AI and data centre cargo",
-   "text": "Our new product and SkyCargo's both target it. Move fast on Abu Dhabi and Riyadh projects."
+   "title": "East-coast gateways",
+   "text": "DHL is building near Khor Fakkan and Dibba. Package east-coast port plus trucking into Dubai before it locks in shippers."
   },
   {
-   "title": "Overland GCC corridors",
-   "text": "The Gulf Railway deal and Hormuz both point to land routes. Build multimodal GCC offers."
-  },
-  {
-   "title": "Post-11.11 returns",
-   "text": "Sales end 12–13 November. Pitch returns handling to marketplace sellers this week."
+   "title": "Fuel relief as a retention tool",
+   "text": "Brent is down almost 6%. A clear, rule-based surcharge cut can win renewals with key accounts."
   }
  ],
  "watchouts": [
   {
-   "title": "Sinkings in Hormuz",
-   "text": "Three vessels sank in a week, and a UAE-linked tanker was hit. Sea risk is rising, not easing."
+   "title": "Oil whipsaw",
+   "text": "One day down 5.85%. Iran denies any talks and the blockade stays. Prices can jump back fast."
   },
   {
-   "title": "No talks",
-   "text": "Iran says no negotiations since the midterms. Oil can jump again at any time."
+   "title": "Rate-cut pressure",
+   "text": "DHL says the market normalises 3–6 months after the war. Customers will use that against our rates."
   },
   {
-   "title": "Air rates still rising",
-   "text": "Spot up 38% on the year. Fixed-price air quotes can lose money fast."
+   "title": "DHL east-coast build-out",
+   "text": "€500m Gulf spend, an Etihad Rail joint venture and now Khor Fakkan and Dibba."
   },
   {
-   "title": "Big rival in AI cargo",
-   "text": "Emirates SkyCargo launched AI Tech the same week as us, with 23 freighters by March."
+   "title": "Saudi air schedule confusion",
+   "text": "Emirates' system shows Riyadh and Dammam cancelled to 13 November. Do not promise Saudi air without confirmed uplift."
   },
   {
-   "title": "Peak capacity squeeze",
-   "text": "11.11 final days, then White Friday on 27 November. Last-mile capacity will be tight."
+   "title": "Missiles at Riyadh",
+   "text": "Two Houthi missiles were intercepted over Riyadh on 8 November. Air links can close again."
   }
  ],
  "moves": [
   {
-   "title": "Keep war-risk surcharges Gulf-wide",
-   "text": "Three sinkings and a hit off Khasab. No cuts this month.",
+   "title": "Set a fuel surcharge trigger",
+   "text": "Brent dropped to $92.57. Agree now what level and for how long cuts the December surcharge, so we move first.",
    "team": "Pricing"
   },
   {
-   "title": "Hold December fuel surcharges",
-   "text": "Brent is near $98 with no talks. Hold until a deal is real.",
+   "title": "Keep sea war-risk surcharges",
+   "text": "The Hormuz blockade stays and attacks continue. No cuts on Gulf sea lanes yet.",
    "team": "Pricing"
   },
   {
-   "title": "Restart Dubai–Dammam air offers",
-   "text": "flydubai flies again from 10 November. Call shippers who switched to road.",
-   "team": "Express · Air"
-  },
-  {
-   "title": "Price air weekly",
-   "text": "Spot rates rose again. Move key air quotes to weekly validity through peak.",
+   "title": "Prepare a post-war rate path",
+   "text": "DHL is selling 3–6 months to normal. Give key accounts our own step-down plan before they ask.",
    "team": "Freight · Key accounts"
   },
   {
-   "title": "Publish data centre rate cards",
-   "text": "Set charter and white-glove pricing before SkyCargo's AI Tech wins the first tenders.",
-   "team": "Contract logistics"
+   "title": "Sell east-coast routings",
+   "text": "Offer Khor Fakkan and Fujairah entry with trucking to Dubai, ahead of DHL's build-out.",
+   "team": "Freight · Key accounts"
   },
   {
-   "title": "Sell post-11.11 returns",
-   "text": "Offer returns pick-up to sellers outside Amazon and noon fulfilment.",
-   "team": "Express · E-commerce"
+   "title": "Confirm Dammam uplift today",
+   "text": "Book flydubai Dammam space for express; keep Riyadh on road until airlines confirm.",
+   "team": "Express · Air"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
+  {
+   "title": "Oil falls as Trump downplays prospect of escalation with Iran",
+   "publication": "Business Recorder (Reuters)",
+   "date": "10 Nov 2026",
+   "url": "https://www.brecorder.com/news/40448220/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran"
+  },
+  {
+   "title": "Oil slides as Iran strike fears ease — Brent falls to $92.25",
+   "publication": "Gulf News",
+   "date": "10 Nov 2026",
+   "url": "https://gulfnews.com/business/energy/oil-slides-as-iran-strike-fears-ease-brent-falls-1.500741822"
+  },
+  {
+   "title": "US/Israel-Iran war: What UAE residents should know this evening, November 8",
+   "publication": "Gulf News",
+   "date": "8 Nov 2026",
+   "url": "https://gulfnews.com/world/mena/usisrael-iran-war-what-uae-residents-should-know-this-evening-november-8-1.500740446"
+  },
+  {
+   "title": "Etihad resumes Abu Dhabi-Jeddah flights; Riyadh, Dammam cancelled till Nov 19",
+   "publication": "Khaleej Times",
+   "date": "6 Nov 2026",
+   "url": "https://www.khaleejtimes.com/business/aviation/etihad-flydubai-saudi-arabia-flight-status-cancellations"
+  },
+  {
+   "title": "Saudi Arabia flight cancellations: Which airlines are suspending services and until when?",
+   "publication": "The National",
+   "date": "6 Nov 2026",
+   "url": "https://www.thenationalnews.com/travel/2026/11/06/saudi-arabia-flight-cancellations-which-airlines-are-suspending-services-and-until-when/"
+  },
+  {
+   "title": "Emirates Riyadh Flights Still Show as Canceled Through November 13, Not Back on November 8",
+   "publication": "AeroCorner",
+   "date": "6 Nov 2026",
+   "url": "https://aerocorner.com/news/emirates-riyadh-dammam-flights-cancelled-november-13-etihad-salamair-cathay/"
+  },
+  {
+   "title": "DHL to boost network in eastern UAE amid regional uncertainty",
+   "publication": "The National",
+   "date": "8 Nov 2026",
+   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/"
+  },
+  {
+   "title": "Freight rates could take up to a year to ease after war ends: Aramex CEO",
+   "publication": "Khaleej Times",
+   "date": "2 Nov 2026",
+   "url": "https://khaleejtimes.com/business/freight-rates-could-take-up-to-a-year-to-ease-after-peace-returns-says-aramex-ceo"
+  },
   {
    "title": "'Smoke blanketing the strait': Iran steps up campaign of threats to shipping",
    "publication": "The National",
@@ -253,76 +268,10 @@
    "url": "https://www.thenationalnews.com/news/mena/2026/11/08/smoke-blanketing-the-strait-iran-steps-up-campaign-of-threats-to-shipping/"
   },
   {
-   "title": "Tanker Burns After Strike in Strait of Hormuz",
-   "publication": "The Maritime Executive",
-   "date": "8 Nov 2026",
-   "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz"
-  },
-  {
-   "title": "Middle East conflict: UAE rescues 22 crew in Gulf of Oman; US tightens Iran blockade",
-   "publication": "Gulf News",
-   "date": "9 Nov 2026",
-   "url": "https://gulfnews.com/world/mena/uae-rescues-22-crew-in-gulf-of-oman-as-us-tightens-iran-blockade-and-tehran-lifts-missile-limits-1.500739993"
-  },
-  {
-   "title": "Middle East conflict: 10 key developments UAE residents should know, November 8",
-   "publication": "Gulf News",
-   "date": "8 Nov 2026",
-   "url": "https://gulfnews.com/uae/middle-east-conflict-10-key-developments-uae-residents-should-know-november-8-2026-1.500740039"
-  },
-  {
-   "title": "GCC States Sign Gulf Railway General Agreement in Bahrain",
-   "publication": "House of Saud",
-   "date": "8 Nov 2026",
-   "url": "https://houseofsaud.com/gcc-gulf-railway-agreement-nov8/"
-  },
-  {
-   "title": "Flying through UAE? Check latest flight suspensions, European returns and travel warnings",
-   "publication": "Travels Dubai",
-   "date": "7 Nov 2026",
-   "url": "https://www.travelsdubai.com/07-Nov-2026/flying-uae-check-latest-flight-suspensions-european-returns-travel-warnings"
-  },
-  {
    "title": "Air cargo spot rates soar in October despite global tonnage dip",
    "publication": "STAT Times",
    "date": "2 Nov 2026",
    "url": "https://www.stattimes.com/amp/air-cargo/air-cargo-spot-rates-soar-in-october-despite-global-tonnage-dip-1361163"
-  },
-  {
-   "title": "Brent falls 64 cents on November 9 as Trump calls new Iran strikes unlikely if talks progress",
-   "publication": "The Nation (Thailand)",
-   "date": "9 Nov 2026",
-   "url": "https://www.nationthailand.com/news/world/40073266"
-  },
-  {
-   "title": "Emirates SkyCargo launches AI Tech to move infrastructure powering artificial intelligence",
-   "publication": "Emirates Media Centre",
-   "date": "3 Nov 2026",
-   "url": "https://www.emirates.com/media-centre/emirates-skycargo-launches-ai-tech-to-move-infrastructure-powering-artificial-intelligence/"
-  },
-  {
-   "title": "noon's 11.11 Sale goes live across the UAE with up to 90% off",
-   "publication": "Gulf News",
-   "date": "4 Nov 2026",
-   "url": "https://gulfnews.com/gn-focus/company-news/the-years-biggest-online-cart-drops-noons-1111-sale-goes-live-across-the-uae-with-up-to-90-off-1.500736223"
-  },
-  {
-   "title": "11.11 sale begins in UAE: 90% discount, deals from Dh1",
-   "publication": "Khaleej Times",
-   "date": "5 Nov 2026",
-   "url": "https://www.khaleejtimes.com/business/1111-sale-begins-in-uae-90-discount-deals-from-dh1-and-savings-of-up-to-dh3000"
-  },
-  {
-   "title": "Aramex launches Data Center Logistics, from the first transformer to the last AI rack",
-   "publication": "Dubai PR Network",
-   "date": "3 Nov 2026",
-   "url": "https://www.dubaiprnetwork.com/local-news/194848-aramex-launches-data-center-logistics-from-the-first-transformer-to-the-last-ai-"
-  },
-  {
-   "title": "Aramex Reports Q2 & H1 2026 Results",
-   "publication": "Construction Business News ME",
-   "date": "6 Aug 2026",
-   "url": "https://www.cbnme.com/logistics-news/aramex-reports-q2-h1-2026-results/"
   },
   {
    "title": "UAE non-oil firms sharply raised prices in October amid rising confidence",
