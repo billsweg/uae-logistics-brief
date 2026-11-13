@@ -1,40 +1,46 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-11-12",
- "date": "Thursday 12 November 2026",
+ "isoDate": "2026-11-13",
+ "date": "Friday 13 November 2026",
  "title": "UAE Logistics Brief",
- "lede": "Iran has widened the sea war to Oman's shipping navigation systems, and another tanker was hit near Hormuz on Wednesday. On land and in the air, Saudi cargo is still the bottleneck: Emirates SkyCargo is off Riyadh and Dammam until 27 November and trucks cannot get into Riyadh.",
+ "lede": "Iran says four more tankers were hit in Hormuz on Thursday, and Hormuz transits are down to a handful a day. The UAE answer is land: DP World has now moved over one million containers from the east coast by road and rail, while Saudi air links stay cut, with Etihad cargo off Riyadh and Dammam until 19 November.",
  "gauges": [
   {
-   "value": "$91.71",
-   "label": "Brent, Wednesday late morning",
-   "note": "Back above $90 after Tuesday's dip; up 0.2% on the day (Euronews, 11 Nov)",
+   "value": "3",
+   "label": "Hormuz transits on 8 Nov",
+   "note": "Against a pre-crisis baseline of 85 a day (IMF PortWatch via Straits.live, 12 Nov)",
+   "tone": "bad"
+  },
+  {
+   "value": "1m+ TEU",
+   "label": "Moved by DP World from UAE east coast by road and rail",
+   "note": "Early March to end October; about 3,500 TEU a day (Logistics Middle East, 12 Nov)",
    "tone": "neutral"
   },
   {
-   "value": "-18%",
-   "label": "Arabian Gulf air cargo capacity vs pre-war",
-   "note": "Week 44; capacity up 2% on the week (WorldACD via ITLN, 9 Nov)",
+   "value": "19 Nov",
+   "label": "Etihad Riyadh and Dammam passenger and cargo flights cancelled until",
+   "note": "Jeddah back at up to four flights a day (The National, 12 Nov)",
    "tone": "bad"
   },
   {
-   "value": "+60%",
-   "label": "MESA air rates, October, year on year",
-   "note": "Full-market rates; MESA volumes up 10% on the year (WorldACD via ITLN, 9 Nov)",
-   "tone": "bad"
-  },
-  {
-   "value": "27 Nov",
-   "label": "Emirates SkyCargo Riyadh and Dammam suspended until",
-   "note": "Limited Jeddah service; trucking into Riyadh not available (Expeditors, 4 Nov)",
-   "tone": "bad"
-  },
-  {
-   "value": "37,000 sqm",
-   "label": "Iron Mountain's first UAE warehouse, Dubai South",
-   "note": "Run for Unilever at EZDubai Logistics Hub (Logistics Middle East, 10 Nov)",
+   "value": "$91.22",
+   "label": "Brent January futures, Thursday midday Singapore",
+   "note": "Down 1.54%, heading for a two-month low (Gulf News, 12 Nov)",
    "tone": "neutral"
+  },
+  {
+   "value": "AED1.98bn",
+   "label": "Aramex Q3 revenue, a record",
+   "note": "Up 24% on the year; net profit AED47.8m vs AED5.2m (Logistics Middle East, 10 Nov)",
+   "tone": "good"
+  },
+  {
+   "value": "Dh3tn",
+   "label": "UAE foreign trade, first nine months of 2026",
+   "note": "Up 10% on the year, despite Hormuz (The National, 8 Nov)",
+   "tone": "good"
   }
  ],
  "groups": [
@@ -43,29 +49,31 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Iran attacks ship navigation systems on Oman's Didamar island",
+     "headline": "Iran says four more tankers hit in Hormuz; transits down to a handful",
      "body": [
-      "Three sources told Reuters that Iran attacked ship navigation systems on the Omani island of Didamar. Iranian state media said the IRGC destroyed \"enemy navigation systems\" there on Tuesday. Reuters could not confirm if anything was destroyed, and shipping sources expect limited impact on commercial traffic.",
-      "Gulf oil exports were back above 80% of pre-war levels in September and October. Exporters use ship-to-ship transfers off Oman and the UAE, with VLCCs shuttling to points near Sohar and Fujairah."
+      "Iran's military said four oil tankers were hit by explosions in the Strait of Hormuz on Thursday after ignoring warnings. Reuters could not verify the claim. On Wednesday a tanker was hit by a projectile about 14 nautical miles northwest of Ras Al Khaimah, causing an engine-room fire; UKMTO said all crew were evacuated.",
+      "At least 10 ships were hit in the first 10 days of November, after 37 attacks in October, according to the Washington Institute. IMF PortWatch counted just 3 transits on 8 November, against 85 a day before the crisis. CENTCOM says it is enforcing an \"ironclad naval blockade\" on Iran."
      ],
-     "soWhat": "New: Iran is now hitting shore-side navigation in Oman, near the Sohar and Fujairah transfer zones we use as Hormuz bypasses. Keep sea war-risk charges in place.",
-     "source": "Arab News (Reuters)",
-     "date": "11 Nov",
-     "url": "https://www.arabnews.com/middle-east/ukmto-reports-tanker-incident-in-strait-of-hormuz-3011095",
-     "image": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1791679454429-59954996408fd59f.jpg",
-     "imageCredit": "Arab News"
+     "soWhat": "New: the attacks are now off Ras Al Khaimah, inside UAE waters' approaches, and traffic is close to zero. Sea war-risk charges stay; there is no case for cuts this month.",
+     "source": "Reuters via Yahoo News; Straits.live; Gulf News",
+     "date": "12 Nov",
+     "url": "https://www.yahoo.com/news/articles/four-tankers-struck-explosions-strait-162708977.html",
+     "image": "https://media.assettype.com/gulfnews%2F2026-11-12%2F1apqpv76%2FANI_20261111201556.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+     "imageCredit": "ANI via Gulf News"
     },
     {
-     "hot": false,
-     "headline": "Another tanker hit in Hormuz on Wednesday",
+     "hot": true,
+     "headline": "DP World moves over 1 million TEU around Hormuz by road and rail",
      "body": [
-      "UKMTO said on Wednesday it had a report from military authorities of an incident with a tanker in the Strait of Hormuz. Crew status, damage and environmental impact were unknown. Iran's navy said an oil tanker caught fire after hitting a naval mine in a \"restricted area\" east of the strait.",
-      "Separately, India said a Liberia-flagged tanker with Indian crew was hit by a projectile in the Gulf. Four crew were injured and the other 18 are safe."
+      "DP World moved more than one million TEU from UAE east-coast ports to Jebel Ali and domestic markets between early March and end October. Its land corridors carry about 3,500 TEU a day, using more than 3,000 trucks, 700 of them its own. Jebel Ali Rail Terminal is open and Etihad Rail now links Jebel Ali to the national network.",
+      "DP World has brought forward its new Fujairah terminals to 18–24 months, from 24–30. Al Rugaylat will handle about 2.5 million TEU a year. Jeddah South Container Terminal now has 4 million TEU of capacity, and Sohar and Duqm are also in use."
      ],
-     "soWhat": "New: a fourth tanker strike in three days, after yesterday's ADNOC Logistics hit. There is no sign of the sea risk easing this month.",
-     "source": "Anadolu Agency; Euronews",
-     "date": "11 Nov",
-     "url": "https://www.aa.com.tr/en/middle-east/uk-maritime-agency-reports-incident-involving-tanker-in-strait-of-hormuz/4119781"
+     "soWhat": "The east-coast-to-Jebel Ali land bridge is now the main UAE import route. Our trucking and rail capacity on it is a product we can sell, not just a cost.",
+     "source": "Logistics Middle East",
+     "date": "12 Nov",
+     "url": "https://www.logisticsmiddleeast.com/news/dp-world-moves-1m-teus-through-uae-road-and-rail-corridors",
+     "image": "https://www.logisticsmiddleeast.com/cloud/2026/04/15/Logistics_14.04-2.jpeg",
+     "imageCredit": "Logistics Middle East"
     }
    ]
   },
@@ -74,31 +82,17 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Saudi cargo: SkyCargo off Riyadh and Dammam until 27 November, no trucking into Riyadh",
+     "headline": "Etihad cargo off Riyadh and Dammam until 19 November",
      "body": [
-      "Expeditors says Emirates SkyCargo has suspended Riyadh and Dammam through 27 November and runs limited Jeddah service. Emirates is trucking backlog cargo from Dubai World Central to Jeddah and Dammam, but trucking into Riyadh is not available for Emirates or Qatar Airways cargo.",
-      "Riyadh airport customs clearance is suspended and some cargo is rerouted through Jeddah. Jeddah port is open but congested, with landside delays of about 10–12 days after discharge. Cargo backlogs are building for Saudi-bound shipments."
+      "Etihad has cancelled all passenger and cargo flights from Abu Dhabi to Riyadh and Dammam through Thursday 19 November. Abu Dhabi–Jeddah is back at up to four flights a day. Emirates has Riyadh and Dammam cancelled until at least 13 November and flies Jeddah twice a day.",
+      "flydubai has suspended Riyadh with no return date. Riyadh's King Khalid airport has only partly resumed after an October suspension that followed attacks on it."
      ],
-     "soWhat": "New: the cargo side is off until 27 November, longer than passenger schedules suggest. Customers with Riyadh freight need a ground route through Dammam or Jeddah, priced for the delay.",
-     "source": "Expeditors",
-     "date": "4 Nov",
-     "url": "https://info.expeditors.com/operational-impact/middle-east-operational-update-saudi-arabia-transportation-disruptions-november-2026",
-     "image": "https://info.expeditors.com/hubfs/Operational%20Impact%20Sept%202.png",
-     "imageCredit": "Expeditors"
-    },
-    {
-     "hot": false,
-     "headline": "MESA air volumes up 10% in October; Gulf capacity still 18% below pre-war",
-     "body": [
-      "WorldACD data show Middle East and South Asia air cargo volumes rose 10% on the year in October. Arabian Gulf capacity rose 2% in week 44 but is still 18% below pre-war levels.",
-      "MESA full-market rates were up 2% on the month and 60% on the year. Global spot rates averaged $3.67/kg in October, up 37%."
-     ],
-     "soWhat": "Demand is up and capacity is short, so air buy rates stay high into peak. Keep air rates passed through and do not promise year-end cuts.",
-     "source": "ITLN",
-     "date": "9 Nov",
-     "url": "https://www.itln.in/aviation/diwali-lifts-mesa-air-cargo-volumes-10-despite-gulf-conflict-1361243",
-     "image": "https://www.itln.in/h-upload/2026/11/09/103109-84540-32030-indigo-cargo-commences-operations-with-a321f.jpg",
-     "imageCredit": "ITLN"
+     "soWhat": "New: Etihad's cargo halt adds to SkyCargo's suspension to 27 November. Both main UAE carriers are now off Riyadh, so road freight stays the only reliable option.",
+     "source": "The National",
+     "date": "12 Nov",
+     "url": "https://www.thenationalnews.com/travel/2026/11/12/uae-airlines-adjust-saudi-arabia-flights-as-cancellations-continue/",
+     "image": "https://www.thenationalnews.com/resizer/v2/WQYWVB6SMAAZ4XZAMN3MS4JTEI.jpg?auth=10f8dfd659f070c7fcc7eef6bf86653cf11e384db3ed7357edd20441a1b64476&focal=2093%2C1414&width=1200&height=630",
+     "imageCredit": "The National"
     }
    ]
   },
@@ -107,185 +101,232 @@
    "stories": [
     {
      "hot": false,
-     "headline": "Brent back above $90 as more Gulf oil flows",
+     "headline": "UAE trade near Dh3 trillion in nine months, up 10%",
      "body": [
-      "Brent rose 0.2% to $91.71 on Wednesday morning, after dipping below $90 on Tuesday. Iran's mine claim and the US naval blockade of Iranian ports keep the market watching Hormuz.",
-      "On Monday Brent fell almost 5% to about $93.75. A Reuters survey showed OPEC output up 1.38 million barrels a day in October, to 22.87 million."
+      "Sheikh Mohammed said UAE foreign trade reached nearly Dh3 trillion ($817 billion) in the first nine months of 2026, up 10% on the year. Exports to the top 10 partners rose 31%. The UAE has signed 38 CEPA deals, with 18 in force."
      ],
-     "soWhat": "New: oil bounced back. Base any December fuel surcharge cut on an average over several weeks, not one day's price.",
-     "source": "Euronews; Khaleej Times (Reuters)",
-     "date": "9–11 Nov",
-     "url": "https://www.euronews.com/2026/11/11/oil-markets-rise-as-investors-monitor-shipping-disruption-in-the-strait-of-hormuz",
-     "image": "https://images.euronews.com/articles/stories/09/98/81/78/1200x675_cmsv2_760d7d7d-d7f7-50ce-8488-87fa5bbf473e-9988178.jpg",
-     "imageCredit": "Euronews"
+     "soWhat": "Trade is growing through the war, rerouted rather than lost. CEPA markets with deals in force are where to push export express and freight.",
+     "source": "The National",
+     "date": "8 Nov",
+     "url": "https://www.thenationalnews.com/business/economy/2026/11/08/sheikh-mohammed-says-uae-nine-month-trade-jumps-to-dh3tn-despite-headwinds/",
+     "image": "https://www.thenationalnews.com/resizer/v2/V6ENAWNTVBGKRBWY7DYNZK7YJI.jpeg?auth=b5e7174005bb4e213fec5f9417400eaf9d4ba2949f46959c8a475b308a62d95b&smart=true&width=1200&height=630",
+     "imageCredit": "The National"
+    },
+    {
+     "hot": false,
+     "headline": "noon's 11.11 sale ends today, with 15-minute delivery on noon Minutes",
+     "body": [
+      "noon's 11.11 sale runs from 5 to 13 November with up to 90% off. It promises 15-minute delivery deals on noon Minutes and 90-minute delivery on Supermall."
+     ],
+     "soWhat": "Returns and late orders follow the sale next week. Watch domestic volumes and reverse-logistics demand from marketplace sellers.",
+     "source": "Gulf News",
+     "date": "4 Nov",
+     "url": "https://gulfnews.com/gn-focus/company-news/the-years-biggest-online-cart-drops-noons-1111-sale-goes-live-across-the-uae-with-up-to-90-off-1.500736223",
+     "image": "https://media.assettype.com/gulfnews%2F2026-11-05%2F4ilyquw6%2Fnoon1.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+     "imageCredit": "Gulf News"
     }
    ]
   }
  ],
  "competitors": [
   {
-   "name": "DHL",
-   "headline": "Moves freight forwarding east, near Khor Fakkan and Fujairah",
+   "name": "DHL Express",
+   "headline": "Signs export-training deal with UAE Ministry of Foreign Trade",
    "body": [
-    "DHL Global Forwarding will strengthen its presence in the east of the UAE, near Khor Fakkan, Dibba and Fujairah, as ports there expand to bypass Hormuz. Its €500 million ($557.5 million) Gulf commitment is unchanged. It has a 20-year joint venture with Etihad Rail for the UAE freight network. MEA CEO Tobias Maier expects the industry to take three to six months to normalise after the conflict ends."
+    "The Ministry of Foreign Trade signed an MoU with DHL Express for an \"Export Readiness\" initiative that aims to train more than 10,000 UAE companies. DHL's GoTrade programme plugs into the ministry's Ready2Trade SME scheme. Training covers export procedures, compliance, documents, trade finance, e-commerce and CEPA opportunities."
    ],
-   "soWhat": "DHL is building east-coast plus rail as its Hormuz bypass. We need our own Khor Fakkan/Fujairah offer before key accounts sign with them.",
-   "source": "The National",
-   "date": "8 Nov",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/",
-   "image": "https://www.thenationalnews.com/resizer/v2/JPLG37MRRJCV7NA2KGJ72J5YFU.webp?auth=48d47187074ba81f3d0b12aab78eaf2839913756ce8cad33926b078b8650e04f&smart=true&width=1200&height=630",
-   "imageCredit": "The National"
+   "soWhat": "DHL gets a government-backed route to 10,000 SME exporters. We need our own SME export offer and a seat with the ministry, or DHL owns this pipeline.",
+   "source": "Mid-East.info",
+   "date": "12 Nov",
+   "url": "https://mid-east.info/ministry-of-foreign-trade-and-dhl-express-strengthen-uae-exporters-readiness-to-compete-and-expand-globally/",
+   "image": "https://i0.wp.com/mid-east.info/wp-content/uploads/2026/11/unnamed-7.jpg?fit=1200%2C827&ssl=1",
+   "imageCredit": "Mid-East.info"
   },
   {
-   "name": "Iron Mountain",
-   "headline": "Opens first UAE warehouse, 37,000 sqm for Unilever at Dubai South",
+   "name": "DP World",
+   "headline": "Over 3,000 trucks and rail on the east-coast bypass",
    "body": [
-    "Iron Mountain opened its first UAE warehousing and logistics site at EZDubai Logistics Hub in Dubai South. It consolidates Unilever's warehousing and fulfilment, with bonded and non-bonded storage, co-packing and set assembly. The site uses drones and robotic inventory counting."
+    "DP World runs a trucking network of more than 3,000 vehicles, 700 owned, moving about 3,500 TEU a day from Fujairah and Khor Fakkan to Jebel Ali. Jafza occupancy is above 90%, and a $250 million Jeddah Logistics Park is due in Q1 2027."
    ],
-   "soWhat": "A new 3PL has won a top FMCG account in Dubai. Contract logistics must defend renewals with automation and value-added services, not just space.",
+   "soWhat": "DP World now sells end-to-end land logistics, not just port handling. Expect it in freight tenders; price our east-coast trucking against it.",
    "source": "Logistics Middle East",
-   "date": "10 Nov",
-   "url": "https://www.logisticsmiddleeast.com/news/iron-mountain-opens-first-uae-logistics-facility-at-dubai-south",
-   "image": "https://www.logisticsmiddleeast.com/cloud/2026/11/09/12x9-44.png",
+   "date": "12 Nov",
+   "url": "https://www.logisticsmiddleeast.com/news/dp-world-moves-1m-teus-through-uae-road-and-rail-corridors",
+   "image": "https://www.logisticsmiddleeast.com/cloud/2026/04/15/Logistics_14.04-2.jpeg",
+   "imageCredit": "Logistics Middle East"
+  },
+  {
+   "name": "Emirates SkyCargo",
+   "headline": "Launches 'AI Tech' product for servers and chips",
+   "body": [
+    "Emirates SkyCargo launched AI Tech for server racks, semiconductors, GPUs and capital equipment, with priority loading, dedicated handling and monitoring from its Dubai command centre. It moved more than 700 tonnes of AI infrastructure in July alone and will have 23 freighters by March 2027."
+   ],
+   "soWhat": "High-value tech is becoming a premium vertical. Freight should pitch data-centre projects with secure handling before carriers sell direct.",
+   "source": "Logistics Middle East",
+   "date": "5 Nov",
+   "url": "https://www.logisticsmiddleeast.com/logistics/emirates-skycargo-launches-new-arm-to-transport-ai-infrastructure",
+   "image": "https://www.logisticsmiddleeast.com/cloud/2026/11/05/Emirates-SkyCargo.png",
    "imageCredit": "Logistics Middle East"
   },
   {
    "name": "Aramex (baseline)",
-   "headline": "CEO: freight rates may take 6–12 months to ease after peace",
+   "headline": "Record Q3: revenue AED1.98bn, up 24%",
    "body": [
-    "Group CEO Amadou Diallo said freight rates should normalise six to 12 months after peace returns. Q2 revenue was Dh1.83 billion, up 22% and a record; first-half revenue was Dh3.43 billion, up 12%. Aramex aims for double-digit growth in 2026 and 2027, using multimodal routes via Turkish ports, Sohar, Salalah and Jeddah."
+    "New baseline, replacing Q2. Q3 revenue was a record AED1.98 billion, up 24%, led by Freight Forwarding; all four segments grew. Net profit was AED47.8 million against AED5.2 million a year ago, and EBIT rose 46% to AED94 million. Gross margin fell to 21% from 23.2% as the mix shifted to freight. Nine-month revenue was AED5.41 billion, up 16%."
    ],
-   "soWhat": "Our public line is that high rates last well past any ceasefire. Pricing should keep contracts consistent with it.",
-   "source": "Khaleej Times",
-   "date": "2 Nov",
-   "url": "https://www.khaleejtimes.com/business/freight-rates-could-take-up-to-a-year-to-ease-after-peace-returns-says-aramex-ceo",
-   "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-01/l60qm1sg/2026newsmlRC2PEOAW6AVA1446714535.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,0,3500,2333",
-   "imageCredit": "Reuters via Khaleej Times"
+   "soWhat": "Freight is driving growth but at thinner margins. Pricing should protect gross margin on forwarding as war-time rates eventually ease.",
+   "source": "Logistics Middle East; CBNME",
+   "date": "10 Nov",
+   "url": "https://www.logisticsmiddleeast.com/news/aramex-quarterly-revenue-breaks-aed1-98bn-as-profit-rebounds",
+   "image": "https://www.logisticsmiddleeast.com/cloud/2025/11/13/Aramex-Logistics-Center.jpg",
+   "imageCredit": "Logistics Middle East"
   }
  ],
  "opportunities": [
   {
-   "title": "Saudi ground bridge",
-   "text": "SkyCargo is off Riyadh and Dammam to 27 November and airlines cannot truck into Riyadh. Sell UAE–Riyadh road freight with clearance via Dammam or Jeddah."
+   "title": "Sell the land bridge",
+   "text": "About 3,500 TEU a day already moves from the east coast to Jebel Ali by road and rail. Package our trucking, bonded transit and rail as a door-to-door Hormuz bypass."
   },
   {
-   "title": "East-coast bypass bundle",
-   "text": "DHL is moving to Khor Fakkan and Fujairah. Package east-coast port handling, rail and trucking into Dubai before customers commit to them."
+   "title": "Riyadh by road",
+   "text": "Etihad cargo is off Riyadh and Dammam to 19 November and SkyCargo to 27 November. Customers need a priced UAE–Riyadh road service now."
   },
   {
-   "title": "Peak air demand",
-   "text": "MESA volumes are up 10% on the year. Shippers short of Gulf capacity will pay for guaranteed uplift."
+   "title": "SME exporters in CEPA markets",
+   "text": "Trade is up 10% and 18 CEPAs are in force. Build an export express bundle for SMEs before DHL's training programme locks them in."
   },
   {
-   "title": "FMCG contract logistics",
-   "text": "Unilever outsourced to a new 3PL in Dubai South. Other FMCG firms may be reviewing their warehouses; get on their tender lists."
+   "title": "AI and data-centre freight",
+   "text": "SkyCargo moved 700+ tonnes of AI kit in July. Target project cargo for UAE data-centre builds with secure handling."
+  },
+  {
+   "title": "Post-sale returns",
+   "text": "noon's 11.11 sale ends today. Offer marketplace sellers reverse-logistics capacity for the returns wave."
   }
  ],
  "watchouts": [
   {
-   "title": "Attacks spread to Oman",
-   "text": "Navigation systems on Didamar were hit. Sohar and Fujairah transfer zones are close by."
+   "title": "Attacks near RAK",
+   "text": "A tanker was hit 14 nautical miles off Ras Al Khaimah. The risk zone is now close to UAE ports."
   },
   {
-   "title": "Jeddah congestion",
-   "text": "Landside delays of about 10–12 days. Rerouted Saudi cargo can get stuck there."
+   "title": "DP World as a logistics rival",
+   "text": "It owns the ports, 700 trucks and rail links. It can bundle and undercut us on land legs."
   },
   {
-   "title": "New contract-logistics rivals",
-   "text": "Iron Mountain and DHL are adding UAE space and automation. Expect price pressure on renewals."
+   "title": "Thinner freight margins",
+   "text": "Our gross margin fell to 21% from 23.2% as freight grew. Rate falls after a ceasefire would squeeze it further."
   },
   {
-   "title": "Oil whipsaw",
-   "text": "Brent dipped below $90 and bounced to $91.71 in a day. A fast surcharge cut could be wrong a week later."
+   "title": "Conflicting oil readings",
+   "text": "One tracker had Brent near $96 while Gulf News reported $91.22. Do not move fuel surcharges on a single reading."
   }
  ],
  "moves": [
   {
-   "title": "Quote Riyadh freight by road via Dammam",
-   "text": "Air is off to 27 November and Riyadh customs is suspended. Publish a road rate and transit time for Riyadh-bound cargo today.",
-   "team": "Sales · Domestic"
-  },
-  {
-   "title": "Hold Gulf sea war-risk charges",
-   "text": "Four tanker strikes in three days plus the Didamar attack. Keep the surcharge and brief key accounts with these facts.",
-   "team": "Pricing"
-  },
-  {
-   "title": "Build an east-coast bypass offer",
-   "text": "Answer DHL's move with a Khor Fakkan/Fujairah port, rail and truck package for key importers.",
+   "title": "Publish an east-coast to Jebel Ali trucking rate card",
+   "text": "Quote Fujairah and Khor Fakkan to Dubai and Abu Dhabi by truck, with transit times, for key importers this week.",
    "team": "Freight · Key accounts"
   },
   {
-   "title": "Use a multi-week average for fuel",
-   "text": "Set the December fuel rule on a 3–4 week Brent average so one day's swing does not trigger a cut.",
+   "title": "Extend the Riyadh road offer to 27 November",
+   "text": "Etihad and Emirates are both off Riyadh. Keep the road rate live at least until SkyCargo returns.",
+   "team": "Sales · Domestic"
+  },
+  {
+   "title": "Hold sea war-risk surcharges",
+   "text": "Transits are down to single digits and attacks have reached RAK. Keep charges and brief key accounts.",
    "team": "Pricing"
   },
   {
-   "title": "Secure peak air allocation",
-   "text": "Gulf capacity is still 18% short. Lock block space for December rather than waiting on spot.",
-   "team": "Express · Air"
+   "title": "Approach the Ministry of Foreign Trade",
+   "text": "Ask to join the Export Readiness programme as a logistics partner alongside DHL.",
+   "team": "Express · E-commerce"
   },
   {
-   "title": "Defend FMCG warehouse renewals",
-   "text": "List FMCG contracts up in the next 12 months and add automation and co-packing to each renewal offer.",
-   "team": "Contract logistics"
+   "title": "Set a margin floor on forwarding deals",
+   "text": "Freight is our growth engine but cuts gross margin. Add a minimum margin check to freight quotes above a set size.",
+   "team": "Pricing"
+  },
+  {
+   "title": "Launch a secure tech-cargo offer",
+   "text": "Package high-value handling for servers and chips and pitch UAE data-centre contractors.",
+   "team": "Freight · Key accounts"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
   {
-   "title": "Iran attacks shipping navigation systems on Oman's Didamar island, sources say",
-   "publication": "Arab News (Reuters)",
-   "date": "11 Nov 2026",
-   "url": "https://www.arabnews.com/middle-east/ukmto-reports-tanker-incident-in-strait-of-hormuz-3011095"
+   "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
+   "publication": "Reuters via Yahoo News",
+   "date": "12 Nov 2026",
+   "url": "https://www.yahoo.com/news/articles/four-tankers-struck-explosions-strait-162708977.html"
   },
   {
-   "title": "UK maritime agency reports incident involving tanker in Strait of Hormuz",
-   "publication": "Anadolu Agency",
-   "date": "11 Nov 2026",
-   "url": "https://www.aa.com.tr/en/middle-east/uk-maritime-agency-reports-incident-involving-tanker-in-strait-of-hormuz/4119781"
+   "title": "Strait of Hormuz News, November 12, 2026: Straits Daily Brief",
+   "publication": "Straits.live",
+   "date": "12 Nov 2026",
+   "url": "https://straits.live/briefs/2026-11-12"
   },
   {
-   "title": "Oil prices rise as investors monitor shipping disruption in the Strait of Hormuz",
-   "publication": "Euronews",
-   "date": "11 Nov 2026",
-   "url": "https://www.euronews.com/2026/11/11/oil-markets-rise-as-investors-monitor-shipping-disruption-in-the-strait-of-hormuz"
+   "title": "US-Israel-Iran war live updates",
+   "publication": "Gulf News",
+   "date": "12 Nov 2026",
+   "url": "https://gulfnews.com/world/mena/us-israel-iran-war-tehran-threatens-american-bases-from-middle-east-to-europe-houthi-missile-debris-lands-in-makkah-eisenkot-cautions-netanyahu-1.500744472"
   },
   {
-   "title": "Oil falls almost 5% as Trump signals restraint on Iran",
-   "publication": "Khaleej Times (Reuters)",
-   "date": "9 Nov 2026",
-   "url": "https://www.khaleejtimes.com/business/oil-falls-almost-5-as-trump-signals-restraint-on-iran"
+   "title": "DP World moves 1m TEUs through UAE road and rail corridors",
+   "publication": "Logistics Middle East",
+   "date": "12 Nov 2026",
+   "url": "https://www.logisticsmiddleeast.com/news/dp-world-moves-1m-teus-through-uae-road-and-rail-corridors"
   },
   {
-   "title": "Middle East Operational Update - Saudi Arabia Transportation Disruptions",
-   "publication": "Expeditors",
-   "date": "4 Nov 2026",
-   "url": "https://info.expeditors.com/operational-impact/middle-east-operational-update-saudi-arabia-transportation-disruptions-november-2026"
+   "title": "UAE airlines adjust Saudi Arabia flights as cancellations continue",
+   "publication": "The National",
+   "date": "12 Nov 2026",
+   "url": "https://www.thenationalnews.com/travel/2026/11/12/uae-airlines-adjust-saudi-arabia-flights-as-cancellations-continue/"
   },
   {
-   "title": "Diwali lifts MESA air cargo volumes 10% despite Gulf conflict",
-   "publication": "ITLN",
-   "date": "9 Nov 2026",
-   "url": "https://www.itln.in/aviation/diwali-lifts-mesa-air-cargo-volumes-10-despite-gulf-conflict-1361243"
-  },
-  {
-   "title": "DHL to boost network in eastern UAE amid regional uncertainty",
+   "title": "Sheikh Mohammed says UAE nine-month trade approaches Dh3tn",
    "publication": "The National",
    "date": "8 Nov 2026",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/"
+   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/sheikh-mohammed-says-uae-nine-month-trade-jumps-to-dh3tn-despite-headwinds/"
   },
   {
-   "title": "Iron Mountain opens first UAE logistics facility at Dubai South",
+   "title": "noon's 11.11 Sale goes live across the UAE with up to 90% off",
+   "publication": "Gulf News",
+   "date": "4 Nov 2026",
+   "url": "https://gulfnews.com/gn-focus/company-news/the-years-biggest-online-cart-drops-noons-1111-sale-goes-live-across-the-uae-with-up-to-90-off-1.500736223"
+  },
+  {
+   "title": "Ministry of Foreign Trade and DHL Express strengthen UAE exporters' readiness",
+   "publication": "Mid-East.info",
+   "date": "12 Nov 2026",
+   "url": "https://mid-east.info/ministry-of-foreign-trade-and-dhl-express-strengthen-uae-exporters-readiness-to-compete-and-expand-globally/"
+  },
+  {
+   "title": "Emirates SkyCargo launches new arm to transport AI infrastructure",
+   "publication": "Logistics Middle East",
+   "date": "5 Nov 2026",
+   "url": "https://www.logisticsmiddleeast.com/logistics/emirates-skycargo-launches-new-arm-to-transport-ai-infrastructure"
+  },
+  {
+   "title": "Emirates SkyCargo launches specialised AI tech shipment service",
+   "publication": "Air Cargo News",
+   "date": "3 Nov 2026",
+   "url": "https://www.aircargonews.net/freighter-operator/2026/11/emirates-skycargo-launches-specialised-ai-tech-shipment-service/"
+  },
+  {
+   "title": "Aramex quarterly revenue breaks AED1.98bn as profit rebounds",
    "publication": "Logistics Middle East",
    "date": "10 Nov 2026",
-   "url": "https://www.logisticsmiddleeast.com/news/iron-mountain-opens-first-uae-logistics-facility-at-dubai-south"
+   "url": "https://www.logisticsmiddleeast.com/news/aramex-quarterly-revenue-breaks-aed1-98bn-as-profit-rebounds"
   },
   {
-   "title": "Freight rates could take up to a year to ease after war ends: Aramex CEO",
-   "publication": "Khaleej Times",
-   "date": "2 Nov 2026",
-   "url": "https://www.khaleejtimes.com/business/freight-rates-could-take-up-to-a-year-to-ease-after-peace-returns-says-aramex-ceo"
+   "title": "Aramex releases financial results for the first nine months of 2026",
+   "publication": "CBNME",
+   "date": "10 Nov 2026",
+   "url": "https://www.cbnme.com/logistics-news/aramex-releases-financial-results-for-the-first-nine-months-of-2026/"
   }
  ]
 }
