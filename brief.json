@@ -1,46 +1,40 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-11-13",
- "date": "Friday 13 November 2026",
+ "isoDate": "2026-11-16",
+ "date": "Monday 16 November 2026",
  "title": "UAE Logistics Brief",
- "lede": "Iran says four more tankers were hit in Hormuz on Thursday, and Hormuz transits are down to a handful a day. The UAE answer is land: DP World has now moved over one million containers from the east coast by road and rail, while Saudi air links stay cut, with Etihad cargo off Riyadh and Dammam until 19 November.",
+ "lede": "Both Gulf sea exits are now contested: the Houthis hold the Bab el-Mandeb after Yemeni government forces pulled back on Sunday, and another tanker was attacked near Hormuz. In the air, Gulf capacity is still 18% below pre-war and Middle East spot rates are up 61-73% on the year, while Qatar Airways is back in Riyadh before the UAE carriers.",
  "gauges": [
   {
-   "value": "3",
-   "label": "Hormuz transits on 8 Nov",
-   "note": "Against a pre-crisis baseline of 85 a day (IMF PortWatch via Straits.live, 12 Nov)",
-   "tone": "bad"
-  },
-  {
-   "value": "1m+ TEU",
-   "label": "Moved by DP World from UAE east coast by road and rail",
-   "note": "Early March to end October; about 3,500 TEU a day (Logistics Middle East, 12 Nov)",
+   "value": "1.7bn",
+   "label": "Barrels moved through Hormuz under US protection",
+   "note": "CENTCOM figure, Saturday 14 Nov; blockade on Iran stays (Fox News, 15 Nov)",
    "tone": "neutral"
   },
   {
-   "value": "19 Nov",
-   "label": "Etihad Riyadh and Dammam passenger and cargo flights cancelled until",
-   "note": "Jeddah back at up to four flights a day (The National, 12 Nov)",
+   "value": "-18%",
+   "label": "Arabian Gulf air cargo capacity vs pre-war",
+   "note": "Riyadh flights still near shutdown (WorldACD via STAT Times, 9 Nov)",
    "tone": "bad"
   },
   {
-   "value": "$91.22",
-   "label": "Brent January futures, Thursday midday Singapore",
-   "note": "Down 1.54%, heading for a two-month low (Gulf News, 12 Nov)",
+   "value": "$3.67/kg",
+   "label": "Worldwide average air spot rate, October",
+   "note": "Up 37% on the year; tonnage up 6% (WorldACD via STAT Times, 9 Nov)",
+   "tone": "bad"
+  },
+  {
+   "value": "+73%",
+   "label": "Middle East & South Asia air spot rates, year on year",
+   "note": "Week 46; worldwide spot $3.14/kg, up 25% (Air Cargo Week)",
+   "tone": "bad"
+  },
+  {
+   "value": "1,000",
+   "label": "Trucks Gulftainer is buying for the UAE east coast",
+   "note": "First 450 before end-November, rest in Q1 2027 (TradeArabia, 6 Nov)",
    "tone": "neutral"
-  },
-  {
-   "value": "AED1.98bn",
-   "label": "Aramex Q3 revenue, a record",
-   "note": "Up 24% on the year; net profit AED47.8m vs AED5.2m (Logistics Middle East, 10 Nov)",
-   "tone": "good"
-  },
-  {
-   "value": "Dh3tn",
-   "label": "UAE foreign trade, first nine months of 2026",
-   "note": "Up 10% on the year, despite Hormuz (The National, 8 Nov)",
-   "tone": "good"
   }
  ],
  "groups": [
@@ -49,31 +43,31 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Iran says four more tankers hit in Hormuz; transits down to a handful",
+     "headline": "Houthis take control of the Bab el-Mandeb as Yemeni forces withdraw",
      "body": [
-      "Iran's military said four oil tankers were hit by explosions in the Strait of Hormuz on Thursday after ignoring warnings. Reuters could not verify the claim. On Wednesday a tanker was hit by a projectile about 14 nautical miles northwest of Ras Al Khaimah, causing an engine-room fire; UKMTO said all crew were evacuated.",
-      "At least 10 ships were hit in the first 10 days of November, after 37 attacks in October, according to the Washington Institute. IMF PortWatch counted just 3 transits on 8 November, against 85 a day before the crisis. CENTCOM says it is enforcing an \"ironclad naval blockade\" on Iran."
+      "Saudi-backed Yemeni government forces are pulling back from Dhubab Airport and the Bab el-Mandeb area toward Aden, Reuters reported on Sunday. That leaves the Iran-backed Houthis in control of the strait at the southern end of the Red Sea.",
+      "The Houthis have already struck Saudi ports, airports and Aramco sites, including Yanbu. With Iran still disrupting Hormuz, Reuters says this would further isolate Gulf producers from their main shipping routes."
      ],
-     "soWhat": "New: the attacks are now off Ras Al Khaimah, inside UAE waters' approaches, and traffic is close to zero. Sea war-risk charges stay; there is no case for cuts this month.",
-     "source": "Reuters via Yahoo News; Straits.live; Gulf News",
-     "date": "12 Nov",
-     "url": "https://www.yahoo.com/news/articles/four-tankers-struck-explosions-strait-162708977.html",
-     "image": "https://media.assettype.com/gulfnews%2F2026-11-12%2F1apqpv76%2FANI_20261111201556.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-     "imageCredit": "ANI via Gulf News"
+     "soWhat": "New: the Red Sea exit is now in hostile hands too. Routings via Jeddah and Saudi west-coast ports, used as a Hormuz bypass, carry more risk.",
+     "source": "Reuters via Jerusalem Post",
+     "date": "15 Nov",
+     "url": "https://www.jpost.com/middle-east/article-914920",
+     "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/740242",
+     "imageCredit": "Jerusalem Post"
     },
     {
      "hot": true,
-     "headline": "DP World moves over 1 million TEU around Hormuz by road and rail",
+     "headline": "Tanker attacked near Hormuz; Bahrain shoots down Iranian drones",
      "body": [
-      "DP World moved more than one million TEU from UAE east-coast ports to Jebel Ali and domestic markets between early March and end October. Its land corridors carry about 3,500 TEU a day, using more than 3,000 trucks, 700 of them its own. Jebel Ali Rail Terminal is open and Etihad Rail now links Jebel Ali to the national network.",
-      "DP World has brought forward its new Fujairah terminals to 18–24 months, from 24–30. Al Rugaylat will handle about 2.5 million TEU a year. Jeddah South Container Terminal now has 4 million TEU of capacity, and Sohar and Duqm are also in use."
+      "UKMTO said a tanker was attacked on Sunday while sailing east in the Gulf just before entering Hormuz. The crew are safe. Bahrain's air defences intercepted Iranian drones early on Sunday, its first interceptions since September; the IRGC said it fired six drones at a US radar site.",
+      "CENTCOM said on Saturday that more than 1.7 billion barrels of crude have moved through Hormuz under US protection. The US naval blockade on Iran stays in place. Iran's foreign minister is due in Muscat on Tuesday for talks with Oman."
      ],
-     "soWhat": "The east-coast-to-Jebel Ali land bridge is now the main UAE import route. Our trucking and rail capacity on it is a product we can sell, not just a cost.",
-     "source": "Logistics Middle East",
-     "date": "12 Nov",
-     "url": "https://www.logisticsmiddleeast.com/news/dp-world-moves-1m-teus-through-uae-road-and-rail-corridors",
-     "image": "https://www.logisticsmiddleeast.com/cloud/2026/04/15/Logistics_14.04-2.jpeg",
-     "imageCredit": "Logistics Middle East"
+     "soWhat": "Attacks went on over the weekend. Tuesday's Muscat talks are the next thing that could move war-risk costs, up or down.",
+     "source": "Fox News",
+     "date": "15 Nov",
+     "url": "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
+     "image": "https://assets.foxnews.com/liveblog/fn/prod/images/2026/11/1193bfa4e8f0af124e28284424ca137d.jpg",
+     "imageCredit": "Fox News"
     }
    ]
   },
@@ -82,17 +76,31 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Etihad cargo off Riyadh and Dammam until 19 November",
+     "headline": "Gulf air capacity still 18% down; Middle East rates up 61-73%",
      "body": [
-      "Etihad has cancelled all passenger and cargo flights from Abu Dhabi to Riyadh and Dammam through Thursday 19 November. Abu Dhabi–Jeddah is back at up to four flights a day. Emirates has Riyadh and Dammam cancelled until at least 13 November and flies Jeddah twice a day.",
-      "flydubai has suspended Riyadh with no return date. Riyadh's King Khalid airport has only partly resumed after an October suspension that followed attacks on it."
+      "WorldACD says Arabian Gulf capacity is still 18% below pre-war levels, with flights to and from Riyadh near shutdown. The worldwide average spot rate was $3.67/kg in October, up 37% on the year, and Middle East & South Asia rates rose 61% in the latest two weeks.",
+      "In week 46, Europe-origin spot rates jumped 10% on the week to $2.71/kg. Middle East & South Asia spot rates were 73% above last year."
      ],
-     "soWhat": "New: Etihad's cargo halt adds to SkyCargo's suspension to 27 November. Both main UAE carriers are now off Riyadh, so road freight stays the only reliable option.",
-     "source": "The National",
-     "date": "12 Nov",
-     "url": "https://www.thenationalnews.com/travel/2026/11/12/uae-airlines-adjust-saudi-arabia-flights-as-cancellations-continue/",
-     "image": "https://www.thenationalnews.com/resizer/v2/WQYWVB6SMAAZ4XZAMN3MS4JTEI.jpg?auth=10f8dfd659f070c7fcc7eef6bf86653cf11e384db3ed7357edd20441a1b64476&focal=2093%2C1414&width=1200&height=630",
-     "imageCredit": "The National"
+     "soWhat": "Air capacity in and out of the Gulf is still scarce and expensive. This is not the time to discount air rates.",
+     "source": "STAT Times; Air Cargo Week",
+     "date": "9 Nov",
+     "url": "https://www.stattimes.com/amp/air-cargo/global-air-cargo-tonnages-up-6-in-oct-despite-drop-in-china-europe-volumes-1361242",
+     "image": "https://www.stattimes.com/h-upload/2026/11/09/103108-worldacd-7-nov-2026.jpg",
+     "imageCredit": "STAT Times"
+    },
+    {
+     "hot": false,
+     "headline": "Qatar Airways back in Riyadh; UAE carriers still out",
+     "body": [
+      "Qatar Airways resumed daily Riyadh flights on 13 November and planned Dammam for 14 November, India News Network reported. Etihad passenger and cargo flights to Riyadh and Dammam stay cancelled until at least 19 November.",
+      "Emirates has not confirmed a restart. Its booking system showed Riyadh and Dammam flights scheduled from 28 November, Deep Arrival reported."
+     ],
+     "soWhat": "New: a Gulf rival is flying Riyadh again while UAE belly capacity is not. UAE-Riyadh road stays our main option for at least two more weeks.",
+     "source": "India News Network; Deep Arrival",
+     "date": "14 Nov",
+     "url": "https://www.indianewsnetwork.com/en/disruptions-continue-uae-flights-saudi-arabia-amid-tensions-20261114",
+     "image": "https://cdn.optcms.com/www.indianewsnetwork.com/assets/2026/202611/20261114-img-20261114-ef7b7a5b38997f97.jpg",
+     "imageCredit": "India News Network"
     }
    ]
   },
@@ -101,232 +109,196 @@
    "stories": [
     {
      "hot": false,
-     "headline": "UAE trade near Dh3 trillion in nine months, up 10%",
+     "headline": "Gulftainer buys 1,000 trucks and plans auto logistics park in KAFEZ",
      "body": [
-      "Sheikh Mohammed said UAE foreign trade reached nearly Dh3 trillion ($817 billion) in the first nine months of 2026, up 10% on the year. Exports to the top 10 partners rose 31%. The UAE has signed 38 CEPA deals, with 18 in force."
+      "Gulftainer signed with United Al Saqer Heavy Equipment for 1,000 trucks. The first 450 arrive before end-November and the rest in Q1 2027. United Al Saqer will run the largest truck workshop on the UAE east coast, at Al Dhaid in KAFEZ.",
+      "The two also agreed to build a 100,000 sq m automotive logistics park in KAFEZ."
      ],
-     "soWhat": "Trade is growing through the war, rerouted rather than lost. CEPA markets with deals in force are where to push export express and freight.",
-     "source": "The National",
-     "date": "8 Nov",
-     "url": "https://www.thenationalnews.com/business/economy/2026/11/08/sheikh-mohammed-says-uae-nine-month-trade-jumps-to-dh3tn-despite-headwinds/",
-     "image": "https://www.thenationalnews.com/resizer/v2/V6ENAWNTVBGKRBWY7DYNZK7YJI.jpeg?auth=b5e7174005bb4e213fec5f9417400eaf9d4ba2949f46959c8a475b308a62d95b&smart=true&width=1200&height=630",
-     "imageCredit": "The National"
-    },
-    {
-     "hot": false,
-     "headline": "noon's 11.11 sale ends today, with 15-minute delivery on noon Minutes",
-     "body": [
-      "noon's 11.11 sale runs from 5 to 13 November with up to 90% off. It promises 15-minute delivery deals on noon Minutes and 90-minute delivery on Supermall."
-     ],
-     "soWhat": "Returns and late orders follow the sale next week. Watch domestic volumes and reverse-logistics demand from marketplace sellers.",
-     "source": "Gulf News",
-     "date": "4 Nov",
-     "url": "https://gulfnews.com/gn-focus/company-news/the-years-biggest-online-cart-drops-noons-1111-sale-goes-live-across-the-uae-with-up-to-90-off-1.500736223",
-     "image": "https://media.assettype.com/gulfnews%2F2026-11-05%2F4ilyquw6%2Fnoon1.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-     "imageCredit": "Gulf News"
+     "soWhat": "A second port operator is building its own truck fleet for the east-coast routes. Expect more land-bridge capacity and pressure on trucking rates.",
+     "source": "TradeArabia",
+     "date": "6 Nov",
+     "url": "https://tradearabia.com/News/489328/Gulftainer-announces-1-000-truck-deal-major-automotive-logistics-park",
+     "image": "https://img.tradearabia.com//source/TA/2026/11/06/TA_20261106102124.jpg",
+     "imageCredit": "TradeArabia"
     }
    ]
   }
  ],
  "competitors": [
   {
-   "name": "DHL Express",
-   "headline": "Signs export-training deal with UAE Ministry of Foreign Trade",
-   "body": [
-    "The Ministry of Foreign Trade signed an MoU with DHL Express for an \"Export Readiness\" initiative that aims to train more than 10,000 UAE companies. DHL's GoTrade programme plugs into the ministry's Ready2Trade SME scheme. Training covers export procedures, compliance, documents, trade finance, e-commerce and CEPA opportunities."
-   ],
-   "soWhat": "DHL gets a government-backed route to 10,000 SME exporters. We need our own SME export offer and a seat with the ministry, or DHL owns this pipeline.",
-   "source": "Mid-East.info",
-   "date": "12 Nov",
-   "url": "https://mid-east.info/ministry-of-foreign-trade-and-dhl-express-strengthen-uae-exporters-readiness-to-compete-and-expand-globally/",
-   "image": "https://i0.wp.com/mid-east.info/wp-content/uploads/2026/11/unnamed-7.jpg?fit=1200%2C827&ssl=1",
-   "imageCredit": "Mid-East.info"
-  },
-  {
-   "name": "DP World",
-   "headline": "Over 3,000 trucks and rail on the east-coast bypass",
-   "body": [
-    "DP World runs a trucking network of more than 3,000 vehicles, 700 owned, moving about 3,500 TEU a day from Fujairah and Khor Fakkan to Jebel Ali. Jafza occupancy is above 90%, and a $250 million Jeddah Logistics Park is due in Q1 2027."
-   ],
-   "soWhat": "DP World now sells end-to-end land logistics, not just port handling. Expect it in freight tenders; price our east-coast trucking against it.",
-   "source": "Logistics Middle East",
-   "date": "12 Nov",
-   "url": "https://www.logisticsmiddleeast.com/news/dp-world-moves-1m-teus-through-uae-road-and-rail-corridors",
-   "image": "https://www.logisticsmiddleeast.com/cloud/2026/04/15/Logistics_14.04-2.jpeg",
-   "imageCredit": "Logistics Middle East"
-  },
-  {
    "name": "Emirates SkyCargo",
-   "headline": "Launches 'AI Tech' product for servers and chips",
+   "headline": "Adds Milan-New York freighter after 52% revenue jump",
    "body": [
-    "Emirates SkyCargo launched AI Tech for server racks, semiconductors, GPUs and capital equipment, with priority loading, dedicated handling and monitoring from its Dubai command centre. It moved more than 700 tonnes of AI infrastructure in July alone and will have 23 freighters by March 2027."
+    "From 5 December SkyCargo will fly a weekly Boeing 777 freighter from Milan to New York JFK, about 100 tonnes a flight, plus a weekly Milan-Dubai freighter. Its freighter network grew from over 40 destinations in March to over 60 in July.",
+    "In April-September, cargo revenue rose 52% while tonnage fell 1% to 1.24 million tonnes. The chairman said jet fuel prices doubled on the year."
    ],
-   "soWhat": "High-value tech is becoming a premium vertical. Freight should pitch data-centre projects with secure handling before carriers sell direct.",
-   "source": "Logistics Middle East",
-   "date": "5 Nov",
-   "url": "https://www.logisticsmiddleeast.com/logistics/emirates-skycargo-launches-new-arm-to-transport-ai-infrastructure",
-   "image": "https://www.logisticsmiddleeast.com/cloud/2026/11/05/Emirates-SkyCargo.png",
-   "imageCredit": "Logistics Middle East"
+   "soWhat": "SkyCargo is earning on yield, not volume, and flying freighters outside the Gulf. Our air buy rates from Dubai will stay high; protect our own margins.",
+   "source": "Emirates; STAT Times",
+   "date": "10 Nov",
+   "url": "https://www.emirates.com/media-centre/emirates-skycargo-introduces-new-freighter-service-connecting-milan-with-new-york/",
+   "image": "https://content.presspage.com/uploads/2431/00c276b8-78c2-4de4-bc46-452b6068829b/1920_emiratesskycargoaddsliegebelgiumtoitsfreighternetwork.jpg?10000",
+   "imageCredit": "Emirates"
+  },
+  {
+   "name": "Gulftainer",
+   "headline": "Moves into trucking with a 1,000-vehicle fleet",
+   "body": [
+    "Gulftainer, which runs Khor Fakkan and Sharjah ports, is buying 1,000 trucks, 450 of them by end-November. It follows DP World, which runs more than 3,000 trucks on the east-coast bypass."
+   ],
+   "soWhat": "Both big port groups now sell land transport with their berths. We compete on door-to-door service and customs, not on the truck leg alone.",
+   "source": "TradeArabia",
+   "date": "6 Nov",
+   "url": "https://tradearabia.com/News/489328/Gulftainer-announces-1-000-truck-deal-major-automotive-logistics-park"
   },
   {
    "name": "Aramex (baseline)",
-   "headline": "Record Q3: revenue AED1.98bn, up 24%",
+   "headline": "Launches Data Center Logistics across GCC, Asia and US",
    "body": [
-    "New baseline, replacing Q2. Q3 revenue was a record AED1.98 billion, up 24%, led by Freight Forwarding; all four segments grew. Net profit was AED47.8 million against AED5.2 million a year ago, and EBIT rose 46% to AED94 million. Gross margin fell to 21% from 23.2% as the mix shifted to freight. Nine-month revenue was AED5.41 billion, up 16%."
+    "Aramex Data Center Logistics handles construction kit, AI racks and on-site delivery for data centres. It starts in the GCC, Southeast Asia, Taiwan and the US South, naming Abu Dhabi, Riyadh, Johor, Texas and Louisiana. A crated AI rack weighs about 1.75 tonnes. The GCC network has more than 7,000 people."
    ],
-   "soWhat": "Freight is driving growth but at thinner margins. Pricing should protect gross margin on forwarding as war-time rates eventually ease.",
-   "source": "Logistics Middle East; CBNME",
-   "date": "10 Nov",
-   "url": "https://www.logisticsmiddleeast.com/news/aramex-quarterly-revenue-breaks-aed1-98bn-as-profit-rebounds",
-   "image": "https://www.logisticsmiddleeast.com/cloud/2025/11/13/Aramex-Logistics-Center.jpg",
-   "imageCredit": "Logistics Middle East"
+   "soWhat": "We now have a product to answer SkyCargo's AI Tech launch. Sales needs a target list of Abu Dhabi and Riyadh data-centre projects.",
+   "source": "TradeArabia; GDN",
+   "date": "4 Nov",
+   "url": "https://tradearabia.com/News/489162/Aramex-launches-specialist-logistics-service-for-AI-data-centres",
+   "image": "https://img.tradearabia.com/source/TA/2026/11/04/TA_20261104011753.jpg",
+   "imageCredit": "TradeArabia"
   }
  ],
  "opportunities": [
   {
-   "title": "Sell the land bridge",
-   "text": "About 3,500 TEU a day already moves from the east coast to Jebel Ali by road and rail. Package our trucking, bonded transit and rail as a door-to-door Hormuz bypass."
+   "title": "Riyadh by road, for longer",
+   "text": "Etihad is off Riyadh and Dammam to at least 19 November and Emirates shows a 28 November restart. Keep selling the UAE-Riyadh road service."
   },
   {
-   "title": "Riyadh by road",
-   "text": "Etihad cargo is off Riyadh and Dammam to 19 November and SkyCargo to 27 November. Customers need a priced UAE–Riyadh road service now."
+   "title": "Air yield on Gulf lanes",
+   "text": "Gulf capacity is 18% down and Middle East spot rates are up 61-73%. Sell space we hold at market rates."
   },
   {
-   "title": "SME exporters in CEPA markets",
-   "text": "Trade is up 10% and 18 CEPAs are in force. Build an export express bundle for SMEs before DHL's training programme locks them in."
+   "title": "Data-centre projects",
+   "text": "Our Data Center Logistics product names Abu Dhabi and Riyadh. Pitch it to contractors before SkyCargo sells direct."
   },
   {
-   "title": "AI and data-centre freight",
-   "text": "SkyCargo moved 700+ tonnes of AI kit in July. Target project cargo for UAE data-centre builds with secure handling."
-  },
-  {
-   "title": "Post-sale returns",
-   "text": "noon's 11.11 sale ends today. Offer marketplace sellers reverse-logistics capacity for the returns wave."
+   "title": "More east-coast trucks to buy from",
+   "text": "Gulftainer adds 450 trucks this month. More capacity can lower our subcontract trucking cost on the land bridge."
   }
  ],
  "watchouts": [
   {
-   "title": "Attacks near RAK",
-   "text": "A tanker was hit 14 nautical miles off Ras Al Khaimah. The risk zone is now close to UAE ports."
+   "title": "Red Sea exit in Houthi hands",
+   "text": "Bab el-Mandeb control raises risk on Red Sea and Saudi west-coast routings we use around Hormuz."
   },
   {
-   "title": "DP World as a logistics rival",
-   "text": "It owns the ports, 700 trucks and rail links. It can bundle and undercut us on land legs."
+   "title": "Attacks continue",
+   "text": "A tanker was hit near Hormuz and Bahrain shot down drones on Sunday. Muscat talks on Tuesday could swing costs."
   },
   {
-   "title": "Thinner freight margins",
-   "text": "Our gross margin fell to 21% from 23.2% as freight grew. Rate falls after a ceasefire would squeeze it further."
+   "title": "Doha takes Saudi cargo",
+   "text": "Qatar Airways flies Riyadh again while UAE carriers do not. Saudi-bound air shippers may route via Doha."
   },
   {
-   "title": "Conflicting oil readings",
-   "text": "One tracker had Brent near $96 while Gulf News reported $91.22. Do not move fuel surcharges on a single reading."
+   "title": "Port groups on the land leg",
+   "text": "DP World and Gulftainer both now run big truck fleets. Expect bundled port-plus-truck offers in freight tenders."
   }
  ],
  "moves": [
   {
-   "title": "Publish an east-coast to Jebel Ali trucking rate card",
-   "text": "Quote Fujairah and Khor Fakkan to Dubai and Abu Dhabi by truck, with transit times, for key importers this week.",
+   "title": "Check Red Sea routings this week",
+   "text": "List live shipments routed via Jeddah or the Red Sea and brief key accounts on the Bab el-Mandeb risk.",
    "team": "Freight · Key accounts"
   },
   {
-   "title": "Extend the Riyadh road offer to 27 November",
-   "text": "Etihad and Emirates are both off Riyadh. Keep the road rate live at least until SkyCargo returns.",
+   "title": "Keep the Riyadh road rate live to 28 November",
+   "text": "Etihad is out to 19 November and Emirates shows 28 November. Extend the offer and tell customers.",
    "team": "Sales · Domestic"
   },
   {
-   "title": "Hold sea war-risk surcharges",
-   "text": "Transits are down to single digits and attacks have reached RAK. Keep charges and brief key accounts.",
+   "title": "Hold Gulf air surcharges",
+   "text": "Capacity is 18% down and rates are still rising. No air rate cuts on Gulf lanes this month.",
    "team": "Pricing"
   },
   {
-   "title": "Approach the Ministry of Foreign Trade",
-   "text": "Ask to join the Export Readiness programme as a logistics partner alongside DHL.",
-   "team": "Express · E-commerce"
-  },
-  {
-   "title": "Set a margin floor on forwarding deals",
-   "text": "Freight is our growth engine but cuts gross margin. Add a minimum margin check to freight quotes above a set size.",
-   "team": "Pricing"
-  },
-  {
-   "title": "Launch a secure tech-cargo offer",
-   "text": "Package high-value handling for servers and chips and pitch UAE data-centre contractors.",
+   "title": "Re-tender east-coast trucking",
+   "text": "Ask Gulftainer's partner and other hauliers for rates as the first 450 trucks arrive.",
    "team": "Freight · Key accounts"
+  },
+  {
+   "title": "Build a data-centre target list",
+   "text": "Map Abu Dhabi and Riyadh data-centre builds and pitch Data Center Logistics to their contractors.",
+   "team": "Contract logistics"
+  },
+  {
+   "title": "Prepare two rate scenarios for Muscat",
+   "text": "Draft surcharge settings for talks failing or progressing, so we can move within a day.",
+   "team": "Pricing"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
   {
-   "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
-   "publication": "Reuters via Yahoo News",
+   "title": "Yemeni forces withdraw from Bab el-Mandeb Strait, leaving Iran-backed Houthis in control",
+   "publication": "Jerusalem Post (Reuters)",
+   "date": "15 Nov 2026",
+   "url": "https://www.jpost.com/middle-east/article-914920"
+  },
+  {
+   "title": "Bahrain air defenses foil IRGC strike on US base radar installations",
+   "publication": "Fox News",
+   "date": "15 Nov 2026",
+   "url": "https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15"
+  },
+  {
+   "title": "Global air cargo tonnages up 6% in Oct despite drop in China-Europe volumes",
+   "publication": "STAT Times",
+   "date": "9 Nov 2026",
+   "url": "https://www.stattimes.com/amp/air-cargo/global-air-cargo-tonnages-up-6-in-oct-despite-drop-in-china-europe-volumes-1361242"
+  },
+  {
+   "title": "Rates spike from Europe to Americas lifts global prices",
+   "publication": "Air Cargo Week",
+   "date": "Nov 2026 (week 46)",
+   "url": "https://aircargoweek.com/rates-spike-from-europe-to-americas-lifts-global-prices/"
+  },
+  {
+   "title": "Disruptions Continue for UAE Flights to Saudi Arabia Amid Tensions",
+   "publication": "India News Network",
+   "date": "14 Nov 2026",
+   "url": "https://www.indianewsnetwork.com/en/disruptions-continue-uae-flights-saudi-arabia-amid-tensions-20261114"
+  },
+  {
+   "title": "Emirates Keeps Riyadh and Dammam Off to Late November",
+   "publication": "Deep Arrival",
    "date": "12 Nov 2026",
-   "url": "https://www.yahoo.com/news/articles/four-tankers-struck-explosions-strait-162708977.html"
+   "url": "https://deeparrival.com/news/emirates-riyadh-dammam-off-late-november-2026/"
   },
   {
-   "title": "Strait of Hormuz News, November 12, 2026: Straits Daily Brief",
-   "publication": "Straits.live",
-   "date": "12 Nov 2026",
-   "url": "https://straits.live/briefs/2026-11-12"
+   "title": "Gulftainer announces 1,000-truck deal; major automotive logistics park",
+   "publication": "TradeArabia",
+   "date": "6 Nov 2026",
+   "url": "https://tradearabia.com/News/489328/Gulftainer-announces-1-000-truck-deal-major-automotive-logistics-park"
   },
   {
-   "title": "US-Israel-Iran war live updates",
-   "publication": "Gulf News",
-   "date": "12 Nov 2026",
-   "url": "https://gulfnews.com/world/mena/us-israel-iran-war-tehran-threatens-american-bases-from-middle-east-to-europe-houthi-missile-debris-lands-in-makkah-eisenkot-cautions-netanyahu-1.500744472"
+   "title": "Emirates SkyCargo introduces new freighter service connecting Milan with New York",
+   "publication": "Emirates",
+   "date": "10 Nov 2026",
+   "url": "https://www.emirates.com/media-centre/emirates-skycargo-introduces-new-freighter-service-connecting-milan-with-new-york/"
   },
   {
-   "title": "DP World moves 1m TEUs through UAE road and rail corridors",
-   "publication": "Logistics Middle East",
-   "date": "12 Nov 2026",
-   "url": "https://www.logisticsmiddleeast.com/news/dp-world-moves-1m-teus-through-uae-road-and-rail-corridors"
-  },
-  {
-   "title": "UAE airlines adjust Saudi Arabia flights as cancellations continue",
-   "publication": "The National",
-   "date": "12 Nov 2026",
-   "url": "https://www.thenationalnews.com/travel/2026/11/12/uae-airlines-adjust-saudi-arabia-flights-as-cancellations-continue/"
-  },
-  {
-   "title": "Sheikh Mohammed says UAE nine-month trade approaches Dh3tn",
-   "publication": "The National",
-   "date": "8 Nov 2026",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/sheikh-mohammed-says-uae-nine-month-trade-jumps-to-dh3tn-despite-headwinds/"
-  },
-  {
-   "title": "noon's 11.11 Sale goes live across the UAE with up to 90% off",
-   "publication": "Gulf News",
-   "date": "4 Nov 2026",
-   "url": "https://gulfnews.com/gn-focus/company-news/the-years-biggest-online-cart-drops-noons-1111-sale-goes-live-across-the-uae-with-up-to-90-off-1.500736223"
-  },
-  {
-   "title": "Ministry of Foreign Trade and DHL Express strengthen UAE exporters' readiness",
-   "publication": "Mid-East.info",
-   "date": "12 Nov 2026",
-   "url": "https://mid-east.info/ministry-of-foreign-trade-and-dhl-express-strengthen-uae-exporters-readiness-to-compete-and-expand-globally/"
-  },
-  {
-   "title": "Emirates SkyCargo launches new arm to transport AI infrastructure",
-   "publication": "Logistics Middle East",
+   "title": "Emirates SkyCargo revenue soars 52% despite volume dip",
+   "publication": "STAT Times",
    "date": "5 Nov 2026",
-   "url": "https://www.logisticsmiddleeast.com/logistics/emirates-skycargo-launches-new-arm-to-transport-ai-infrastructure"
+   "url": "https://www.stattimes.com/amp/air-cargo/emirates-skycargo-revenue-soars-52-despite-volume-dip-1361218"
   },
   {
-   "title": "Emirates SkyCargo launches specialised AI tech shipment service",
-   "publication": "Air Cargo News",
-   "date": "3 Nov 2026",
-   "url": "https://www.aircargonews.net/freighter-operator/2026/11/emirates-skycargo-launches-specialised-ai-tech-shipment-service/"
+   "title": "Aramex launches specialist logistics service for AI data centres",
+   "publication": "TradeArabia",
+   "date": "4 Nov 2026",
+   "url": "https://tradearabia.com/News/489162/Aramex-launches-specialist-logistics-service-for-AI-data-centres"
   },
   {
-   "title": "Aramex quarterly revenue breaks AED1.98bn as profit rebounds",
-   "publication": "Logistics Middle East",
-   "date": "10 Nov 2026",
-   "url": "https://www.logisticsmiddleeast.com/news/aramex-quarterly-revenue-breaks-aed1-98bn-as-profit-rebounds"
-  },
-  {
-   "title": "Aramex releases financial results for the first nine months of 2026",
-   "publication": "CBNME",
-   "date": "10 Nov 2026",
-   "url": "https://www.cbnme.com/logistics-news/aramex-releases-financial-results-for-the-first-nine-months-of-2026/"
+   "title": "Aramex launches specialist logistics service for AI data centres",
+   "publication": "Gulf Daily News",
+   "date": "4 Nov 2026",
+   "url": "https://www.gdnonline.com/Details/1411786/Aramex-launches-specialist-logistics-service-for-AI-data-centres"
   }
  ]
 }
