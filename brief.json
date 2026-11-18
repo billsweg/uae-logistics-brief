@@ -1,39 +1,45 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-11-17",
- "date": "Tuesday 17 November 2026",
+ "isoDate": "2026-11-18",
+ "date": "Wednesday 18 November 2026",
  "title": "UAE Logistics Brief",
- "lede": "Hormuz got worse over the weekend: six tankers caught fire on Sunday and Monday after mine and projectile strikes. Iran's foreign minister is now in Muscat for talks, which are the one thing today that could ease war-risk costs.",
+ "lede": "The Muscat talks ended on Tuesday with no deal on Hormuz, and tanker strikes went on off Oman. Air is the other pressure point: Dubai-to-Europe air rates are up 83% on last year, and Etihad has cancelled Riyadh and Dammam cargo flights to 30 November.",
  "gauges": [
   {
-   "value": "6",
-   "label": "Tankers that caught fire in Hormuz on Sunday and Monday",
-   "note": "Mines and an unknown projectile (NewsNation via Yahoo, 16 Nov)",
+   "value": "2 vs 85",
+   "label": "Daily Hormuz transits on 15 Nov vs pre-crisis baseline",
+   "note": "IMF PortWatch, via Straits Daily Brief (17 Nov)",
    "tone": "bad"
   },
   {
-   "value": "3 vs 85",
-   "label": "Daily Hormuz transits on 8 Nov vs pre-crisis baseline",
-   "note": "IMF PortWatch, via Straits Daily Brief (16 Nov)",
+   "value": "36",
+   "label": "Ships holding position in the Strait and Gulf",
+   "note": "AIS count at 20:30 UTC, 17 Nov (Straits Daily Brief)",
    "tone": "bad"
   },
   {
-   "value": "$93.13",
-   "label": "Brent crude, Monday 16 Nov",
-   "note": "Down 2.83% on the prior settle, 17:44 UTC (Straits Daily Brief)",
+   "value": "+83%",
+   "label": "Dubai-to-Europe air cargo rates, year on year",
+   "note": "WorldACD week 45, 2–8 Nov (STAT Times, 17 Nov)",
+   "tone": "bad"
+  },
+  {
+   "value": "-33%",
+   "label": "Saudi air cargo chargeable weight vs week 40",
+   "note": "WorldACD, latest week (STAT Times, 17 Nov)",
+   "tone": "bad"
+  },
+  {
+   "value": "$92.78",
+   "label": "Brent crude, Tuesday 17 Nov",
+   "note": "20:45 UTC (Straits Daily Brief)",
    "tone": "neutral"
-  },
-  {
-   "value": "$1.50/lb",
-   "label": "FedEx US-to-Middle East demand surcharge from 6 Nov",
-   "note": "Covers UAE and Saudi; listed at $0.75 from April (FedEx, updated 5 Nov)",
-   "tone": "bad"
   },
   {
    "value": "Dh1.98bn",
    "label": "Aramex Q3 revenue, a record",
-   "note": "Up 24%; net profit Dh48m, up 817% (Khaleej Times, 10 Nov)",
+   "note": "Up 24%; still our latest figure (Khaleej Times, 10 Nov)",
    "tone": "good"
   }
  ],
@@ -43,45 +49,45 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Six tankers on fire in Hormuz after mine and projectile strikes",
+     "headline": "Muscat talks end with no Hormuz deal",
      "body": [
-      "Six tankers caught fire in the Strait of Hormuz on Sunday and Monday, NewsNation reported. Iran's Revolutionary Guard said two oil tankers hit mines on Sunday. UKMTO said a tanker struck by an unknown projectile had an engine-room fire on Monday.",
-      "UKMTO also reported a possible mothership and skiff, with four armed people, east of Socotra off Yemen. On Monday evening 36 ships were holding position in the Hormuz area, and IMF PortWatch logged just 3 transits on 8 November against a pre-crisis 85 a day."
+      "Iran's Abbas Araghchi and Oman's Badr Albusaidi met in Muscat on Tuesday. Oman said the talks focused on maritime security and keeping shipping moving. There was no joint statement and no timeline.",
+      "Albusaidi called the talks \"constructive\". But unlike Oman's 5 November readout, Tuesday's statements did not mention reopening the strait. The US naval blockade of Iran stays in place."
      ],
-     "soWhat": "New since yesterday: mines are now in the story, not just drones. Expect war-risk premiums and sea freight quotes into Jebel Ali to rise again.",
-     "source": "NewsNation via Yahoo News",
-     "date": "16 Nov",
-     "url": "https://yahoo.com/news/world/articles/strait-hormuz-remains-perilous-route-122524191.html",
-     "image": "https://s.yimg.com/lo/mysterio/api/d7224d5b2407268bbc311d194529bc356d1a125fdfd9061660798d097d5a6466/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsnation_articles_600%2Fe2cc6bbc9e3b462db2ba0581bafaebbc.jpg",
-     "imageCredit": "NewsNation via Yahoo News"
+     "soWhat": "New since yesterday: the one near-term route to lower surcharges did not deliver. Plan on Hormuz staying restricted into December.",
+     "source": "The National; House of Saud",
+     "date": "17 Nov",
+     "url": "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/",
+     "image": "https://www.thenationalnews.com/resizer/v2/M636EE246BDARB6FQVC77BCTQI.jpg?auth=588ab518b35ed50a4e335c42e67286cbe9651dcc3572a7e7223d079cef018f5e&focal=995%2C539&width=1200&height=630",
+     "imageCredit": "The National"
     },
     {
      "hot": true,
-     "headline": "Iran's foreign minister arrives in Muscat for talks",
+     "headline": "More tanker strikes off Khasab; one seafarer missing",
      "body": [
-      "Abbas Araghchi arrived in Muscat on Monday from Islamabad to meet Oman's foreign minister, Anadolu reported. The visit aims to revive the Iran-US understanding reached through Pakistani mediation.",
-      "June's 14-point Islamabad memorandum covered Hormuz maritime security, sanctions relief and an end to hostilities. Disputes over carrying it out and renewed fighting have blocked a deal, and Hormuz shipping stays restricted."
+      "The LPG carrier Tara Gas was hit north of Khasab, Oman. One seafarer is missing and two are injured, and India says they are Indian nationals. UKMTO also reported a tanker disabled with an engine-room fire off Oman overnight.",
+      "Iran's navy says a supertanker carrying more than two million barrels and an LNG carrier hit mines. No maritime authority has confirmed the mine claims. IMF PortWatch logged just 2 transits on 15 November."
      ],
-     "soWhat": "This is the event to watch today. Any agreement on Hormuz shipping would be the first real signal that surcharges can come down.",
-     "source": "Anadolu via A News",
+     "soWhat": "Crew casualties push insurers harder. Expect war-risk cover and Gulf-bound sea rates to stay high this week.",
+     "source": "Straits Daily Brief; The National",
      "date": "17 Nov",
-     "url": "https://www.anews.com.tr/middle-east/2026/11/17/iranian-foreign-minister-arrives-in-oman-for-talks",
-     "image": "https://ia.tmgrup.com.tr/0da51e/806/378/0/11/800/385?u=https://i.tmgrup.com.tr/anews/v1/2026/11/17/iranian-foreign-minister-arrives-in-oman-for-talks-1794865063002.jpg",
-     "imageCredit": "A News"
+     "url": "https://straits.live/briefs/2026-11-17",
+     "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/17/47fad59b-9212-4a1b-8d00-f893f82225c4/thumbnail/1200x630/b6dae6ee13163727a3eec1fb3c736d2b/gettyimages-2304872718.jpg",
+     "imageCredit": "Getty Images via CBS News"
     },
     {
      "hot": false,
-     "headline": "DP World: east-coast terminals will back up Jebel Ali, not replace it",
+     "headline": "Iran says US struck Qeshm Island after drones hit at Bahrain",
      "body": [
-      "DP World's GCC chief says the new Al Rugaylat and Dibba terminals in Fujairah should open within 18 to 24 months. Al Rugaylat is planned at up to 2.5 million TEUs a year; Dibba adds up to 3.6 million tonnes of general cargo.",
-      "Jebel Ali, with 19.4 million TEUs of capacity, has closed for only six hours since the war began on 28 February."
+      "Iranian media say US forces hit several sites on Qeshm Island, in the strait, on Tuesday. This came hours after the IRGC said it targeted a US radar at Sheikh Isa Air Base in Bahrain. CENTCOM said the drones were intercepted with no damage.",
+      "No US official has confirmed the Qeshm strikes. Iran says there was no damage to homes, shops or infrastructure."
      ],
-     "soWhat": "The east-coast bypass is a long-term fixture, but Jebel Ali stays the main gate. Plan freight products around both.",
-     "source": "Khaleej Times",
-     "date": "10 Nov",
-     "url": "https://khaleejtimes.com/business/east-coast-terminals-to-serve-as-alternative-not-replace-jebel-ali-port-says-dp-world-ceo",
-     "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/d830ea3c-2b41-4d90-a019-0c952495f0e4-org.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=fill&fill=blur",
-     "imageCredit": "Khaleej Times"
+     "soWhat": "Fighting is now on both sides of the Gulf. Keep Bahrain and Hormuz-area service notes current for customers.",
+     "source": "House of Saud; ABC News",
+     "date": "17 Nov",
+     "url": "https://houseofsaud.com/us-qeshm-strike-nov17/",
+     "image": "https://houseofsaud.com/wp-content/uploads/2026/11/qeshm-island-nasa-satellite.jpg",
+     "imageCredit": "House of Saud"
     }
    ]
   },
@@ -89,18 +95,32 @@
    "name": "Air & express",
    "stories": [
     {
-     "hot": false,
-     "headline": "flydubai's Riyadh, Dammam and Abha ban ran to 16 November",
+     "hot": true,
+     "headline": "flydubai back in Dammam; Etihad cancels Riyadh and Dammam cargo to 30 Nov",
      "body": [
-      "flydubai cancelled all flights to Riyadh, Dammam and Abha up to and including Monday 16 November. It still flies to Jeddah, Taif, Tabuk, Medina, Al-Qassim and Ha'il.",
-      "Etihad's Riyadh and Dammam flights stay cancelled to 19 November. Emirates' booking system last showed Riyadh flights from 28 November."
+      "flydubai has resumed Dammam on a reduced schedule. Riyadh and Abha stay suspended until 27 November, and the airline expects more disruption.",
+      "Etihad has cancelled all passenger and cargo flights from Abu Dhabi to Riyadh and Dammam through Monday 30 November. Its other Saudi flights run as scheduled."
      ],
-     "soWhat": "The flydubai window has just ended. Check today whether it extends again; until UAE carriers return, Riyadh and Dammam freight goes by road.",
-     "source": "Time Out Dubai; AeroCorner",
-     "date": "10 Nov",
-     "url": "https://www.timeoutdubai.com/news/flydubai-saudi-arabia-cancels-more-flights-november",
-     "image": "https://www.timeoutdubai.com/cloud/timeoutdubai/2025/11/18/download-3.jpg",
-     "imageCredit": "Time Out Dubai"
+     "soWhat": "New since yesterday: the flydubai ban was extended, not lifted. UAE-to-Riyadh air capacity stays thin for two more weeks, so road is the product.",
+     "source": "Gulf News",
+     "date": "17 Nov",
+     "url": "https://gulfnews.com/business/aviation/flydubai-extends-riyadh-and-abha-flight-cancellations-until-november-27-1.500751242",
+     "image": "https://media.assettype.com/gulfnews%2F2025-05-28%2F439ojtc2%2Fflydubai?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+     "imageCredit": "Gulf News"
+    },
+    {
+     "hot": false,
+     "headline": "Dubai air rates to Europe up 83% on last year",
+     "body": [
+      "WorldACD data for 2–8 November show global air cargo rates up 2% on the week to $3.45 per kg, and 31% on last year. Middle East and South Asia rates are up 63% year on year, the most of any region.",
+      "From Dubai, rates to Europe are up 83% and to the US more than 80%. Saudi chargeable weight is down as much as 33% against week 40 after Houthi missile attacks."
+     ],
+     "soWhat": "Air buy rates out of Dubai are far above last year. Check our air sell rates and fuel and war surcharges keep pace.",
+     "source": "STAT Times (WorldACD)",
+     "date": "17 Nov",
+     "url": "https://www.stattimes.com/air-cargo/global-air-cargo-traffic-falls-2-as-rates-continue-to-increase-1361323",
+     "image": "https://www.stattimes.com/h-upload/2026/11/17/103317-air-cargo-revenues1.jpg",
+     "imageCredit": "STAT Times"
     }
    ]
   },
@@ -111,38 +131,37 @@
  ],
  "competitors": [
   {
-   "name": "DHL",
-   "headline": "DHL Global Forwarding moves into Khor Fakkan and Fujairah",
+   "name": "Etihad Cargo",
+   "headline": "Riyadh and Dammam cargo flights off until 30 November",
    "body": [
-    "DHL Global Forwarding plans to build its presence in the eastern UAE, at Khor Fakkan and Dibba in Fujairah. Its €500 million Gulf investment plan is unchanged, after €120 million in the UAE and €130 million in Saudi Arabia.",
-    "DHL also has a 20-year joint venture with Etihad Rail. Its Middle East and Africa chief says logistics will take three to six months to normalise after the conflict ends."
+    "Etihad has cancelled all cargo and passenger flights from Abu Dhabi to Riyadh and Dammam through 30 November. Other Abu Dhabi to Saudi flights operate as scheduled."
    ],
-   "soWhat": "DHL is chasing the same east-coast bypass freight we sell. Our Khor Fakkan and Fujairah operations need a clear price and transit-time story for key accounts now.",
-   "source": "The National",
-   "date": "8 Nov",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/",
-   "image": "https://www.thenationalnews.com/resizer/v2/JPLG37MRRJCV7NA2KGJ72J5YFU.webp?auth=48d47187074ba81f3d0b12aab78eaf2839913756ce8cad33926b078b8650e04f&smart=true&width=1200&height=630",
-   "imageCredit": "The National"
+   "soWhat": "Shippers lose a direct belly and cargo option into Saudi's two biggest business cities. Our UAE-Saudi road service can pick up that freight.",
+   "source": "Gulf News",
+   "date": "17 Nov",
+   "url": "https://gulfnews.com/business/aviation/flydubai-extends-riyadh-and-abha-flight-cancellations-until-november-27-1.500751242"
   },
   {
-   "name": "FedEx",
-   "headline": "US-to-Middle East demand surcharge listed at $1.50 per lb",
+   "name": "Emirates SkyCargo",
+   "headline": "New Milan–New York freighter from 5 December",
    "body": [
-    "FedEx's demand surcharge table, updated 5 November, lists the US to Middle East and Indian Subcontinent lane at $1.50 per lb from 6 November until further notice, after $0.75 since 24 April. The lane includes the UAE and Saudi Arabia. Minimums are $1 a parcel and $50 a freight shipment."
+    "Emirates SkyCargo will fly a weekly Boeing 777-F from Milan to New York JFK from 5 December, with around 100 tonnes per flight. It also runs a weekly Milan–Dubai DWC freighter.",
+    "Eight new freighters joined this year, and its freighter network grew from over 40 destinations in March to over 60 in July."
    ],
-   "soWhat": "US-origin express into the UAE just got dearer at FedEx. There is room to price our US inbound below them and still lift yield.",
-   "source": "FedEx",
-   "date": "5 Nov",
-   "url": "https://www.fedex.com/content/dam/fedex/us-united-states/services/11-6-26_US-Export-Demand-Surcharges.pdf"
+   "soWhat": "Emirates is putting freighter capacity on lanes outside the Gulf. Dubai-origin capacity for our air products may stay tight and dear.",
+   "source": "Emirates",
+   "date": "10 Nov",
+   "url": "https://www.emirates.com/media-centre/emirates-skycargo-introduces-new-freighter-service-connecting-milan-with-new-york/",
+   "image": "https://content.presspage.com/uploads/2431/00c276b8-78c2-4de4-bc46-452b6068829b/1920_emiratesskycargoaddsliegebelgiumtoitsfreighternetwork.jpg?10000",
+   "imageCredit": "Emirates"
   },
   {
    "name": "Aramex (baseline)",
-   "headline": "Record Q3: revenue up 24%, profit up 817%",
+   "headline": "Record Q3 revenue, but thinner margin",
    "body": [
-    "Q3 revenue was a record Dh1.98 billion, up 24%. Net profit rose to Dh48 million from Dh5.2 million, driven by freight forwarding. Gross margin narrowed to 21% from 23.2%.",
-    "CEO Amadou Diallo said on 2 November that freight rates may take six to 12 months to ease after peace returns, and that warehousing demand is high in the UAE, Jeddah, Turkey and India."
+    "Q3 revenue was a record Dh1.98 billion, up 24%, and net profit rose to Dh48 million. Gross margin narrowed to 21% from 23.2%. No newer figure has been published."
    ],
-   "soWhat": "Volume is up but margin is thinner. Pricing should protect gross margin on forwarding, not just chase revenue.",
+   "soWhat": "With Dubai air rates up 83%, protecting margin on air and forwarding matters more than volume.",
    "source": "Khaleej Times",
    "date": "10 Nov",
    "url": "https://www.khaleejtimes.com/aramex-profit-jumps-817-to-dh48-million-in-q3-on-strong-freight-forwarding-growth-and-cost-management",
@@ -152,133 +171,137 @@
  ],
  "opportunities": [
   {
-   "title": "US inbound express",
-   "text": "FedEx lists a $1.50/lb surcharge on US-to-UAE and Saudi from 6 November. A lower Aramex surcharge can win US e-commerce and B2B shippers."
+   "title": "UAE–Saudi road freight",
+   "text": "flydubai is off Riyadh to 27 November and Etihad off Riyadh and Dammam to 30 November. Sell road as the reliable option."
   },
   {
-   "title": "East-coast freight products",
-   "text": "Jebel Ali stays the main gate but Fujairah terminals are 18 to 24 months away. Sell a two-gateway product to big importers now."
+   "title": "Dammam air is back, partly",
+   "text": "flydubai's reduced Dammam schedule gives some belly space. Offer a premium Dammam air option while it is scarce."
   },
   {
-   "title": "Riyadh and Dammam by road",
-   "text": "flydubai, Etihad and Emirates are still off Riyadh and Dammam. Keep the UAE-Saudi road service front of mind."
+   "title": "Price air to the market",
+   "text": "Dubai-to-Europe and Dubai-to-US rates are up 80% or more on last year. There is room to lift air yields where we lag the market."
   },
   {
-   "title": "Warehousing demand",
-   "text": "Our CEO says warehousing demand is high in the UAE and Jeddah. Push contract logistics space to shippers hit by sea delays."
+   "title": "East-coast routing",
+   "text": "With no Hormuz deal, Khor Fakkan and Fujairah routing stays the main bypass. Keep pushing it to key importers."
   }
  ],
  "watchouts": [
   {
-   "title": "Mines in Hormuz",
-   "text": "Six tankers caught fire on Sunday and Monday. Sea cover and freight costs into the Gulf can jump again this week."
+   "title": "No deal in Muscat",
+   "text": "Hormuz restrictions look set to run into December. Sea surcharges will not ease soon."
   },
   {
-   "title": "Muscat talks could fail",
-   "text": "Araghchi is in Muscat. No deal would mean more months of restricted Hormuz shipping."
+   "title": "Crew casualties",
+   "text": "A missing seafarer on Tara Gas raises the stakes for insurers and owners. Expect fewer sailings and higher cover costs."
   },
   {
-   "title": "DHL on the east coast",
-   "text": "DHL is building at Khor Fakkan and Fujairah with Etihad Rail behind it. Expect sharper bids on bypass freight."
+   "title": "Saudi air volumes falling",
+   "text": "Saudi chargeable weight is down up to 33% against week 40. Inbound Saudi air revenue will be weak."
   },
   {
-   "title": "Thinner margins",
-   "text": "Our Q3 gross margin fell to 21% from 23.2%. High buy rates are eating into the extra revenue."
+   "title": "Margin squeeze on air",
+   "text": "Buy rates out of Dubai are up sharply. Contract customers on fixed rates can erode our margin."
+  },
+  {
+   "title": "Bahrain exposure",
+   "text": "Iran says it has targeted Bahrain three times in a week. Have contingency plans for Bahrain shipments."
   }
  ],
  "moves": [
   {
-   "title": "Re-check war-risk pass-through today",
-   "text": "After six tanker fires, confirm sea surcharges on Jebel Ali and Khor Fakkan quotes reflect current carrier and insurer costs.",
+   "title": "Roll the 'no deal' surcharge setting",
+   "text": "Muscat gave no Hormuz deal. Keep current war-risk pass-through on sea quotes and review it again next week.",
    "team": "Pricing"
   },
   {
-   "title": "Have two surcharge settings ready for Muscat",
-   "text": "Prepare a 'deal' and a 'no deal' setting so we can change rates within a day of the outcome.",
-   "team": "Pricing"
-  },
-  {
-   "title": "Benchmark US inbound against FedEx",
-   "text": "Compare our US-to-UAE and Saudi surcharge with FedEx's $1.50/lb and pitch top US-origin accounts where we are lower.",
+   "title": "Audit air sell rates against WorldACD",
+   "text": "Compare our Dubai-to-Europe and Dubai-to-US air sell rates with the 80%+ market rise and fix lanes that lag.",
    "team": "Express · Air"
   },
   {
-   "title": "Brief key accounts on the east-coast route",
-   "text": "Show Khor Fakkan and Fujairah transit times and prices before DHL's new east-coast offer reaches them.",
-   "team": "Freight · Key accounts"
-  },
-  {
-   "title": "Confirm Saudi air status this morning",
-   "text": "flydubai's ban ran to 16 November. Check if it was extended and update Riyadh and Dammam service notes for customers.",
+   "title": "Push UAE–Saudi road to Riyadh shippers",
+   "text": "Tell customers flydubai is off Riyadh to 27 November and Etihad to 30 November, and offer road capacity now.",
    "team": "Sales · Domestic"
   },
   {
-   "title": "Margin floor on forwarding deals",
-   "text": "Set a minimum gross margin for new forwarding quotes so revenue growth does not keep pulling margin down.",
-   "team": "Pricing"
+   "title": "Offer limited Dammam air",
+   "text": "Check flydubai's reduced Dammam schedule for belly space and price it as a premium option.",
+   "team": "Express · Air"
+  },
+  {
+   "title": "Review fixed-rate air contracts",
+   "text": "Flag key accounts on fixed air rates set before the rise and open surcharge talks.",
+   "team": "Freight · Key accounts"
+  },
+  {
+   "title": "Update Bahrain and Oman service notes",
+   "text": "After the Bahrain drone attacks and Khasab tanker strikes, refresh customer advisories for these lanes.",
+   "team": "Sales · Domestic"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
   {
-   "title": "Strait of Hormuz remains perilous route for shipping",
-   "publication": "NewsNation via Yahoo News",
-   "date": "16 Nov 2026",
-   "url": "https://yahoo.com/news/world/articles/strait-hormuz-remains-perilous-route-122524191.html"
-  },
-  {
-   "title": "Strait of Hormuz News, November 16, 2026: Straits Daily Brief",
-   "publication": "Straits Daily Brief",
-   "date": "16 Nov 2026",
-   "url": "https://straits.live/briefs/2026-11-16"
-  },
-  {
-   "title": "Iranian foreign minister arrives in Oman for talks",
-   "publication": "A News (Anadolu)",
-   "date": "17 Nov 2026",
-   "url": "https://www.anews.com.tr/middle-east/2026/11/17/iranian-foreign-minister-arrives-in-oman-for-talks"
-  },
-  {
-   "title": "East coast terminals to serve as alternative, not replace Jebel Ali port, says DP World GCC CEO",
-   "publication": "Khaleej Times",
-   "date": "10 Nov 2026",
-   "url": "https://khaleejtimes.com/business/east-coast-terminals-to-serve-as-alternative-not-replace-jebel-ali-port-says-dp-world-ceo"
-  },
-  {
-   "title": "flydubai cancels more flights to three Saudi Arabian cities",
-   "publication": "Time Out Dubai",
-   "date": "10 Nov 2026",
-   "url": "https://www.timeoutdubai.com/news/flydubai-saudi-arabia-cancels-more-flights-november"
-  },
-  {
-   "title": "Flydubai Cancels Riyadh and Abha Flights Through November 16, and Emirates' November 8 Riyadh Restart Has Not Happened",
-   "publication": "AeroCorner",
-   "date": "7 Nov 2026",
-   "url": "https://aerocorner.com/news/flydubai-riyadh-abha-flights-cancelled-november-16-emirates-dammam/"
-  },
-  {
-   "title": "DHL to boost network in eastern UAE amid regional uncertainty",
+   "title": "Iran and Oman discuss maritime security amid rising attacks in Strait of Hormuz",
    "publication": "The National",
-   "date": "8 Nov 2026",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/"
+   "date": "17 Nov 2026",
+   "url": "https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/"
   },
   {
-   "title": "Demand Surcharge for U.S. international services",
-   "publication": "FedEx",
-   "date": "5 Nov 2026",
-   "url": "https://www.fedex.com/content/dam/fedex/us-united-states/services/11-6-26_US-Export-Demand-Surcharges.pdf"
+   "title": "Araghchi and Busaidi Meet in Muscat With No Hormuz Agreement",
+   "publication": "House of Saud",
+   "date": "17 Nov 2026",
+   "url": "https://houseofsaud.com/araghchi-busaidi-muscat-nov17/"
+  },
+  {
+   "title": "Strait of Hormuz News, November 17, 2026: Straits Daily Brief",
+   "publication": "Straits Daily Brief",
+   "date": "17 Nov 2026",
+   "url": "https://straits.live/briefs/2026-11-17"
+  },
+  {
+   "title": "Live Updates: Iran's Revolutionary Guard claims another attack on U.S. radar system in Bahrain",
+   "publication": "CBS News",
+   "date": "17 Nov 2026",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/"
+  },
+  {
+   "title": "Iran Says US Struck Qeshm Island in Hormuz After IRGC Drones Targeted Bahrain",
+   "publication": "House of Saud",
+   "date": "17 Nov 2026",
+   "url": "https://houseofsaud.com/us-qeshm-strike-nov17/"
+  },
+  {
+   "title": "Iran live updates: CENTCOM says drone attack on Bahrain defeated 'without any damage'",
+   "publication": "ABC News",
+   "date": "17 Nov 2026",
+   "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+  },
+  {
+   "title": "flydubai extends Riyadh and Abha flight cancellations until November 27",
+   "publication": "Gulf News",
+   "date": "17 Nov 2026",
+   "url": "https://gulfnews.com/business/aviation/flydubai-extends-riyadh-and-abha-flight-cancellations-until-november-27-1.500751242"
+  },
+  {
+   "title": "Global air cargo traffic falls 2% as rates continue to increase",
+   "publication": "STAT Times",
+   "date": "17 Nov 2026",
+   "url": "https://www.stattimes.com/air-cargo/global-air-cargo-traffic-falls-2-as-rates-continue-to-increase-1361323"
+  },
+  {
+   "title": "Emirates SkyCargo introduces new freighter service connecting Milan with New York",
+   "publication": "Emirates",
+   "date": "10 Nov 2026",
+   "url": "https://www.emirates.com/media-centre/emirates-skycargo-introduces-new-freighter-service-connecting-milan-with-new-york/"
   },
   {
    "title": "Aramex's Q3 profit jumps 817% to Dh48m on strong freight forwarding growth, cost management",
    "publication": "Khaleej Times",
    "date": "10 Nov 2026",
    "url": "https://www.khaleejtimes.com/aramex-profit-jumps-817-to-dh48-million-in-q3-on-strong-freight-forwarding-growth-and-cost-management"
-  },
-  {
-   "title": "Freight rates could take up to a year to ease after war ends: Aramex CEO",
-   "publication": "Khaleej Times",
-   "date": "2 Nov 2026",
-   "url": "https://khaleejtimes.com/business/freight-rates-could-take-up-to-a-year-to-ease-after-peace-returns-says-aramex-ceo"
   }
  ]
 }
