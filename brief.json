@@ -1,45 +1,39 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-11-19",
- "date": "Thursday 19 November 2026",
+ "isoDate": "2026-11-20",
+ "date": "Friday 20 November 2026",
  "title": "UAE Logistics Brief",
- "lede": "Hormuz is still shut in practice: an ADNOC L&S vessel was hit on Tuesday night, and a US Navy official told the Senate one transit now costs $64m to insure. On land the picture is steadier, with DP World moving east-coast cargo by road and rail and UAE fuel prices set to ease.",
+ "lede": "Another tanker was hit on Wednesday evening, 6 nautical miles north of Khasab, and 44 ships are now holding in the Gulf. In the air, rates are at their highest of 2026 as peak season builds, and more airlines have pushed Saudi returns into December and January.",
  "gauges": [
   {
-   "value": "$64m",
-   "label": "Insurance for one Hormuz transit, per acting US Navy Secretary",
-   "note": "Senate hearing 17 Nov; not independently verified (Al Jazeera)",
-   "tone": "bad"
-  },
-  {
-   "value": "-65%",
-   "label": "Hormuz traffic vs pre-war levels",
-   "note": "UKMTO: 308 crossings in the 7 days to 11 Nov (Al Jazeera)",
-   "tone": "bad"
-  },
-  {
-   "value": "43",
+   "value": "44",
    "label": "Ships holding position in the Strait and Gulf",
-   "note": "AIS count, 20:30 UTC 18 Nov; up from 36 a day earlier (Straits Daily Brief)",
+   "note": "AIS count, 05:30 UTC 19 Nov; 43 a day earlier (Straits Daily Brief)",
    "tone": "bad"
   },
   {
-   "value": "$91.66",
-   "label": "Brent crude, Wednesday 18 Nov",
-   "note": "Down 1.26% on the day, 20:31 UTC (Straits Daily Brief)",
+   "value": "2",
+   "label": "Hormuz transits on 15 Nov, against 85 a day before the crisis",
+   "note": "IMF PortWatch via Straits Daily Brief, 19 Nov",
+   "tone": "bad"
+  },
+  {
+   "value": "+28.2%",
+   "label": "Global air freight rates (BAI00) vs a year ago",
+   "note": "Up 6.6% in the week to 9 Nov; highest of 2026 (TAC Index via Air Cargo Week)",
+   "tone": "bad"
+  },
+  {
+   "value": "$92.25",
+   "label": "Brent crude, Thursday 19 Nov",
+   "note": "Down 0.40%, 05:45 UTC (Straits Daily Brief)",
    "tone": "neutral"
   },
   {
-   "value": "1m+ TEU",
-   "label": "Containers DP World moved by land from the east coast, March–October",
-   "note": "About 3,500 TEU a day via land corridors (Gulf News, 12 Nov)",
-   "tone": "neutral"
-  },
-  {
-   "value": "Dh4.16",
-   "label": "Super 98 per litre in November, after a Dh0.24 cut",
-   "note": "December could fall again as Brent eases (Khaleej Times, 17 Nov)",
+   "value": "+17%",
+   "label": "Talabat Q3 GMV growth, to $3bn",
+   "note": "GCC markets grew 9%; outside the Gulf 43% (Khaleej Times, 17 Nov)",
    "tone": "good"
   }
  ],
@@ -49,43 +43,31 @@
    "stories": [
     {
      "hot": true,
-     "headline": "$64m to insure one Hormuz transit, US Navy official tells Senate",
+     "headline": "New tanker strike 6 nautical miles off Khasab; 44 ships now waiting",
      "body": [
-      "Acting US Navy Secretary Hung Cao told a Senate hearing on Tuesday that insurance for one Hormuz transit now costs $64m. He said the pre-war cost was $54,000. Al Jazeera notes the figure has not been independently verified.",
-      "UKMTO puts traffic about 65% below pre-war levels, with 308 crossings in the week to 11 November. Iran says ships must use approved routes and has exempted vessels from India, China, Iraq and Qatar."
+      "An unknown projectile hit a tanker's engine room about 6 nautical miles north of Khasab at 8:45pm Gulf time on Wednesday, UKMTO said. The crew were safe as of early Thursday. The ship and the attacker have not been named.",
+      "Straits Daily Brief counts 44 ships holding position in the Strait and Gulf, up from 43. Only 2 transits were logged on 15 November, against 85 a day before the crisis. Iran's navy claims three tankers hit mines east of the strait; no maritime authority has confirmed it."
      ],
-     "soWhat": "Even if the number is high, the direction is clear. War-risk costs on Gulf-bound sea freight are not coming down this month.",
-     "source": "Al Jazeera",
-     "date": "18 Nov",
-     "url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open",
-     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-03-12T104857Z_1258111551_RC2W2KAXTKUV_RTRMADP_3_IRAN-CRISIS-TANKERS-INDIA-1794404714.jpg?resize=1920%2C1440",
-     "imageCredit": "Reuters via Al Jazeera"
-    },
-    {
-     "hot": true,
-     "headline": "ADNOC L&S vessel hit in the strait; one missing, 11 injured",
-     "body": [
-      "An ADNOC Logistics & Services vessel was attacked in the Strait of Hormuz on Tuesday evening. Gulf News reports one crew member missing and 11 injured. Straits Daily Brief says the LPG carrier Tara Gas is now on fire and adrift.",
-      "The US has widened its maritime blockade. CENTCOM warned that ships taking cargo at sea from Iran-loaded vessels could face action. Ships holding position in the Gulf rose to 43."
-     ],
-     "soWhat": "New since yesterday: a UAE-flagged operator is now among the casualties. Expect owners to cut Gulf sailings further and east-coast ports to stay crowded.",
+     "soWhat": "New since yesterday: a third strike in three days, this one right off Musandam. Gulf sea schedules will not improve this month.",
      "source": "Gulf News; Straits Daily Brief",
-     "date": "18 Nov",
-     "url": "https://straits.live/briefs/2026-11-18"
+     "date": "19 Nov",
+     "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-19-2026-1.500752902",
+     "image": "https://media.assettype.com/gulfnews%2F2026-11-06%2Fxf859qf1%2FScreenshot-2026-11-06-at-2.23.49-PM.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+     "imageCredit": "Gulf News"
     },
     {
      "hot": false,
-     "headline": "DP World speeds up Dh2.5bn Fujairah ports; 1 million TEU moved by land",
+     "headline": "Two of this week's hit tankers are UAE-linked",
      "body": [
-      "DP World now expects its two new Fujairah-area ports, Al Rugaylat and Dibba, to start phased operations in 18 to 24 months, down from 24 to 30. From March to October it moved more than 1 million TEU from east-coast ports to Jebel Ali by truck and rail, about 3,500 TEU a day.",
-      "Jebel Ali stayed open throughout, with only six hours of total disruption. DP World expects volumes to return one to three months after safe passage through Hormuz is restored."
+      "Riviera reports that the tanker On Phoenix, hit off Oman on 16 November, is UAE-owned and AET-managed. The crude tanker Al Dhanna, owned and managed by ADNOC Logistics & Services, was hit in its steering gear room in the Gulf. Both crews were safe.",
+      "A separate NAVAREA report on 17 November logged another incident for On Phoenix near Ras Hindi. It is unclear if this was a second attack."
      ],
-     "soWhat": "The east-coast-to-Jebel Ali land bridge is now a permanent part of UAE logistics. Our trucking and customs offer should be built around it.",
-     "source": "Gulf News",
-     "date": "12 Nov",
-     "url": "https://gulfnews.com/business/markets/dp-world-fast-tracks-dh25-billion-fujairah-ports-as-uae-shifts-cargo-routes-1.500744888",
-     "image": "https://media.assettype.com/gulfnews%2F2026-02-13%2Fa5qug33b%2FDP-World?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-     "imageCredit": "Gulf News"
+     "soWhat": "UAE-owned ships are now regular targets. UAE shippers will keep looking for land, air and east-coast routes.",
+     "source": "Riviera Maritime Media",
+     "date": "17 Nov",
+     "url": "https://www.rivieramm.com/news-content-hub/tanker-hit-off-oman-as-attacks-and-mine-claims-in-and-around-strait-of-hormuz-continue-90591",
+     "image": "https://dvzpv6x5302g1.cloudfront.net/AcuCustom/Sitename/DAM/194/tanker-mine-explosion-irgc-fars_Main.png",
+     "imageCredit": "Riviera Maritime Media"
     }
    ]
   },
@@ -93,18 +75,28 @@
    "name": "Air & express",
    "stories": [
     {
-     "hot": false,
-     "headline": "Drone threats spread to Bahrain and Kuwait; more airlines cut Saudi flights",
+     "hot": true,
+     "headline": "Air freight rates hit their 2026 high as peak season starts",
      "body": [
-      "Bahrain intercepted Iranian attacks early on Wednesday, and Kuwait reported hostile drone threats. Air Arabia cancelled Sharjah–Riyadh and Sharjah–Abha flights on 18 November.",
-      "IndiGo has suspended Riyadh and Dammam to 30 November, and Akasa Air Riyadh and Jeddah to the same date. Etihad's Riyadh and Dammam cargo cancellations to 30 November stand."
+      "The TAC Index global measure (BAI00) rose 6.6% in the week to 9 November and is 28.2% above last year. Air Cargo Week says rates are now at their highest level of 2026.",
+      "Frankfurt outbound rose 9.9% in the week and is up 48.1% on last year. Europe saw what the report calls chunky gains on routes including the UAE."
      ],
-     "soWhat": "New since yesterday: more carriers are pulling Saudi capacity, and Kuwait is now on the threat map. Belly space into Saudi stays scarce.",
+     "soWhat": "Buy rates are rising into the busiest weeks of the year. Fixed-price air contracts lose margin fast in this market.",
+     "source": "Air Cargo Week (TAC Index)",
+     "date": "Mid-Nov",
+     "url": "https://aircargoweek.com/?p=115679"
+    },
+    {
+     "hot": false,
+     "headline": "Saudi flight cuts stretch into December and January",
+     "body": [
+      "flydubai has extended Riyadh and Abha cancellations to 27 November and resumed Dammam on a reduced schedule. Etihad's passenger and cargo cuts to Riyadh and Dammam run to 30 November.",
+      "Further out, Air France stays off Riyadh to 12 December, British Airways has pushed its London–Riyadh restart to 11 January, and Cathay Pacific Riyadh is suspended to 31 January. Qatar Airways resumed Riyadh and Dammam on 13 and 14 November."
+     ],
+     "soWhat": "New since yesterday: flydubai's dates and long-haul cuts into 2027. Belly space into Riyadh stays thin through the new year.",
      "source": "Gulf News",
-     "date": "18 Nov",
-     "url": "https://gulfnews.com/world/gulf/saudi/uae-flights-status-update-etihad-flydubai-extend-saudi-cancellations-as-gulf-attacks-escalate-on-november-18-1.500751819",
-     "image": "https://media.assettype.com/gulfnews%2F2026-03-09%2Fntvuibbo%2FWhatsApp-Image-2026-03-09-at-14.24.39.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-     "imageCredit": "Gulf News"
+     "date": "19 Nov",
+     "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-19-2026-1.500752902"
     }
    ]
   },
@@ -113,241 +105,154 @@
    "stories": [
     {
      "hot": false,
-     "headline": "UAE fuel could fall again in December",
+     "headline": "Talabat raises 2026 outlook again; GCC grows 9%",
      "body": [
-      "November pump prices were cut by Dh0.24 a litre, with Super 98 at Dh4.16. Brent averaged $96.91 in the first two weeks of November, against $123.57 in the same weeks of October.",
-      "UAE prices follow global prices with a one-month lag, so a second cut in December is possible."
+      "Talabat's Q3 GMV rose 17% to $3 billion, and revenue rose 18% to $1.2 billion. GCC markets, including the UAE, grew 9%, while Egypt, Jordan and Iraq grew 43%.",
+      "Adjusted EBITDA fell 3% to $150 million and net income fell 15% to $102 million. It is the second guidance upgrade this year."
      ],
-     "soWhat": "Lower fuel eases last-mile cost. Check our domestic fuel surcharge tracks the index down as well as up.",
+     "soWhat": "Order volume keeps growing but margins are squeezed. Expect platforms to push hard on delivery partner rates.",
      "source": "Khaleej Times",
      "date": "17 Nov",
-     "url": "https://www.khaleejtimes.com/uae-petrol-prices-will-december-bring-second-drop-amid-shifting-oil-supply",
-     "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-05-31/hnypur1s/UAE-petrol-prices2.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=42,0,717,478",
+     "url": "https://www.khaleejtimes.com/business/talabat-raises-outlook-as-mena-demand-drives-faster-order-growth",
+     "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2025-01-06/t96funsf/ui1VKdolAZMhQDuZg5lJru3fFFA.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,1,1600,1067",
      "imageCredit": "Khaleej Times"
-    },
-    {
-     "hot": false,
-     "headline": "Dubai Taxi's delivery-bike fleet passes 4,000",
-     "body": [
-      "Dubai Taxi Company says its delivery-bike fleet passed 4,000 bikes by September, up 77% on last year, and made over 900,000 deliveries that month. Q2 delivery-bike revenue rose 53% to AED 27.9 million.",
-      "Its partners include Talabat, Careem, Deliveroo, noon and Keeta. UAE restaurant delivery orders rose 15% in H1 2026. Figures are from an opinion piece by DTC's CEO."
-     ],
-     "soWhat": "Rider capacity in Dubai is being built by fleet operators. That is a partner option for our peak last-mile, and a competitor for platform contracts.",
-     "source": "Gulf News",
-     "date": "16 Nov",
-     "url": "https://gulfnews.com/business/analysis/from-every-click-to-every-journey-redefining-the-future-of-delivery-1.500748861",
-     "image": "https://media.assettype.com/gulfnews%2F2026-06-04%2F68dimakk%2FAir-conditioned-rest-areas-for-delivery-riders?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-     "imageCredit": "Gulf News"
     }
    ]
   }
  ],
  "competitors": [
   {
-   "name": "DP World",
-   "headline": "Egypt-to-UAE fresh produce corridor with Majid Al Futtaim; autonomous trucks at Jebel Ali",
+   "name": "Talabat",
+   "headline": "Growth shifts outside the Gulf: non-GCC now 25% of GMV",
    "body": [
-    "DP World and Majid Al Futtaim signed an MoU on 16 November to raise Egyptian exports to the UAE. Fresh produce will be consolidated in cold stores at Sokhna, shipped on DP World feeders and trucked chilled to Jebel Ali for MAF's stores.",
-    "On 15 November Dubai Future Foundation named DP World first strategic partner of SHIFFT, a self-driving logistics venture with Oxa. Work starts at Jebel Ali, where DP World runs more than 900 vehicles."
+    "Non-GCC markets made up 25% of Talabat's GMV in Q3, up from 20% a year earlier. Free cash flow rose 41% to $141 million.",
+    "Talabat runs its own rider network, so it is both a last-mile rival in quick commerce and a potential buyer of cross-border and warehousing services."
    ],
-   "soWhat": "DP World is selling end-to-end cold chain direct to big retailers. We should defend our grocery and retail accounts with a combined freight, customs and cold-chain offer.",
-   "source": "Logistics Update Africa; Robotics & Automation News",
-   "date": "18 Nov",
-   "url": "https://www.logupdateafrica.com/trade/majid-al-futtaim-and-dp-world-target-higher-egypt-uae-exports-1361337",
-   "image": "https://www.logupdateafrica.com/h-upload/2026/11/18/103342-01702-7.jpg",
-   "imageCredit": "Logistics Update Africa"
-  },
-  {
-   "name": "Amazon",
-   "headline": "New 196,000 sq ft Dubai office; more than 3,000 UAE staff",
-   "body": [
-    "Sheikh Hamdan visited Amazon's new office in Dubai Internet City on 17 November. Amazon says it has more than 3,000 employees in the UAE. It also showed Alexa for Shopping, now in beta for UAE customers."
-   ],
-   "soWhat": "Amazon keeps investing in the UAE. Its own delivery network grows with it, so third-party volume from Amazon is not something to plan on.",
-   "source": "Dubai Media Office",
+   "soWhat": "Its fastest growth is in Egypt, Jordan and Iraq, where we have strong networks. That is the angle for a partnership pitch.",
+   "source": "Khaleej Times",
    "date": "17 Nov",
-   "url": "https://mediaoffice.ae/en/news/2026/novemebr/17-11/hamdan-bin-mohammed-visits-amazon-new-corporate-office-in-dubai",
-   "image": "https://mediaoffice.ae/-/media/2026/nov/17-11/04/gdmo1-p01-17-11-26.jpg",
-   "imageCredit": "Dubai Media Office"
-  },
-  {
-   "name": "DHL Global Forwarding",
-   "headline": "Building up near Khor Fakkan, Dibba and Fujairah",
-   "body": [
-    "DHL Global Forwarding's Middle East and Africa CEO Tobias Maier says the unit will strengthen its position near Khor Fakkan, Dibba and Fujairah. DHL's €500 million Gulf commitment is unchanged, and it has a 20-year joint venture with Etihad Rail.",
-    "Maier expects logistics to normalise three to six months after the conflict ends."
-   ],
-   "soWhat": "DHL is moving to the same east-coast bypass we sell. We need to lock in east-coast customers before its capacity lands.",
-   "source": "The National",
-   "date": "8 Nov",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/",
-   "image": "https://www.thenationalnews.com/resizer/v2/JPLG37MRRJCV7NA2KGJ72J5YFU.webp?auth=48d47187074ba81f3d0b12aab78eaf2839913756ce8cad33926b078b8650e04f&smart=true&width=1200&height=630",
-   "imageCredit": "The National"
+   "url": "https://www.khaleejtimes.com/business/talabat-raises-outlook-as-mena-demand-drives-faster-order-growth",
+   "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2025-01-06/t96funsf/ui1VKdolAZMhQDuZg5lJru3fFFA.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,1,1600,1067",
+   "imageCredit": "Khaleej Times"
   },
   {
    "name": "Aramex (baseline)",
-   "headline": "CEO: freight rates may take 6–12 months to ease after peace",
+   "headline": "Q3 net profit Dh48m on record Dh1.98bn revenue",
    "body": [
-    "Group CEO Amadou Diallo expects freight rates to normalise six to 12 months after peace returns. Aramex targets double-digit revenue growth in 2026 and 2027. Q3 revenue was a record Dh1.98 billion, still our latest figure.",
-    "On 3 November Aramex launched Data Center Logistics across the GCC, Southeast Asia, Taiwan and the southern US."
+    "Still our latest figures: Q3 net profit rose to Dh48 million from Dh5.2 million, and revenue rose 24% to a record Dh1.98 billion. Freight forwarding led growth; gross margin was 21% against 23.2%."
    ],
-   "soWhat": "Our own view is that high rates last well past any ceasefire. Pricing should assume that too, and DHL's 3–6 month view gives us room to argue it with customers.",
+   "soWhat": "With air buy rates at their 2026 high, protecting forwarding margin matters more than chasing volume this quarter.",
    "source": "Khaleej Times",
-   "date": "2 Nov",
-   "url": "https://khaleejtimes.com/business/freight-rates-could-take-up-to-a-year-to-ease-after-peace-returns-says-aramex-ceo",
-   "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-01/l60qm1sg/2026newsmlRC2PEOAW6AVA1446714535.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,0,3500,2333",
-   "imageCredit": "Reuters via Khaleej Times"
+   "date": "10 Nov",
+   "url": "https://www.khaleejtimes.com/aramex-profit-jumps-817-to-dh48-million-in-q3-on-strong-freight-forwarding-growth-and-cost-management",
+   "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/ded39f8b-d5cc-42e8-9390-8abbe9c77124-org.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=fill&fill=blur",
+   "imageCredit": "Khaleej Times"
   }
  ],
  "opportunities": [
   {
-   "title": "East-coast land bridge",
-   "text": "DP World moves about 3,500 TEU a day by land from the east coast. Sell our trucking and customs as the door-to-door layer on top."
+   "title": "Peak-season air yield",
+   "text": "Rates are at their 2026 high and still rising week on week. Reprice spot air quotes daily, not weekly."
   },
   {
-   "title": "Egypt–UAE perishables",
-   "text": "The DP World–MAF corridor shows demand for chilled Egypt-to-UAE flows. Pitch our cold chain to other grocers and importers."
+   "title": "Saudi by road into 2027",
+   "text": "Air France, BA and Cathay are off Riyadh into December and January. Sell UAE–Saudi road as the steady option for the whole winter."
   },
   {
-   "title": "Saudi road while air is cut",
-   "text": "IndiGo, Akasa, Air Arabia and Etihad have all pulled Saudi flights. Road UAE–Saudi remains the dependable option."
+   "title": "Non-sea routes for UAE shippers",
+   "text": "UAE-owned tankers are being hit. Shippers with Gulf sea exposure need land and air alternatives now."
   },
   {
-   "title": "Cheaper last-mile fuel",
-   "text": "A possible second fuel cut in December lowers domestic cost. Use it to win e-commerce volume, not just to widen margin."
-  },
-  {
-   "title": "Data centre logistics",
-   "text": "Our new Data Center Logistics service fits the Gulf AI build-out. Target project owners while air capacity is tight."
+   "title": "Platforms growing outside the Gulf",
+   "text": "Talabat grew 43% in Egypt, Jordan and Iraq. Offer cross-border and fulfilment where our network is deep."
   }
  ],
  "watchouts": [
   {
-   "title": "Insurance spike",
-   "text": "A $64m per-transit insurance claim, even unverified, will harden war-risk pricing. Sea surcharges stay high."
+   "title": "Strikes closer to the UAE",
+   "text": "Wednesday's hit was 6 nautical miles off Khasab. Feeder and east-coast schedules may slip again."
   },
   {
-   "title": "UAE vessel hit",
-   "text": "The attack on an ADNOC L&S ship puts UAE-linked ships in the line of fire. Expect fewer feeder sailings into the Gulf."
+   "title": "Unconfirmed mine claims",
+   "text": "Iran says three tankers hit mines. Even unverified, this keeps insurers and owners cautious."
   },
   {
-   "title": "Kuwait and Bahrain",
-   "text": "Drone threats now reach Kuwait as well as Bahrain. Air and road services there may face sudden stops."
+   "title": "Air buy rates in peak",
+   "text": "Fixed-rate air contracts signed earlier in the year may now be below cost on some lanes."
   },
   {
-   "title": "DHL on the east coast",
-   "text": "DHL is building near Khor Fakkan, Dibba and Fujairah. Our east-coast edge may narrow within months."
+   "title": "Platform rate pressure",
+   "text": "Talabat's profit fell while orders grew. Delivery partners should expect tougher rate talks."
   },
   {
-   "title": "Surcharge credibility",
-   "text": "If fuel falls and we do not pass it through, customers will push back on war-risk surcharges too."
+   "title": "Long Saudi air gap",
+   "text": "Some carriers are out of Riyadh until late January. Customers relying on belly space need a plan beyond November."
   }
  ],
  "moves": [
   {
-   "title": "Hold sea war-risk pass-through",
-   "text": "Keep current war-risk surcharges on Gulf sea quotes after the $64m insurance claim and the ADNOC L&S attack.",
+   "title": "Daily air spot repricing through peak",
+   "text": "Move spot air quotes to a daily rate card while the TAC index climbs. Flag any fixed contract below current buy rate.",
    "team": "Pricing"
   },
   {
-   "title": "Package an east-coast door-to-door product",
-   "text": "Combine Khor Fakkan/Fujairah handling, trucking to Jebel Ali and customs into one priced product, before DHL's build-up lands.",
+   "title": "Refresh the Saudi lane advisory",
+   "text": "Add flydubai to 27 Nov, Etihad to 30 Nov, Air France to 12 Dec, BA to 11 Jan and Cathay to 31 Jan. Offer road capacity in the same note.",
+   "team": "Express · Air"
+  },
+  {
+   "title": "Call Gulf sea-exposed accounts",
+   "text": "After the Khasab strike, call top accounts on Gulf sea lanes with land and air options and a priced alternative.",
    "team": "Freight · Key accounts"
   },
   {
-   "title": "Cold-chain pitch to grocers",
-   "text": "Use the DP World–MAF deal as the hook. Offer chilled Egypt and India import flows to other grocers and food importers.",
-   "team": "Contract logistics"
+   "title": "Talabat cross-border pitch",
+   "text": "Build a proposal for cross-border and fulfilment in Egypt, Jordan and Iraq, where Talabat is growing fastest.",
+   "team": "Express · E-commerce"
   },
   {
-   "title": "Index the domestic fuel surcharge down",
-   "text": "Prepare the December fuel surcharge cut now so it lands with the pump price change.",
-   "team": "Pricing"
-  },
-  {
-   "title": "Update Kuwait and Bahrain advisories",
-   "text": "Add Kuwait to the customer service notes next to Bahrain and Saudi air cuts.",
+   "title": "Floor for last-mile platform rates",
+   "text": "Set a minimum rate per drop before platform renewals, as margin-squeezed platforms push on price.",
    "team": "Sales · Domestic"
-  },
-  {
-   "title": "Push Saudi road to air-dependent shippers",
-   "text": "List IndiGo, Akasa, Air Arabia and Etihad Saudi cuts and offer road capacity to customers who rely on belly space.",
-   "team": "Express · Air"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
   {
-   "title": "US official says Hormuz insurance hits $64m: Is the strait really open?",
-   "publication": "Al Jazeera",
-   "date": "18 Nov 2026",
-   "url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open"
+   "title": "US/Israel-Iran war: What UAE residents need to know today (Nov. 19, 2026)",
+   "publication": "Gulf News",
+   "date": "19 Nov 2026",
+   "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-19-2026-1.500752902"
   },
   {
-   "title": "Strait of Hormuz News, November 18, 2026: Straits Daily Brief",
+   "title": "Strait of Hormuz News, November 19, 2026: Straits Daily Brief",
    "publication": "Straits Daily Brief",
-   "date": "18 Nov 2026",
-   "url": "https://straits.live/briefs/2026-11-18"
+   "date": "19 Nov 2026",
+   "url": "https://straits.live/briefs/2026-11-19"
   },
   {
-   "title": "UAE flight alert: Etihad and flydubai extend Saudi cancellations as fresh attacks rock the Gulf",
-   "publication": "Gulf News",
-   "date": "18 Nov 2026",
-   "url": "https://gulfnews.com/world/gulf/saudi/uae-flights-status-update-etihad-flydubai-extend-saudi-cancellations-as-gulf-attacks-escalate-on-november-18-1.500751819"
+   "title": "Tanker hit off Oman as attacks and mine claims in and around Strait of Hormuz continue",
+   "publication": "Riviera Maritime Media",
+   "date": "17 Nov 2026",
+   "url": "https://www.rivieramm.com/news-content-hub/tanker-hit-off-oman-as-attacks-and-mine-claims-in-and-around-strait-of-hormuz-continue-90591"
   },
   {
-   "title": "DP World fast-tracks Dh2.5 billion Fujairah ports as UAE shifts cargo routes",
-   "publication": "Gulf News",
-   "date": "12 Nov 2026",
-   "url": "https://gulfnews.com/business/markets/dp-world-fast-tracks-dh25-billion-fujairah-ports-as-uae-shifts-cargo-routes-1.500744888"
+   "title": "Renewed hardening in rates as market heads into busiest weeks of traditional peak season",
+   "publication": "Air Cargo Week",
+   "date": "Nov 2026",
+   "url": "https://aircargoweek.com/?p=115679"
   },
   {
-   "title": "UAE petrol prices: Will December bring second drop amid shifting oil supply?",
+   "title": "Talabat raises 2026 outlook as MENA delivery demand gathers pace",
    "publication": "Khaleej Times",
    "date": "17 Nov 2026",
-   "url": "https://www.khaleejtimes.com/uae-petrol-prices-will-december-bring-second-drop-amid-shifting-oil-supply"
+   "url": "https://www.khaleejtimes.com/business/talabat-raises-outlook-as-mena-demand-drives-faster-order-growth"
   },
   {
-   "title": "From every click to every journey: Redefining the future of delivery",
-   "publication": "Gulf News",
-   "date": "16 Nov 2026",
-   "url": "https://gulfnews.com/business/analysis/from-every-click-to-every-journey-redefining-the-future-of-delivery-1.500748861"
-  },
-  {
-   "title": "Majid Al Futtaim and DP World target higher Egypt-UAE exports",
-   "publication": "Logistics Update Africa",
-   "date": "18 Nov 2026",
-   "url": "https://www.logupdateafrica.com/trade/majid-al-futtaim-and-dp-world-target-higher-egypt-uae-exports-1361337"
-  },
-  {
-   "title": "DP World partners with Dubai Future Foundation to develop autonomous port logistics",
-   "publication": "Robotics & Automation News",
-   "date": "15 Nov 2026",
-   "url": "https://roboticsandautomationnews.com/2026/11/15/dp-world-partners-with-dubai-future-foundation-to-develop-autonomous-port-logistics/107137/"
-  },
-  {
-   "title": "Hamdan bin Mohammed visits Amazon's new corporate office in Dubai",
-   "publication": "Dubai Media Office",
-   "date": "17 Nov 2026",
-   "url": "https://mediaoffice.ae/en/news/2026/novemebr/17-11/hamdan-bin-mohammed-visits-amazon-new-corporate-office-in-dubai"
-  },
-  {
-   "title": "DHL to boost network in eastern UAE amid regional uncertainty",
-   "publication": "The National",
-   "date": "8 Nov 2026",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/"
-  },
-  {
-   "title": "Freight rates could take up to a year to ease after war ends: Aramex CEO",
+   "title": "Aramex's Q3 profit jumps 817% to Dh48m on strong freight forwarding growth, cost management",
    "publication": "Khaleej Times",
-   "date": "2 Nov 2026",
-   "url": "https://khaleejtimes.com/business/freight-rates-could-take-up-to-a-year-to-ease-after-peace-returns-says-aramex-ceo"
-  },
-  {
-   "title": "Aramex launches AI data centre logistics service across GCC, Asia and US",
-   "publication": "Gulf Business",
-   "date": "3 Nov 2026",
-   "url": "https://gulfbusiness.com/en/2026/logistics/aramex-launches-ai-data-centre-logistics-service-across-gcc-asia-and-us/"
+   "date": "10 Nov 2026",
+   "url": "https://www.khaleejtimes.com/aramex-profit-jumps-817-to-dh48-million-in-q3-on-strong-freight-forwarding-growth-and-cost-management"
   }
  ]
 }
