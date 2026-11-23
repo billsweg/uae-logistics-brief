@@ -1,40 +1,46 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-11-20",
- "date": "Friday 20 November 2026",
+ "isoDate": "2026-11-23",
+ "date": "Monday 23 November 2026",
  "title": "UAE Logistics Brief",
- "lede": "Another tanker was hit on Wednesday evening, 6 nautical miles north of Khasab, and 44 ships are now holding in the Gulf. In the air, rates are at their highest of 2026 as peak season builds, and more airlines have pushed Saudi returns into December and January.",
+ "lede": "Attacks in the Strait of Hormuz are at their worst level of the crisis: seven tankers hit since 16 November, three of them in 15 hours off Khasab. In the air, Dubai export rates to Europe are up 83% on last year, just as Amazon and noon run 12-day sales to 30 November.",
  "gauges": [
   {
-   "value": "44",
-   "label": "Ships holding position in the Strait and Gulf",
-   "note": "AIS count, 05:30 UTC 19 Nov; 43 a day earlier (Straits Daily Brief)",
+   "value": "7",
+   "label": "Tankers hit in Hormuz since 16 Nov",
+   "note": "Three in 15 hours on 20–21 Nov, 8–17 nm off Khasab (JMIC via Iran International, 22 Nov)",
    "tone": "bad"
   },
   {
-   "value": "2",
-   "label": "Hormuz transits on 15 Nov, against 85 a day before the crisis",
-   "note": "IMF PortWatch via Straits Daily Brief, 19 Nov",
+   "value": "263",
+   "label": "Hormuz transits in the week to 18 Nov",
+   "note": "Down from 308 the week before (UKMTO via Marine Insight, 21 Nov)",
    "tone": "bad"
   },
   {
-   "value": "+28.2%",
-   "label": "Global air freight rates (BAI00) vs a year ago",
-   "note": "Up 6.6% in the week to 9 Nov; highest of 2026 (TAC Index via Air Cargo Week)",
+   "value": "+83%",
+   "label": "Dubai to Europe air rates vs a year ago",
+   "note": "Week 45; Dubai to US also up over 80% (WorldACD via STAT Times, 17 Nov)",
    "tone": "bad"
   },
   {
-   "value": "$92.25",
-   "label": "Brent crude, Thursday 19 Nov",
-   "note": "Down 0.40%, 05:45 UTC (Straits Daily Brief)",
+   "value": "$3.45",
+   "label": "Global average air rate per kg, week 45",
+   "note": "+2% on the week, +31% on last year (WorldACD via STAT Times)",
+   "tone": "bad"
+  },
+  {
+   "value": "-33%",
+   "label": "Air cargo weight into Saudi Arabia vs week 40",
+   "note": "After Houthi missile attacks from early October (WorldACD via STAT Times)",
+   "tone": "bad"
+  },
+  {
+   "value": "12 days",
+   "label": "Amazon White Friday and noon Yellow Friday",
+   "note": "Both run 19–30 Nov (Gulf Business)",
    "tone": "neutral"
-  },
-  {
-   "value": "+17%",
-   "label": "Talabat Q3 GMV growth, to $3bn",
-   "note": "GCC markets grew 9%; outside the Gulf 43% (Khaleej Times, 17 Nov)",
-   "tone": "good"
   }
  ],
  "groups": [
@@ -43,31 +49,45 @@
    "stories": [
     {
      "hot": true,
-     "headline": "New tanker strike 6 nautical miles off Khasab; 44 ships now waiting",
+     "headline": "Seven tankers hit since 16 November; three in 15 hours off Khasab",
      "body": [
-      "An unknown projectile hit a tanker's engine room about 6 nautical miles north of Khasab at 8:45pm Gulf time on Wednesday, UKMTO said. The crew were safe as of early Thursday. The ship and the attacker have not been named.",
-      "Straits Daily Brief counts 44 ships holding position in the Strait and Gulf, up from 43. Only 2 transits were logged on 15 November, against 85 a day before the crisis. Iran's navy claims three tankers hit mines east of the strait; no maritime authority has confirmed it."
+      "The Joint Maritime Information Centre said on Sunday that seven tankers have been struck in the Strait of Hormuz since 16 November. The three latest were outbound ships hit on 20 and 21 November, 8 to 17 nautical miles from Khasab. Two were struck about 50 minutes apart.",
+      "Tracking data showed no transits by cargo ships above 1,000 deadweight tons between 19 and 21 November. On Saturday UKMTO reported two more tankers struck, with no casualties, and Bahrain intercepted several Iranian aerial attacks."
      ],
-     "soWhat": "New since yesterday: a third strike in three days, this one right off Musandam. Gulf sea schedules will not improve this month.",
-     "source": "Gulf News; Straits Daily Brief",
-     "date": "19 Nov",
-     "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-19-2026-1.500752902",
-     "image": "https://media.assettype.com/gulfnews%2F2026-11-06%2Fxf859qf1%2FScreenshot-2026-11-06-at-2.23.49-PM.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-     "imageCredit": "Gulf News"
+     "soWhat": "New since Friday: four more strikes and no cargo transits for three days. Treat Gulf sea capacity as shut for the rest of November.",
+     "source": "Iran International; Gulf News",
+     "date": "22 Nov",
+     "url": "https://www.iranintl.com/en/202611223290",
+     "image": "https://i.iranintl.com/images/rdk9umy0/production/3f08a638ecd64379aa60e2f6cad4b285576a5e1d-1280x720.jpg?rect=0,24,1280,672&w=1200&h=630&q=66&fit=max&auto=format",
+     "imageCredit": "Iran International"
     },
     {
      "hot": false,
-     "headline": "Two of this week's hit tankers are UAE-linked",
+     "headline": "Hormuz traffic down again: 263 transits in a week",
      "body": [
-      "Riviera reports that the tanker On Phoenix, hit off Oman on 16 November, is UAE-owned and AET-managed. The crude tanker Al Dhanna, owned and managed by ADNOC Logistics & Services, was hit in its steering gear room in the Gulf. Both crews were safe.",
-      "A separate NAVAREA report on 17 November logged another incident for On Phoenix near Ras Hindi. It is unclear if this was a second attack."
+      "UKMTO's weekly overview counted 263 transits in the seven days to 18 November, down from 308 the week before. Only 73 broadcast AIS. Six tankers were attacked in that week and two needed help.",
+      "UKMTO has logged 106 incidents in the strait since 28 February. JMIC rates the threat as severe."
      ],
-     "soWhat": "UAE-owned ships are now regular targets. UAE shippers will keep looking for land, air and east-coast routes.",
-     "source": "Riviera Maritime Media",
-     "date": "17 Nov",
-     "url": "https://www.rivieramm.com/news-content-hub/tanker-hit-off-oman-as-attacks-and-mine-claims-in-and-around-strait-of-hormuz-continue-90591",
-     "image": "https://dvzpv6x5302g1.cloudfront.net/AcuCustom/Sitename/DAM/194/tanker-mine-explosion-irgc-fars_Main.png",
-     "imageCredit": "Riviera Maritime Media"
+     "soWhat": "The trend is still down, not stabilising. Do not promise customers a sea recovery date.",
+     "source": "Marine Insight",
+     "date": "21 Nov",
+     "url": "https://www.marineinsight.com/strait-hormuz-shipping-65-below-tanker-attacks/",
+     "image": "https://www.marineinsight.com/wp-content/uploads/2026/11/Oil-tanker-strikes-in-Strait-of-Hormuz-1.jpg",
+     "imageCredit": "Marine Insight"
+    },
+    {
+     "hot": false,
+     "headline": "Oman's ports carry more Gulf cargo, including Saudi-bound loads",
+     "body": [
+      "Gulf News reports that the UAE–Oman Green Corridors and the ports of Duqm and Sohar are being used to keep Gulf cargo moving, including cargo bound for Saudi Arabia.",
+      "Asyad has started a weekly Duqm–Khalifa Port Green Corridor by road through Khatm Al Shiklah and Al Ain Dry Port, and says it expects volumes to grow."
+     ],
+     "soWhat": "Oman-to-UAE road legs are now a standard route. We should sell them as a product, not a one-off fix.",
+     "source": "Gulf News; Oman Observer",
+     "date": "22 Nov",
+     "url": "https://gulfnews.com/world/mena/middle-east-war-key-updates-uae-residents-need-to-know-today-november-22-1.500756860",
+     "image": "https://www.omanobserver.om/omanobserver/uploads/images/2026/11/14/thumbs/600x600/3578507.jpg",
+     "imageCredit": "Oman Observer"
     }
    ]
   },
@@ -76,27 +96,31 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Air freight rates hit their 2026 high as peak season starts",
+     "headline": "Dubai air export rates up 83% to Europe as capacity stays tight",
      "body": [
-      "The TAC Index global measure (BAI00) rose 6.6% in the week to 9 November and is 28.2% above last year. Air Cargo Week says rates are now at their highest level of 2026.",
-      "Frankfurt outbound rose 9.9% in the week and is up 48.1% on last year. Europe saw what the report calls chunky gains on routes including the UAE."
+      "WorldACD says global air rates rose 2% in week 45 to $3.45 per kg, 31% above last year. Middle East and South Asia had the biggest annual rise of any region, at 63%.",
+      "Rates from Dubai to Europe are up 83% on last year, and Dubai to the US is up more than 80%. Air cargo weight into Saudi Arabia is down 33% against early October, after Houthi missile attacks."
      ],
-     "soWhat": "Buy rates are rising into the busiest weeks of the year. Fixed-price air contracts lose margin fast in this market.",
-     "source": "Air Cargo Week (TAC Index)",
-     "date": "Mid-Nov",
-     "url": "https://aircargoweek.com/?p=115679"
+     "soWhat": "Dubai outbound is the most expensive it has been in a year. Every air quote out of Dubai needs today's buy rate.",
+     "source": "STAT Times (WorldACD)",
+     "date": "17 Nov",
+     "url": "https://www.stattimes.com/air-cargo/global-air-cargo-traffic-falls-2-as-rates-continue-to-increase-1361323",
+     "image": "https://www.stattimes.com/h-upload/2026/11/17/103317-air-cargo-revenues1.jpg",
+     "imageCredit": "STAT Times"
     },
     {
      "hot": false,
-     "headline": "Saudi flight cuts stretch into December and January",
+     "headline": "European airlines return to Dubai from 25 November",
      "body": [
-      "flydubai has extended Riyadh and Abha cancellations to 27 November and resumed Dammam on a reduced schedule. Etihad's passenger and cargo cuts to Riyadh and Dammam run to 30 November.",
-      "Further out, Air France stays off Riyadh to 12 December, British Airways has pushed its London–Riyadh restart to 11 January, and Cathay Pacific Riyadh is suspended to 31 January. Qatar Airways resumed Riyadh and Dammam on 13 and 14 November."
+      "Lufthansa, SWISS and Eurowings plan to restart Dubai flights on 25 November, and Austrian Airlines on 12 December. Singapore Airlines stays off Dubai until 28 February 2027, and Finnair will not fly to Dubai this winter.",
+      "Etihad's Riyadh and Dammam passenger and cargo flights remain suspended to 30 November. EASA has extended its Iran and Iraq airspace advisories to 31 January 2027."
      ],
-     "soWhat": "New since yesterday: flydubai's dates and long-haul cuts into 2027. Belly space into Riyadh stays thin through the new year.",
+     "soWhat": "New since Friday: some Europe belly space comes back this week. It may ease Dubai–Europe rates a little in December.",
      "source": "Gulf News",
-     "date": "19 Nov",
-     "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-19-2026-1.500752902"
+     "date": "21 Nov",
+     "url": "https://gulfnews.com/business/aviation/uae-flights-status-update-saudi-cancellations-extend-as-regional-tensions-rise-on-november-20-1.500756004",
+     "image": "https://media.assettype.com/gulfnews%2F2026-08-30%2Fcwkt7ycq%2Fgulfnews2026-03-061q8wxkljDubaiairport.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+     "imageCredit": "Dubai Airports via Gulf News"
     }
    ]
   },
@@ -105,35 +129,43 @@
    "stories": [
     {
      "hot": false,
-     "headline": "Talabat raises 2026 outlook again; GCC grows 9%",
+     "headline": "UAE sales peak: Amazon and noon both run 12 days to 30 November",
      "body": [
-      "Talabat's Q3 GMV rose 17% to $3 billion, and revenue rose 18% to $1.2 billion. GCC markets, including the UAE, grew 9%, while Egypt, Jordan and Iraq grew 43%.",
-      "Adjusted EBITDA fell 3% to $150 million and net income fell 15% to $102 million. It is the second guidance upgrade this year."
+      "Amazon's White Friday sale started on 19 November and runs to 30 November across more than 30 categories. noon's Yellow Friday runs on the same dates, with up to 90% off and up to 80% off on noon Minutes.",
+      "Amazon cites HarrisX research that 85% of UAE shoppers are more likely to buy during sales events."
      ],
-     "soWhat": "Order volume keeps growing but margins are squeezed. Expect platforms to push hard on delivery partner rates.",
-     "source": "Khaleej Times",
-     "date": "17 Nov",
-     "url": "https://www.khaleejtimes.com/business/talabat-raises-outlook-as-mena-demand-drives-faster-order-growth",
-     "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2025-01-06/t96funsf/ui1VKdolAZMhQDuZg5lJru3fFFA.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,1,1600,1067",
-     "imageCredit": "Khaleej Times"
+     "soWhat": "This is the biggest parcel week of the year for UAE last mile. Returns will follow in early December.",
+     "source": "Gulf Business",
+     "date": "19–20 Nov",
+     "url": "https://gulfbusiness.com/en/2026/retail/amazon-uae-white-friday-sale-2026-begins-november-19-with-discounts-of-up-to-60/"
     }
    ]
   }
  ],
  "competitors": [
   {
-   "name": "Talabat",
-   "headline": "Growth shifts outside the Gulf: non-GCC now 25% of GMV",
+   "name": "Amazon",
+   "headline": "White Friday runs 12 days, with Prime at Dhs16 a month",
    "body": [
-    "Non-GCC markets made up 25% of Talabat's GMV in Q3, up from 20% a year earlier. Free cash flow rose 41% to $141 million.",
-    "Talabat runs its own rider network, so it is both a last-mile rival in quick commerce and a potential buyer of cross-border and warehousing services."
+    "Amazon UAE's White Friday runs 19–30 November, with up to 60% off Amazon devices and up to 50% off home appliances. A Bazaar code gives up to 25% off orders of seven or more units.",
+    "Prime costs Dhs16 a month or Dhs140 a year, and fast delivery is part of the offer."
    ],
-   "soWhat": "Its fastest growth is in Egypt, Jordan and Iraq, where we have strong networks. That is the angle for a partnership pitch.",
-   "source": "Khaleej Times",
-   "date": "17 Nov",
-   "url": "https://www.khaleejtimes.com/business/talabat-raises-outlook-as-mena-demand-drives-faster-order-growth",
-   "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2025-01-06/t96funsf/ui1VKdolAZMhQDuZg5lJru3fFFA.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,1,1600,1067",
-   "imageCredit": "Khaleej Times"
+   "soWhat": "Amazon keeps its own parcels in-house. Our share of this peak comes from sellers and brands not on Amazon's own network.",
+   "source": "Gulf Business",
+   "date": "19 Nov",
+   "url": "https://gulfbusiness.com/en/2026/retail/amazon-uae-white-friday-sale-2026-begins-november-19-with-discounts-of-up-to-60/"
+  },
+  {
+   "name": "noon",
+   "headline": "Yellow Friday pushes 15-minute delivery on noon Minutes",
+   "body": [
+    "noon's Yellow Friday runs 19–30 November with up to 90% off and up to 80% off on noon Minutes. noon says delivery can take as little as 15 minutes.",
+    "Tabby and Tamara offer six months at 0% interest during the sale."
+   ],
+   "soWhat": "Quick commerce sets customer expectations. Our same-day and next-day offers need clear cut-off times this week.",
+   "source": "Gulf Business",
+   "date": "20 Nov",
+   "url": "https://gulfbusiness.com/en/2026/retail/noons-yellow-friday-sale-is-back-90-off-10-cashback-and-a-brand-new-car-up-for-grabs/"
   },
   {
    "name": "Aramex (baseline)",
@@ -141,7 +173,7 @@
    "body": [
     "Still our latest figures: Q3 net profit rose to Dh48 million from Dh5.2 million, and revenue rose 24% to a record Dh1.98 billion. Freight forwarding led growth; gross margin was 21% against 23.2%."
    ],
-   "soWhat": "With air buy rates at their 2026 high, protecting forwarding margin matters more than chasing volume this quarter.",
+   "soWhat": "With Dubai air export rates up 83%, forwarding margin depends on how fast we pass buy-rate rises through.",
    "source": "Khaleej Times",
    "date": "10 Nov",
    "url": "https://www.khaleejtimes.com/aramex-profit-jumps-817-to-dh48-million-in-q3-on-strong-freight-forwarding-growth-and-cost-management",
@@ -151,102 +183,129 @@
  ],
  "opportunities": [
   {
-   "title": "Peak-season air yield",
-   "text": "Rates are at their 2026 high and still rising week on week. Reprice spot air quotes daily, not weekly."
+   "title": "Oman–UAE road as a product",
+   "text": "Duqm, Sohar and the Green Corridors now carry Gulf and Saudi-bound cargo. Package a priced, scheduled Oman–UAE–Saudi road service."
   },
   {
-   "title": "Saudi by road into 2027",
-   "text": "Air France, BA and Cathay are off Riyadh into December and January. Sell UAE–Saudi road as the steady option for the whole winter."
+   "title": "Dubai outbound air yield",
+   "text": "Dubai–Europe and Dubai–US rates are up over 80%. Spot quotes can carry the market rate."
   },
   {
-   "title": "Non-sea routes for UAE shippers",
-   "text": "UAE-owned tankers are being hit. Shippers with Gulf sea exposure need land and air alternatives now."
+   "title": "Peak-week sellers off Amazon",
+   "text": "Brands and marketplace sellers outside Amazon's own network need extra capacity to 30 November."
   },
   {
-   "title": "Platforms growing outside the Gulf",
-   "text": "Talabat grew 43% in Egypt, Jordan and Iraq. Offer cross-border and fulfilment where our network is deep."
+   "title": "December returns",
+   "text": "Two 12-day sales mean a returns wave in early December. Offer a returns pick-up bundle now."
+  },
+  {
+   "title": "Europe belly space returns",
+   "text": "Lufthansa group flights restart on 25 November. Lock in allocations early before others do."
   }
  ],
  "watchouts": [
   {
-   "title": "Strikes closer to the UAE",
-   "text": "Wednesday's hit was 6 nautical miles off Khasab. Feeder and east-coast schedules may slip again."
+   "title": "No cargo transits for three days",
+   "text": "No cargo ships above 1,000 dwt crossed Hormuz on 19–21 November. Sea-dependent customers will need more road and air."
   },
   {
-   "title": "Unconfirmed mine claims",
-   "text": "Iran says three tankers hit mines. Even unverified, this keeps insurers and owners cautious."
+   "title": "Attacks spreading to Bahrain",
+   "text": "Iranian aerial attacks on Bahrain add risk to northern Gulf road and air routes."
   },
   {
-   "title": "Air buy rates in peak",
-   "text": "Fixed-rate air contracts signed earlier in the year may now be below cost on some lanes."
+   "title": "Saudi air volumes falling",
+   "text": "Air cargo into Saudi Arabia is down 33% against early October. Check Saudi air forecasts and commitments."
   },
   {
-   "title": "Platform rate pressure",
-   "text": "Talabat's profit fell while orders grew. Delivery partners should expect tougher rate talks."
+   "title": "Peak-week service failures",
+   "text": "Sales volumes plus 15-minute delivery promises raise the risk of missed SLAs and complaints."
   },
   {
-   "title": "Long Saudi air gap",
-   "text": "Some carriers are out of Riyadh until late January. Customers relying on belly space need a plan beyond November."
+   "title": "Rates may soften in December",
+   "text": "Returning European belly space could pull Dubai–Europe rates down. Avoid buying long fixed capacity at today's peak."
   }
  ],
  "moves": [
   {
-   "title": "Daily air spot repricing through peak",
-   "text": "Move spot air quotes to a daily rate card while the TAC index climbs. Flag any fixed contract below current buy rate.",
+   "title": "Daily Dubai outbound air rate card",
+   "text": "Reprice Dubai–Europe and Dubai–US spot air daily while rates sit over 80% above last year.",
    "team": "Pricing"
   },
   {
-   "title": "Refresh the Saudi lane advisory",
-   "text": "Add flydubai to 27 Nov, Etihad to 30 Nov, Air France to 12 Dec, BA to 11 Jan and Cathay to 31 Jan. Offer road capacity in the same note.",
-   "team": "Express · Air"
-  },
-  {
-   "title": "Call Gulf sea-exposed accounts",
-   "text": "After the Khasab strike, call top accounts on Gulf sea lanes with land and air options and a priced alternative.",
+   "title": "Launch an Oman–UAE–Saudi road offer",
+   "text": "Price a scheduled road service via Sohar or Duqm into the UAE and on to Saudi Arabia, and send it to Gulf sea-exposed accounts.",
    "team": "Freight · Key accounts"
   },
   {
-   "title": "Talabat cross-border pitch",
-   "text": "Build a proposal for cross-border and fulfilment in Egypt, Jordan and Iraq, where Talabat is growing fastest.",
+   "title": "Book Lufthansa group allocations",
+   "text": "Talk to Lufthansa Cargo before 25 November about Dubai–Frankfurt belly space for December.",
+   "team": "Express · Air"
+  },
+  {
+   "title": "Peak-week capacity for non-Amazon sellers",
+   "text": "Call top e-commerce sellers today with extra pick-up slots and clear cut-off times to 30 November.",
    "team": "Express · E-commerce"
   },
   {
-   "title": "Floor for last-mile platform rates",
-   "text": "Set a minimum rate per drop before platform renewals, as margin-squeezed platforms push on price.",
+   "title": "Returns bundle for early December",
+   "text": "Prepare a returns pick-up and processing rate for sellers ahead of the post-sale wave.",
    "team": "Sales · Domestic"
+  },
+  {
+   "title": "Review Saudi air commitments",
+   "text": "With Saudi air weight down 33%, check minimum-volume deals and shift spare demand to road.",
+   "team": "Pricing"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
   {
-   "title": "US/Israel-Iran war: What UAE residents need to know today (Nov. 19, 2026)",
+   "title": "Seven tankers hit in Hormuz since Nov. 16 amid Iranian harassment",
+   "publication": "Iran International",
+   "date": "22 Nov 2026",
+   "url": "https://www.iranintl.com/en/202611223290"
+  },
+  {
+   "title": "Middle East war: Key updates UAE residents need to know today, November 22",
    "publication": "Gulf News",
-   "date": "19 Nov 2026",
-   "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-19-2026-1.500752902"
+   "date": "22 Nov 2026",
+   "url": "https://gulfnews.com/world/mena/middle-east-war-key-updates-uae-residents-need-to-know-today-november-22-1.500756860"
   },
   {
-   "title": "Strait of Hormuz News, November 19, 2026: Straits Daily Brief",
-   "publication": "Straits Daily Brief",
-   "date": "19 Nov 2026",
-   "url": "https://straits.live/briefs/2026-11-19"
+   "title": "Strait Of Hormuz Traffic Stays 65% Below Pre-War Levels As 6 Tankers Are Attacked In A Week",
+   "publication": "Marine Insight",
+   "date": "21 Nov 2026",
+   "url": "https://www.marineinsight.com/strait-hormuz-shipping-65-below-tanker-attacks/"
   },
   {
-   "title": "Tanker hit off Oman as attacks and mine claims in and around Strait of Hormuz continue",
-   "publication": "Riviera Maritime Media",
+   "title": "Asyad opens Duqm–UAE corridor",
+   "publication": "Oman Observer",
+   "date": "14 Nov 2026",
+   "url": "https://www.omanobserver.om/article/1199655/business/economy/asyad-opens-duqmuae-corridor"
+  },
+  {
+   "title": "Global air cargo traffic falls 2% as rates continue to increase",
+   "publication": "STAT Times",
    "date": "17 Nov 2026",
-   "url": "https://www.rivieramm.com/news-content-hub/tanker-hit-off-oman-as-attacks-and-mine-claims-in-and-around-strait-of-hormuz-continue-90591"
+   "url": "https://www.stattimes.com/air-cargo/global-air-cargo-traffic-falls-2-as-rates-continue-to-increase-1361323"
   },
   {
-   "title": "Renewed hardening in rates as market heads into busiest weeks of traditional peak season",
-   "publication": "Air Cargo Week",
-   "date": "Nov 2026",
-   "url": "https://aircargoweek.com/?p=115679"
+   "title": "UAE flights status update: Saudi cancellations extend as regional tensions rise on November 20",
+   "publication": "Gulf News",
+   "date": "21 Nov 2026",
+   "url": "https://gulfnews.com/business/aviation/uae-flights-status-update-saudi-cancellations-extend-as-regional-tensions-rise-on-november-20-1.500756004"
   },
   {
-   "title": "Talabat raises 2026 outlook as MENA delivery demand gathers pace",
-   "publication": "Khaleej Times",
-   "date": "17 Nov 2026",
-   "url": "https://www.khaleejtimes.com/business/talabat-raises-outlook-as-mena-demand-drives-faster-order-growth"
+   "title": "Amazon UAE White Friday Sale 2026 begins November 19 with discounts of up to 60%",
+   "publication": "Gulf Business",
+   "date": "19 Nov 2026",
+   "url": "https://gulfbusiness.com/en/2026/retail/amazon-uae-white-friday-sale-2026-begins-november-19-with-discounts-of-up-to-60/"
+  },
+  {
+   "title": "noon's Yellow Friday sale is back: 90% off, 10% cashback and a brand-new car up for grabs",
+   "publication": "Gulf Business",
+   "date": "20 Nov 2026",
+   "url": "https://gulfbusiness.com/en/2026/retail/noons-yellow-friday-sale-is-back-90-off-10-cashback-and-a-brand-new-car-up-for-grabs/"
   },
   {
    "title": "Aramex's Q3 profit jumps 817% to Dh48m on strong freight forwarding growth, cost management",
