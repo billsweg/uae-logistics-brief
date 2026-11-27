@@ -1,40 +1,40 @@
 {
  "app": "uae-brief",
  "v": 2,
- "isoDate": "2026-11-26",
- "date": "Thursday 26 November 2026",
+ "isoDate": "2026-11-27",
+ "date": "Friday 27 November 2026",
  "title": "UAE Logistics Brief",
- "lede": "The war has opened a second front on Saudi Arabia's Red Sea coast: the Houthis threatened Jeddah and every Saudi Red Sea port, and Jazan and Jeddah were struck on Wednesday night. Inside the Gulf, a projectile exploded near a tanker 50 nautical miles off Dubai and Iran says two more tankers hit mines, while airfreight rates rose for a seventh week.",
+ "lede": "The Houthis have moved from Saudi ports to Saudi energy sites: drones were fired at the Ras Tanura refinery and a refinery in Jazan was hit on Thursday, pushing Brent back to about $95. Closer to home, ADNOC L&S confirmed a crew member died after the 17 November attack in Hormuz, and another tanker was hit near Khasab.",
  "gauges": [
   {
-   "value": "$3.49/kg",
-   "label": "Global average airfreight rate, 9–15 Nov",
-   "note": "Seventh weekly rise; Middle East & South Asia rates up 62% year on year (WorldACD via Air Cargo News)",
+   "value": "$94.71",
+   "label": "Brent crude, 26 Nov (06:40 GMT)",
+   "note": "Third straight daily rise, up about 5% this week (Reuters via The Irish Times)",
    "tone": "bad"
   },
   {
-   "value": "~50%",
-   "label": "Hormuz oil flows vs pre-war",
-   "note": "Kpler: 8.64m barrels a day in the week to 15 Nov against 17.15m before the war (via Marketcalls)",
+   "value": "+83%",
+   "label": "Dubai-to-Europe air rates vs last year",
+   "note": "WorldACD, week of 2–8 Nov; Middle East & South Asia to the US up 79% (STAT Times)",
    "tone": "bad"
   },
   {
-   "value": "7–9%",
-   "label": "Gulf war-risk cover, share of hull value per transit",
-   "note": "About 0.25% before the war (Lloyd's List and Marsh, via Marketcalls)",
+   "value": "-33%",
+   "label": "Saudi Arabia air cargo volumes, latest week",
+   "note": "WorldACD, week of 2–8 Nov, after Houthi missile attacks began in early October (STAT Times)",
    "tone": "bad"
   },
   {
-   "value": "$91.40",
-   "label": "Brent crude settle, 24 Nov",
-   "note": "Up 2.27% on the day; around $91 late on 25 Nov (Political.org; InvestingLive)",
-   "tone": "bad"
+   "value": "1m+ TEU",
+   "label": "Moved by DP World over land since March",
+   "note": "East-coast ports to Jebel Ali by road and rail; about 3,500 TEU a day on 3,000+ trucks (TradeArabia, 11 Nov)",
+   "tone": "neutral"
   },
   {
-   "value": "Dh1.98bn",
-   "label": "Aramex Q3 revenue, a record",
-   "note": "Up 24% year on year; net profit Dh48m, up 817% (Khaleej Times, 10 Nov)",
-   "tone": "good"
+   "value": "Dh4.16",
+   "label": "Super 98 per litre, November",
+   "note": "Down Dh0.24 from October; December prices follow global oil with a one-month lag (Khaleej Times)",
+   "tone": "neutral"
   }
  ],
  "groups": [
@@ -43,45 +43,45 @@
    "stories": [
     {
      "hot": true,
-     "headline": "Houthis threaten all Saudi Red Sea ports; Jazan and Jeddah struck",
+     "headline": "Houthis widen attacks from Saudi ports to Ras Tanura and a Jazan refinery",
      "body": [
-      "On 25 November the Houthis said Jeddah and every other Saudi Red Sea port would be targeted if Saudi Arabia attacks Hodeidah. They told port workers to evacuate and shipping lines to pull their vessels out. The Saudi-led coalition then said it hit targets in Hodeidah, Saada and Amran.",
-      "Late on Wednesday the coalition said a projectile hit Jazan port, causing minor damage, and a drone was shot down over Jeddah port. Since Hormuz closed in March, Saudi Arabia has relied on Jeddah and Yanbu for key imports and non-oil exports."
+      "After Wednesday's strikes on Jazan and Jeddah ports, Saudi forces said they intercepted four drones fired at Ras Tanura, the 550,000 barrel-a-day refinery that sits beside a major export terminal. Debris fell in the area. On Thursday the coalition said the Houthis attacked a refinery in Jazan.",
+      "Riyadh has faced almost daily attacks since early October. Saudi Arabia's economy is now expected to shrink 2.1% this year, the finance minister said."
      ],
-     "soWhat": "New: the Red Sea back door into Saudi is now a target too. UAE-to-Saudi road freight becomes the safest way into the Kingdom; price and sell it that way.",
-     "source": "Marine Insight (Reuters)",
-     "date": "25 Nov",
-     "url": "https://www.marineinsight.com/houthis-threaten-jeddah-saudi-red-sea-ports-hodeidah/",
-     "image": "https://www.marineinsight.com/wp-content/uploads/2026/11/Jeddah-Port-Saudi-Arabia.jpg",
-     "imageCredit": "Marine Insight"
+     "soWhat": "New: Saudi energy sites are now targets, not just ports. Expect Saudi fuel and insurance costs to rise; review Saudi lane prices and keep road capacity from the UAE ready.",
+     "source": "Rigzone (Bloomberg)",
+     "date": "26 Nov",
+     "url": "https://www.rigzone.com/news/houthis_strike_saudi_ports_on_red_sea-26-nov-2026-185172-article",
+     "image": "https://images.rigzone.com/images/news/articles/Houthis-Strike-Saudi-Ports-on-Red-Sea-185172-1200x628.png",
+     "imageCredit": "Rigzone"
     },
     {
      "hot": true,
-     "headline": "Projectile explodes near tanker 50 miles off Dubai; Iran says two more tankers hit mines",
+     "headline": "ADNOC L&S confirms crew member died after Hormuz attack; another tanker hit near Khasab",
      "body": [
-      "UKMTO said a tanker reported an explosion from an unknown projectile close to the ship, about 50 nautical miles west of Dubai, at 21:30 GMT on 25 November. The crew are safe and no damage was reported.",
-      "Earlier on Wednesday Iran's Revolutionary Guards said two tankers hit mines and caught fire in the strait while using an unauthorised route. Iran warned ships that do not coordinate with its forces face greater risk. The claims are not independently verified."
+      "ADNOC Logistics & Services said the Jordanian crew member missing since the 17 November attack on one of its vessels has been found dead. Eleven crew were injured; nine have left hospital.",
+      "UKMTO said an outbound tanker was hit by an unidentified projectile about 33 km east of Khasab, Oman, at 5pm UAE time on Wednesday. All crew are accounted for."
      ],
-     "soWhat": "New: the attacks have moved inside the Gulf, close to Jebel Ali's approaches. Expect insurers and lines to treat Dubai calls as higher risk; keep sea quote validity short.",
-     "source": "InvestingLive; Political.org",
-     "date": "25 Nov",
-     "url": "https://investinglive.com/commodities/projectile-explodes-near-tanker-50-nautical-miles-off-dubai-as-gulf-shipping-attacks-mount/",
-     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/hormuz%20dubai%20attack%2026%20November%202026-featured-1795649188.jpg?width=960&format=webp",
-     "imageCredit": "InvestingLive"
+     "soWhat": "New: a UAE company has lost a seafarer, and the strikes are now off Musandam. Sea capacity through the strait will stay scarce; keep pushing east-coast and land routes.",
+     "source": "Khaleej Times; Gulf News",
+     "date": "26 Nov",
+     "url": "https://www.khaleejtimes.com/uae/uae-adnoc-confirms-missing-crew-member-dead-strait-of-hormuz-vessel-attack",
+     "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-08-15/ogmknmbe/Screenshot-2026-08-15-231903.png?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=99,0,920,613",
+     "imageCredit": "Khaleej Times"
     },
     {
      "hot": false,
-     "headline": "Hormuz oil flows at half; war-risk cover up to 9% of hull value",
+     "headline": "Hormuz tanker traffic edged up in November even as attacks rose",
      "body": [
-      "Kpler data put oil through Hormuz at 8.64 million barrels a day in the week to 15 November, against 17.15 million before the war. AIS-visible traffic was about 9% of the pre-war rate as of 24 November.",
-      "Lloyd's List data put Gulf war-risk cover at 7% to 9% of hull value per transit, against about 0.25% before the war."
+      "Vortexa data show tankers carrying crude, fuels and LNG through the strait stayed above 26 on a seven-day average through 19 November. In October transits were below 25 on at least two-thirds of days.",
+      "Shuttle costs and insurance fees are near war-time highs. Vortexa warns that spoofing and dark transits may distort the counts."
      ],
-     "soWhat": "War-risk cost is now a major part of every Gulf sea move. Show it as a separate line in quotes so customers see where the price comes from.",
-     "source": "Marketcalls",
-     "date": "25 Nov",
-     "url": "https://www.marketcalls.in/commodities/strait-of-hormuz-november-2026.html",
-     "image": "https://i0.wp.com/www.marketcalls.in/wp-content/uploads/2026/11/strait-of-hormuz-november-2026.jpg?fit=1536%2C688&ssl=1",
-     "imageCredit": "Marketcalls"
+     "soWhat": "A small rise in tanker traffic is not a reopening for container ships. Do not plan on Jebel Ali volumes returning soon.",
+     "source": "gCaptain (Bloomberg)",
+     "date": "26 Nov",
+     "url": "https://gcaptain.com/hormuz-tanker-traffic-rises-this-month-even-as-attacks-increase/",
+     "image": "https://gcaptain.com/wp-content/uploads/2026/10/2026-09-28T112819Z_711172295_RC26SNAHFL5K_RTRMADP_3_IRAN-CRISIS-HORMUZ-800x533.jpg",
+     "imageCredit": "ISNA/WANA via Reuters, via gCaptain"
     }
    ]
   },
@@ -90,17 +90,17 @@
    "stories": [
     {
      "hot": false,
-     "headline": "Airfreight rates rise for a seventh week; Middle East up 62% on last year",
+     "headline": "Saudi air cargo volumes down a third; Dubai–Europe rates up 83% on last year",
      "body": [
-      "WorldACD's worldwide average rate rose 2% to $3.49 per kg in the week of 9–15 November, up from $3.04 in mid-September. Global rates are 32% above last year, and Middle East & South Asia shows the biggest rise at 62%.",
-      "Rates from the region slipped 1% on the week as its capacity fell 1%. WorldACD expects only restrained increases from here."
+      "WorldACD data for 2–8 November show Saudi Arabia's air volumes fell 33% in the week, and up to 30% over five weeks, since Houthi missile attacks began in early October.",
+      "Rates from Middle East & South Asia to Europe were 66% higher than a year ago, with Dubai up 83%. Rates to the US were 79% higher."
      ],
-     "soWhat": "Air remains expensive but is flattening from our region. Hold air express prices; avoid locking long contracts at today's peak.",
-     "source": "Air Cargo News (WorldACD)",
-     "date": "23 Nov",
-     "url": "https://www.aircargonews.net/data/2026/11/global-average-airfreight-rate-increases-for-seventh-week/",
-     "image": "https://www.aircargonews.net/wp-content/uploads/2026/03/cargo-inside-freighter-Copyright-tratong-Shutterstock-380464993-resized.jpg",
-     "imageCredit": "tratong / Shutterstock via Air Cargo News"
+     "soWhat": "New angle: Saudi air demand is falling while Dubai outbound air stays costly. Move Saudi-bound express to road and protect air margin on Dubai exports.",
+     "source": "STAT Times (WorldACD)",
+     "date": "17 Nov",
+     "url": "https://www.stattimes.com/air-cargo/global-air-cargo-traffic-falls-2-as-rates-continue-to-increase-1361323",
+     "image": "https://img-cdn.publive.online/fit-in/1200x675/stattimesstat/media/media_files/h-upload/2026/11/17/103317-air-cargo-revenues1.webp",
+     "imageCredit": "STAT Times"
     }
    ]
   },
@@ -109,226 +109,244 @@
    "stories": [
     {
      "hot": false,
-     "headline": "noon's Yellow Friday runs to 30 November with 15-minute delivery on Minutes",
+     "headline": "White Friday weekend: UAE shoppers keep spending, online tech up 18%",
      "body": [
-      "noon's 12-day Yellow Friday sale runs from 19 to 30 November across noon, noon Minutes, noon Food and supermall, with discounts of up to 90%.",
-      "noon Minutes offers up to 80% off, and selected orders can arrive in as little as 15 minutes. It overlaps fully with Amazon's White Friday, which also ends on 30 November."
+      "UAE orders rose 39% during Singles' Day and gross sales rose 30%, according to Udora and Admitad. NielsenIQ says online sales of tech and durables in the UAE grew 18.3%.",
+      "70% of UAE and Saudi shoppers say they would pay more for quality. Trendyol Gulf sold over 3 million products in the first half of its November campaigns."
      ],
-     "soWhat": "Both big marketplaces peak until Sunday. The parcels that do not go through noon's own fleet are open to us: chase sellers now and line up December returns.",
-     "source": "Gulf Business",
-     "date": "20 Nov",
-     "url": "https://gulfbusiness.com/en/2026/retail/noons-yellow-friday-sale-is-back-90-off-10-cashback-and-a-brand-new-car-up-for-grabs/"
+     "soWhat": "Today is the peak of the sale season, and noon's Yellow Friday and Amazon's White Friday run to Monday 30 November. Volume and returns will stay high into December.",
+     "source": "Khaleej Times",
+     "date": "19 Nov",
+     "url": "https://www.khaleejtimes.com/uae-shoppers-stretch-holiday-spending-beyond-white-friday-as-value-quality-drive-purchases",
+     "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/ad084f0e-1e6c-414e-9ffe-945fb6c3e70a-org.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=8,0,1193,795",
+     "imageCredit": "Khaleej Times"
+    },
+    {
+     "hot": false,
+     "headline": "UAE December fuel prices due at month end, with oil now rising again",
+     "body": [
+      "UAE pump prices follow global oil with a one-month lag. Brent averaged $96.91 in the first half of November against $123.57 in the same weeks of October, pointing to a second cut.",
+      "But Brent has risen about 5% this week to around $95 after the Saudi refinery attacks."
+     ],
+     "soWhat": "December diesel may ease, but this week's rise could reverse it in January. Keep the fuel surcharge on a monthly review.",
+     "source": "Khaleej Times",
+     "date": "17 Nov",
+     "url": "https://www.khaleejtimes.com/uae-petrol-prices-will-december-bring-second-drop-amid-shifting-oil-supply",
+     "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-05-31/hnypur1s/UAE-petrol-prices2.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=42,0,717,478",
+     "imageCredit": "Khaleej Times"
     }
    ]
   }
  ],
  "competitors": [
   {
-   "name": "Emirates SkyCargo",
-   "headline": "MoU with Virgin Atlantic Cargo to widen block space and interline deals",
+   "name": "FedEx",
+   "headline": "Revised demand surcharge from 16 November; imports to Saudi at SAR 12.4/kg",
    "body": [
-    "Emirates SkyCargo and Virgin Atlantic Cargo signed an MoU to explore wider interline and block space agreements. Emirates gains reach across the Americas, Virgin across the Middle East and Asia.",
-    "For the first time it would allow interlining of active pharma shipments such as vaccines and insulin. The two moved a combined 2,000 tonnes in the first half of 2026."
+    "FedEx revised its demand surcharge on international parcel and freight from 16 November. From Saudi Arabia to the GCC it is SAR 2.1 per kg, and SAR 5.8 per kg to the US and Canada.",
+    "Imports into Saudi Arabia from the US, Canada and Europe carry SAR 12.4 per kg."
    ],
-   "soWhat": "More Dubai–Americas capacity via London could ease our air buying. Ask for a block space offer and look at a healthcare lane to the US.",
+   "soWhat": "FedEx is pricing war costs in openly. Check our Saudi import surcharge against SAR 12.4/kg and pitch UAE-hub plus road where we come in lower.",
+   "source": "FedEx (tariff notice)",
+   "date": "16 Nov",
+   "url": "https://www.fedex.com/content/dam/fedex/meisa-middle-east/downloads/fedex-meisa-demand-surcharge-nov16-en-sa.pdf"
+  },
+  {
+   "name": "DP World",
+   "headline": "Over 1 million TEU moved by road and rail; Fujairah terminals brought forward",
+   "body": [
+    "DP World moved over 1 million TEU from east-coast ports to Jebel Ali and inland between March and October, using more than 3,000 trucks, 700 of them its own.",
+    "It has brought the Al Rugaylat and Dibba terminals in Fujairah forward to 18–24 months. Al Rugaylat will handle about 2.5 million TEU a year."
+   ],
+   "soWhat": "DP World is now a large trucking player on our east-coast lanes. Partner on its corridor for freight, and compete with it for domestic distribution. (Story from 11 Nov.)",
+   "source": "TradeArabia",
+   "date": "11 Nov",
+   "url": "https://tradearabia.com/News/489614/DP-World-moves-1-million-TEUs-accelerates-Fujairah-terminals-to-18%E2%80%9324-months",
+   "image": "https://img.tradearabia.com//source/TA/2026/11/11/TA_20261111230521.jpg",
+   "imageCredit": "TradeArabia"
+  },
+  {
+   "name": "Emirates SkyCargo",
+   "headline": "Cargo revenue up 52% in the half year on flat volume",
+   "body": [
+    "Emirates SkyCargo carried 1.24 million tonnes from April to September, down 1%, but cargo revenue rose 52% as the war squeezed capacity.",
+    "It took five new Boeing 777 freighters and added Almaty and Zhengzhou. On 3 November it also launched a service for AI tech shipments."
+   ],
+   "soWhat": "The main air seller out of Dubai is earning far more per kilo. Expect firm block space prices; buy early for Q1 and push our own data-centre logistics service. (Story from 5 Nov.)",
    "source": "Air Cargo News",
-   "date": "17 Nov",
-   "url": "https://www.aircargonews.net/airlines/2026/11/emirates-skycargo-and-virgin-cargo-look-to-expand-bsa-agreements/",
-   "image": "https://www.aircargonews.net/wp-content/uploads/2026/11/Emirates-SkyCargo-Virgin-Cargo.jpg",
+   "date": "5 Nov",
+   "url": "https://www.aircargonews.net/airlines/2026/11/emirates-skycargo-revenue-climbs-with-middle-east-conflict-capacity-squeeze/",
+   "image": "https://www.aircargonews.net/wp-content/uploads/2026/06/Emirates-SkyCargo-freighter-Photo-Emirates-SkyCargo.jpg",
    "imageCredit": "Emirates SkyCargo via Air Cargo News"
   },
   {
-   "name": "Keeta Drone (Meituan)",
-   "headline": "Shows villa drone drops in Dubai, but no start date",
-   "body": [
-    "Keeta Drone flew a package from Sobha Hartland to the Museum of the Future on 18 November, under Dubai Civil Aviation Authority supervision. No launch date has been set.",
-    "The drone carries up to 4.5 kg over 20 km one way. Keeta says it has done over 880,000 drone deliveries in China and Dubai."
-   ],
-   "soWhat": "Drone delivery is not a near-term threat to parcels, but Keeta is building a Dubai last-mile network. Watch it for light, urgent B2C items.",
-   "source": "DroneXL",
-   "date": "24 Nov",
-   "url": "https://dronexl.co/2026/11/24/keeta-drone-dubai-doorstep-delivery-sobha-hartland-no-start-date/",
-   "image": "https://cdn.dronexl.co/wp-content/uploads/2026/11/keeta-drone-delivery-box-in-flight-dubai.webp",
-   "imageCredit": "Keeta Drone via DroneXL"
-  },
-  {
-   "name": "DHL",
-   "headline": "Moving closer to Khor Fakkan and Fujairah; Gulf plan stays at €500m",
-   "body": [
-    "DHL Global Forwarding plans to strengthen its position in the east of the UAE, near Khor Fakkan, Dibba and Fujairah. Its €500 million Gulf investment is unchanged, and it has a 20-year joint venture with Etihad Rail for UAE freight.",
-    "MEA CEO Tobias Maier expects logistics to take three to six months to normalise after the war ends."
-   ],
-   "soWhat": "Context for this week's east-coast attacks: DHL is betting on the same gateways we use. Lock in east-coast warehouse and trucking capacity before it is taken. (Story from 8 Nov.)",
-   "source": "The National",
-   "date": "8 Nov",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/",
-   "image": "https://www.thenationalnews.com/resizer/v2/JPLG37MRRJCV7NA2KGJ72J5YFU.webp?auth=48d47187074ba81f3d0b12aab78eaf2839913756ce8cad33926b078b8650e04f&smart=true&width=1200&height=630",
-   "imageCredit": "DHL via The National"
-  },
-  {
    "name": "Aramex (baseline)",
-   "headline": "Record Q3: revenue up 24% to Dh1.98bn, profit Dh48m",
+   "headline": "Data-centre logistics service launched across GCC, Asia and US",
    "body": [
-    "Q3 net profit rose 817% to Dh48 million and revenue rose 24% to a record Dh1.98 billion. Freight forwarding drove the growth.",
-    "Gross margin was 21%, down from 23.2% a year earlier."
+    "Aramex Data Center Logistics moves AI racks and networking gear from Taiwan, Southeast Asia, Mexico, the US and Europe by charter and secure road. One crated rack weighs about 1.75 tonnes and can be worth several million dollars.",
+    "It follows a record Q3: revenue up 24% to Dh1.98 billion, with gross margin at 21%."
    ],
-   "soWhat": "Volume is strong but margin is thinner. Price the war-risk and surcharge costs through rather than absorbing them.",
-   "source": "Khaleej Times",
-   "date": "10 Nov",
-   "url": "https://www.khaleejtimes.com/aramex-profit-jumps-817-to-dh48-million-in-q3-on-strong-freight-forwarding-growth-and-cost-management",
-   "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/ded39f8b-d5cc-42e8-9390-8abbe9c77124-org.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=fill&fill=blur",
-   "imageCredit": "Khaleej Times"
+   "soWhat": "We launched the same week as Emirates SkyCargo's AI service. Move first on named Gulf data-centre projects before air carriers sell direct.",
+   "source": "Gulf Business",
+   "date": "3 Nov",
+   "url": "https://gulfbusiness.com/en/2026/logistics/aramex-launches-ai-data-centre-logistics-service-across-gcc-asia-and-us/"
   }
  ],
  "opportunities": [
   {
-   "title": "UAE–Saudi road as the safe gate",
-   "text": "Saudi Red Sea ports are now threatened and Saudi air cargo is already down. Road freight and road express from the UAE are the steady route into the Kingdom."
+   "title": "Peak weekend and returns",
+   "text": "Today is White Friday and noon and Amazon sales run to Monday 30 November. UAE Singles' Day orders were up 39%, so overflow and December returns will be large."
   },
   {
-   "title": "Marketplace peak to Sunday",
-   "text": "noon's Yellow Friday and Amazon's White Friday both run to 30 November. Offer overflow capacity to sellers now and a returns rate for December."
+   "title": "Saudi inbound via the UAE",
+   "text": "FedEx charges SAR 12.4/kg extra on imports into Saudi from the US and Europe. A UAE hub plus road option can undercut it."
   },
   {
-   "title": "Healthcare air to the Americas",
-   "text": "The Emirates–Virgin deal opens interlining for active pharma. A Dubai–US healthcare product could use that capacity."
+   "title": "Road express into Saudi",
+   "text": "Saudi air volumes fell 33% in a week. Shippers need a steady route that avoids Riyadh airport disruption."
   },
   {
-   "title": "Transparent war-risk pricing",
-   "text": "War-risk cover runs at 7–9% of hull value. Customers who see a clear surcharge line are easier to keep than ones hit by surprise."
+   "title": "AI data-centre freight",
+   "text": "Racks worth millions move by charter and secure road. Our new service is live; Gulf data-centre builds need it now."
   },
   {
-   "title": "East-coast capacity",
-   "text": "DHL is moving toward Khor Fakkan and Fujairah. Early contracts for warehousing and trucking there protect our service."
+   "title": "East-coast corridor",
+   "text": "DP World moves about 3,500 TEU a day by land from the east coast. Our trucks and warehouses can feed and finish those flows."
   }
  ],
  "watchouts": [
   {
-   "title": "Attacks off Dubai",
-   "text": "A projectile exploded near a tanker 50 nautical miles west of Dubai. Jebel Ali calls may face new insurance and routing limits."
+   "title": "Saudi energy sites hit",
+   "text": "Ras Tanura and a Jazan refinery were targeted. Saudi fuel supply and operating costs may rise."
   },
   {
-   "title": "Saudi Red Sea ports in range",
-   "text": "Jazan and Jeddah were struck and shipping lines were told to leave. Sea freight into Saudi via the Red Sea may stall."
+   "title": "Attacks off Musandam",
+   "text": "A tanker was hit 33 km east of Khasab and an ADNOC L&S crew member died. Crew and insurers will be more cautious."
   },
   {
-   "title": "Mines in the strait",
-   "text": "Iran says two more tankers hit mines. Ships not coordinating with Iran face more risk, so fewer will try."
+   "title": "Oil rising again",
+   "text": "Brent is up about 5% this week to near $95. A December fuel cut could reverse in January."
   },
   {
-   "title": "Oil above $90",
-   "text": "Brent settled at $91.40 on 24 Nov. Fuel surcharges and UAE pump prices for December may rise."
+   "title": "Air capacity into Saudi",
+   "text": "With Saudi air demand down a third, fixed air commitments into the Kingdom risk running empty."
   },
   {
-   "title": "Margin squeeze",
-   "text": "Our gross margin fell to 21% from 23.2%. Rising war-risk and fuel costs will cut it further if not passed on."
+   "title": "Shaky traffic data",
+   "text": "Vortexa warns spoofing and dark transits may distort Hormuz counts. Do not plan on a reopening from one month's data."
   }
  ],
  "moves": [
   {
-   "title": "Re-route Saudi sea freight to road",
-   "text": "Call customers shipping into Jeddah and Jazan today and offer a UAE port plus road option into Saudi Arabia.",
-   "team": "Freight · Key accounts"
-  },
-  {
-   "title": "Separate the war-risk line in sea quotes",
-   "text": "Show war-risk and insurance as their own line in Gulf sea quotes, and shorten validity after the strike off Dubai.",
-   "team": "Pricing"
-  },
-  {
-   "title": "Push UAE–Saudi road express",
-   "text": "Brief e-commerce sellers that Red Sea and air routes into Saudi are under fire and move their volume to road express.",
-   "team": "Sales · Domestic"
-  },
-  {
-   "title": "Hold peak capacity to 30 November",
-   "text": "Keep extra riders and sort shifts for noon and Amazon sellers until Sunday, then switch to a returns push.",
+   "title": "Staff the White Friday weekend",
+   "text": "Keep extra riders and sort shifts to Monday 30 November for marketplace sellers, then switch to a December returns offer.",
    "team": "Express · E-commerce"
   },
   {
-   "title": "Ask Emirates SkyCargo for Americas block space",
-   "text": "Request a block space offer on the new Virgin-linked routes and test a healthcare lane to the US.",
+   "title": "Benchmark our Saudi import surcharge",
+   "text": "Compare our charges on US and Europe imports into Saudi with FedEx's SAR 12.4/kg and pitch UAE hub plus road where we are lower.",
+   "team": "Pricing"
+  },
+  {
+   "title": "Shift Saudi-bound air to road",
+   "text": "Review air allocations into Saudi this week and move flexible express volume to UAE–KSA road.",
    "team": "Express · Air"
   },
   {
-   "title": "Review fuel surcharge for December",
-   "text": "With Brent above $90, check our fuel surcharge table before the UAE sets December fuel prices.",
+   "title": "Set the December fuel surcharge",
+   "text": "Update the fuel surcharge table as soon as UAE December prices are out, and flag that oil rose again this week.",
    "team": "Pricing"
+  },
+  {
+   "title": "Pitch data-centre logistics",
+   "text": "List Gulf data-centre projects and approach their contractors this month, ahead of Emirates SkyCargo's AI service.",
+   "team": "Freight · Key accounts"
+  },
+  {
+   "title": "Secure east-coast trucking",
+   "text": "Talk to DP World about feeding its land corridor and lock in trucking capacity from Fujairah and Khor Fakkan.",
+   "team": "Contract logistics"
   }
  ],
  "note": "Read from today's news. Check against our own numbers before acting.",
  "sources": [
   {
-   "title": "Yemen's Houthis Threaten To Strike Jeddah And All Saudi Red Sea Ports If Hodeidah Is Attacked",
-   "publication": "Marine Insight",
-   "date": "25 Nov 2026",
-   "url": "https://www.marineinsight.com/houthis-threaten-jeddah-saudi-red-sea-ports-hodeidah/"
+   "title": "Houthis Strike Saudi Ports on Red Sea",
+   "publication": "Rigzone (Bloomberg)",
+   "date": "26 Nov 2026",
+   "url": "https://www.rigzone.com/news/houthis_strike_saudi_ports_on_red_sea-26-nov-2026-185172-article"
   },
   {
-   "title": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
-   "publication": "Daily Maverick (Reuters)",
-   "date": "25 Nov 2026",
-   "url": "https://www.dailymaverick.co.za/article/2026-11-25-yemens-houthis-threaten-to-target-jeddah-and-other-saudi-red-sea-ports/"
+   "title": "ADNOC crew member found dead, Saudi refinery hit: 9 Middle East war updates",
+   "publication": "Gulf News",
+   "date": "26 Nov 2026",
+   "url": "https://gulfnews.com/uae/middle-east-war-9-things-uae-residents-need-to-know-tonight-november-26-1.500762280"
   },
   {
-   "title": "Houthis say no Saudi Red Sea port is safe if Hodeidah is attacked",
-   "publication": "Baird Maritime (Reuters)",
-   "date": "25 Nov 2026",
-   "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/houthis-say-no-saudi-red-sea-port-is-safe-if-hodeidah-is-attacked"
+   "title": "UAE-based Adnoc confirms missing crew dead after Strait of Hormuz vessel attack",
+   "publication": "Khaleej Times",
+   "date": "26 Nov 2026",
+   "url": "https://www.khaleejtimes.com/uae/uae-adnoc-confirms-missing-crew-member-dead-strait-of-hormuz-vessel-attack"
   },
   {
-   "title": "Houthis strike Saudi Red Sea ports of Jeddah and Jazan",
-   "publication": "PiQMarkets",
-   "date": "25 Nov 2026",
-   "url": "https://piqmarkets.com/story/houthis-strike-saudi-red-sea-ports-of-jeddah-and-jazan"
+   "title": "Hormuz Tanker Traffic Rises This Month Even as Attacks Increase",
+   "publication": "gCaptain (Bloomberg)",
+   "date": "26 Nov 2026",
+   "url": "https://gcaptain.com/hormuz-tanker-traffic-rises-this-month-even-as-attacks-increase/"
   },
   {
-   "title": "Projectile explodes near tanker 50 nautical miles off Dubai as Gulf shipping attacks mount",
-   "publication": "InvestingLive",
-   "date": "25 Nov 2026",
-   "url": "https://investinglive.com/commodities/projectile-explodes-near-tanker-50-nautical-miles-off-dubai-as-gulf-shipping-attacks-mount/"
+   "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
+   "publication": "The Irish Times (Reuters)",
+   "date": "26 Nov 2026",
+   "url": "https://www.irishtimes.com/business/markets/2026/11/26/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships"
   },
   {
-   "title": "Iran Says Two More Tankers Hit Mines in Strait of Hormuz, Warns Ships to Coordinate Passage",
-   "publication": "Political.org",
-   "date": "25 Nov 2026",
-   "url": "https://political.org/2026/11/25/iran-says-two-more-tankers-hit-mines-in-strait-of-hormuz-warns-ships-to-coordinate-passage/"
+   "title": "Global air cargo traffic falls 2% as rates continue to increase",
+   "publication": "STAT Times",
+   "date": "17 Nov 2026",
+   "url": "https://www.stattimes.com/air-cargo/global-air-cargo-traffic-falls-2-as-rates-continue-to-increase-1361323"
   },
   {
-   "title": "Strait of Hormuz in November: Attacks Rise, Oil Flows at Half",
-   "publication": "Marketcalls",
-   "date": "25 Nov 2026",
-   "url": "https://www.marketcalls.in/commodities/strait-of-hormuz-november-2026.html"
+   "title": "UAE shoppers stretch holiday spending beyond White Friday as value, quality drive purchases",
+   "publication": "Khaleej Times",
+   "date": "19 Nov 2026",
+   "url": "https://www.khaleejtimes.com/uae-shoppers-stretch-holiday-spending-beyond-white-friday-as-value-quality-drive-purchases"
   },
   {
-   "title": "Global average airfreight rate increases for seventh week",
+   "title": "UAE petrol prices: Will December bring second drop amid shifting oil supply?",
+   "publication": "Khaleej Times",
+   "date": "17 Nov 2026",
+   "url": "https://www.khaleejtimes.com/uae-petrol-prices-will-december-bring-second-drop-amid-shifting-oil-supply"
+  },
+  {
+   "title": "Demand Surcharge revision effective November 16, 2026",
+   "publication": "FedEx",
+   "date": "16 Nov 2026",
+   "url": "https://www.fedex.com/content/dam/fedex/meisa-middle-east/downloads/fedex-meisa-demand-surcharge-nov16-en-sa.pdf"
+  },
+  {
+   "title": "DP World moves 1 million TEUs by road, rail; accelerates Fujairah terminals opening",
+   "publication": "TradeArabia",
+   "date": "11 Nov 2026",
+   "url": "https://tradearabia.com/News/489614/DP-World-moves-1-million-TEUs-accelerates-Fujairah-terminals-to-18%E2%80%9324-months"
+  },
+  {
+   "title": "Emirates SkyCargo revenue climbs with Middle East conflict capacity squeeze",
    "publication": "Air Cargo News",
-   "date": "23 Nov 2026",
-   "url": "https://www.aircargonews.net/data/2026/11/global-average-airfreight-rate-increases-for-seventh-week/"
+   "date": "5 Nov 2026",
+   "url": "https://www.aircargonews.net/airlines/2026/11/emirates-skycargo-revenue-climbs-with-middle-east-conflict-capacity-squeeze/"
+  },
+  {
+   "title": "Aramex launches AI data centre logistics service across GCC, Asia and US",
+   "publication": "Gulf Business",
+   "date": "3 Nov 2026",
+   "url": "https://gulfbusiness.com/en/2026/logistics/aramex-launches-ai-data-centre-logistics-service-across-gcc-asia-and-us/"
   },
   {
    "title": "noon's Yellow Friday sale is back: 90% off, 10% cashback and a brand-new car up for grabs",
    "publication": "Gulf Business",
    "date": "20 Nov 2026",
    "url": "https://gulfbusiness.com/en/2026/retail/noons-yellow-friday-sale-is-back-90-off-10-cashback-and-a-brand-new-car-up-for-grabs/"
-  },
-  {
-   "title": "Emirates SkyCargo and Virgin Cargo look to expand BSA agreements",
-   "publication": "Air Cargo News",
-   "date": "17 Nov 2026",
-   "url": "https://www.aircargonews.net/airlines/2026/11/emirates-skycargo-and-virgin-cargo-look-to-expand-bsa-agreements/"
-  },
-  {
-   "title": "Keeta Drone Pitches Dubai Villa Drops, But Sets No Start Date",
-   "publication": "DroneXL",
-   "date": "24 Nov 2026",
-   "url": "https://dronexl.co/2026/11/24/keeta-drone-dubai-doorstep-delivery-sobha-hartland-no-start-date/"
-  },
-  {
-   "title": "DHL to boost network in eastern UAE amid regional uncertainty",
-   "publication": "The National",
-   "date": "8 Nov 2026",
-   "url": "https://www.thenationalnews.com/business/economy/2026/11/08/dhl-to-boost-network-in-eastern-uae-amid-regional-uncertainty/"
   },
   {
    "title": "Aramex's Q3 profit jumps 817% to Dh48m on strong freight forwarding growth, cost management",
